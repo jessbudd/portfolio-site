@@ -178,6 +178,23 @@ pre {
   }
 }
 
+.bio {
+  border: 1px solid #fff;
+  padding: 0 18px;
+  display: flex;
+}
+.bio_avatar {
+  max-width: 140px;
+  border-radius: 50%;
+  align-self: center;
+  padding: 12px 24px 12px 0;
+}
+.bio_text {
+  font-size: 14px;
+  font-size: 0.975rem;
+  line-height: 1.6;
+  align-self: center;
+}
 
 footer {
   margin-top: 6em;
