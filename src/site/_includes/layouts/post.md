@@ -11,9 +11,9 @@ templateEngineOverride: njk, md
 
   {{ content | safe }}
 
-  <div class="footnote">
+  <div class="bio">
     <p>
-      This page is part of the posts section.
+      Jess Budd is a digital producer at <a href="https://hbf.com.au">HBF</a>, a UI developer and a web accessibility consultant.  She is a co-organiser of <a href="https://fenders.co/">Fenders Perth</a> and is often found volunteering her time mentoring women learning to code. She’s known for her love of cheese, but is also crazy about UX design, technology, futurism and doggos.
     </p>
   </div>
 </main>

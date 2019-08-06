@@ -1,10 +1,9 @@
 ---
 title: All Posts
 layout: layouts/base.njk
-subtitle: I am a subtitle
+# subtitle: I am a subtitle
 ---
 
-## Posts
 
 <ul class="listing">
 {%- for page in collections.post -%}
@@ -14,6 +13,3 @@ subtitle: I am a subtitle
   </li>
 {%- endfor -%}
 </ul>
-
-
-### This is heading 3
