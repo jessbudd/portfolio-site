@@ -4,6 +4,8 @@ subtitle: A project scaffold for getting building with Eleventy quickly.<br /> M
 layout: layouts/base.njk
 ---
 
+  <h1>{{ title }}</h1>
+  {%- if subtitle %}<p class="subtitle">{{ subtitle | safe }}</p>{% endif %}
 
 ## This is a test
 

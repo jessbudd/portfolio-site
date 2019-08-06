@@ -4,6 +4,9 @@ layout: layouts/base.njk
 subtitle: Clone and deploy your own EleventyOne starter template.
 ---
 
+  <h1>{{ title }}</h1>
+  {%- if subtitle %}<p class="subtitle">{{ subtitle | safe }}</p>{% endif %}
+  
 ## Hosting
 
 This site is deployed by, and hosted by [Netlify](https://www.netlify.com).

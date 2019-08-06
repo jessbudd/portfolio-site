@@ -4,6 +4,8 @@ layout: layouts/base.njk
 # subtitle: I am a subtitle
 ---
 
+  <h1>{{ title }}</h1>
+  {%- if subtitle %}<p class="subtitle">{{ subtitle | safe }}</p>{% endif %}
 
 <ul class="listing">
 {%- for page in collections.post -%}
