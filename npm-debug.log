@@ -1,0 +1,145 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '-g',
+1 verbose cli   'n' ]
+2 info using npm@4.0.3
+3 info using node@v6.9.1
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readGlobalPackageData
+7 silly fetchPackageMetaData n
+8 silly fetchNamedPackageData n
+9 silly mapToRegistry name n
+10 silly mapToRegistry using default registry
+11 silly mapToRegistry registry https://registry.npmjs.org/
+12 silly mapToRegistry data Result {
+12 silly mapToRegistry   raw: 'n',
+12 silly mapToRegistry   scope: null,
+12 silly mapToRegistry   escapedName: 'n',
+12 silly mapToRegistry   name: 'n',
+12 silly mapToRegistry   rawSpec: '',
+12 silly mapToRegistry   spec: 'latest',
+12 silly mapToRegistry   type: 'tag' }
+13 silly mapToRegistry uri https://registry.npmjs.org/n
+14 verbose request uri https://registry.npmjs.org/n
+15 verbose request no auth needed
+16 info attempt registry request try #1 at 8:29:40 AM
+17 verbose request id 2750fe9009484bc1
+18 verbose etag W/"a1af82598e94c8cba27d985836a6cb21"
+19 verbose lastModified Sat, 03 Aug 2019 09:38:13 GMT
+20 http request GET https://registry.npmjs.org/n
+21 http 304 https://registry.npmjs.org/n
+22 verbose headers { date: 'Tue, 06 Aug 2019 00:29:40 GMT',
+22 verbose headers   connection: 'keep-alive',
+22 verbose headers   'set-cookie': [ '__cfduid=d8d493058baa2c8ca95b105dc654193031565051380; expires=Wed, 05-Aug-20 00:29:40 GMT; path=/; domain=.npmjs.org; HttpOnly' ],
+22 verbose headers   'cf-cache-status': 'HIT',
+22 verbose headers   'cache-control': 'max-age=300',
+22 verbose headers   'cf-ray': '501ce5da39564d80-PER',
+22 verbose headers   age: '590',
+22 verbose headers   etag: '"a1af82598e94c8cba27d985836a6cb21"',
+22 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+22 verbose headers   'last-modified': 'Sat, 03 Aug 2019 09:38:13 GMT',
+22 verbose headers   vary: 'accept-encoding, accept',
+22 verbose headers   'x-amz-meta-rev': '376-a159b080e4373c68bcd9d6c45e4a528a',
+22 verbose headers   server: 'cloudflare' }
+23 silly get cb [ 304,
+23 silly get   { date: 'Tue, 06 Aug 2019 00:29:40 GMT',
+23 silly get     connection: 'keep-alive',
+23 silly get     'set-cookie': [ '__cfduid=d8d493058baa2c8ca95b105dc654193031565051380; expires=Wed, 05-Aug-20 00:29:40 GMT; path=/; domain=.npmjs.org; HttpOnly' ],
+23 silly get     'cf-cache-status': 'HIT',
+23 silly get     'cache-control': 'max-age=300',
+23 silly get     'cf-ray': '501ce5da39564d80-PER',
+23 silly get     age: '590',
+23 silly get     etag: '"a1af82598e94c8cba27d985836a6cb21"',
+23 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+23 silly get     'last-modified': 'Sat, 03 Aug 2019 09:38:13 GMT',
+23 silly get     vary: 'accept-encoding, accept',
+23 silly get     'x-amz-meta-rev': '376-a159b080e4373c68bcd9d6c45e4a528a',
+23 silly get     server: 'cloudflare' } ]
+24 verbose etag https://registry.npmjs.org/n from cache
+25 verbose get saving n to /Users/feralfp/.npm/registry.npmjs.org/n/.cache.json
+26 verbose correctMkdir /Users/feralfp/.npm correctMkdir not in flight; initializing
+27 silly install normalizeTree
+28 silly loadCurrentTree Finishing
+29 silly loadIdealTree Starting
+30 silly install loadIdealTree
+31 silly cloneCurrentTree Starting
+32 silly install cloneCurrentTreeToIdealTree
+33 silly cloneCurrentTree Finishing
+34 silly loadShrinkwrap Starting
+35 silly install loadShrinkwrap
+36 silly loadShrinkwrap Finishing
+37 silly loadAllDepsIntoIdealTree Starting
+38 silly install loadAllDepsIntoIdealTree
+39 silly resolveWithNewModule n@5.0.2 checking installable status
+40 silly cache add args [ 'n', null ]
+41 verbose cache add spec n
+42 silly cache add parsed spec Result {
+42 silly cache add   raw: 'n',
+42 silly cache add   scope: null,
+42 silly cache add   escapedName: 'n',
+42 silly cache add   name: 'n',
+42 silly cache add   rawSpec: '',
+42 silly cache add   spec: 'latest',
+42 silly cache add   type: 'tag' }
+43 silly addNamed n@latest
+44 verbose addNamed "latest" is being treated as a dist-tag for n
+45 info addNameTag [ 'n', 'latest' ]
+46 silly mapToRegistry name n
+47 silly mapToRegistry using default registry
+48 silly mapToRegistry registry https://registry.npmjs.org/
+49 silly mapToRegistry data Result {
+49 silly mapToRegistry   raw: 'n',
+49 silly mapToRegistry   scope: null,
+49 silly mapToRegistry   escapedName: 'n',
+49 silly mapToRegistry   name: 'n',
+49 silly mapToRegistry   rawSpec: '',
+49 silly mapToRegistry   spec: 'latest',
+49 silly mapToRegistry   type: 'tag' }
+50 silly mapToRegistry uri https://registry.npmjs.org/n
+51 verbose addNameTag registry:https://registry.npmjs.org/n not in flight; fetching
+52 verbose get https://registry.npmjs.org/n not expired, no request
+53 silly addNameTag next cb for n with tag latest
+54 silly addNamed n@5.0.2
+55 verbose addNamed "5.0.2" is a plain semver version for n
+56 silly cache afterAdd n@5.0.2
+57 verbose afterAdd /Users/feralfp/.npm/n/5.0.2/package/package.json not in flight; writing
+58 verbose correctMkdir /Users/feralfp/.npm correctMkdir not in flight; initializing
+59 verbose afterAdd /Users/feralfp/.npm/n/5.0.2/package/package.json written
+60 silly loadAllDepsIntoIdealTree Finishing
+61 silly loadIdealTree Finishing
+62 silly currentTree lib
+62 silly currentTree └── n@5.0.2
+63 silly idealTree lib
+63 silly idealTree └── n@5.0.2
+64 silly generateActionsToTake Starting
+65 silly install generateActionsToTake
+66 warn checkPermissions Missing write access to /usr/local/lib/node_modules/n
+67 warn checkPermissions Missing write access to /usr/local/lib/node_modules
+68 silly rollbackFailedOptional Starting
+69 silly rollbackFailedOptional Finishing
+70 silly runTopLevelLifecycles Finishing
+71 silly install printInstalled
+72 verbose stack Error: EACCES: permission denied, access '/usr/local/lib/node_modules/n'
+72 verbose stack     at Error (native)
+73 verbose cwd /Users/feralfp/Desktop/2019 Blog/eleventyone-blog-2019
+74 error Darwin 17.7.0
+75 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "install" "-g" "n"
+76 error node v6.9.1
+77 error npm  v4.0.3
+78 error path /usr/local/lib/node_modules/n
+79 error code EACCES
+80 error errno -13
+81 error syscall access
+82 error Error: EACCES: permission denied, access '/usr/local/lib/node_modules/n'
+82 error     at Error (native)
+82 error  { Error: EACCES: permission denied, access '/usr/local/lib/node_modules/n'
+82 error     at Error (native)
+82 error   errno: -13,
+82 error   code: 'EACCES',
+82 error   syscall: 'access',
+82 error   path: '/usr/local/lib/node_modules/n' }
+83 error Please try running this command again as root/Administrator.
+84 verbose exit [ -13, true ]
