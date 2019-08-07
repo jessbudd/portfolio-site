@@ -48,7 +48,19 @@ body {
     width: 1200px;
   };
 }
-
+.container__blog {
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  text-align: left;
+  @media (min-width: $mid) {
+    width: 600px;
+  };
+  @media (min-width: $wide) {
+    width: 700px;
+    width: 40em;
+  };
+}
 
 h1, h2, h3 {
   color: $text-color;
@@ -180,17 +192,17 @@ pre {
 .hero {
   display: flex;
 }
-.hero_copy {
+.hero__copy {
   width: 30%;
   align-self: center;
 }
 
-.hero_img { 
+.hero__img { 
   width: 69%;
   align-self: center;
 	
 }
-.hero_img-svg { 
+.hero__img-svg { 
 	/* display: inline-block; */
 	/* position: absolute;
 	top: 0;
@@ -202,13 +214,13 @@ pre {
   padding: 0 18px;
   display: flex;
 }
-.bio_avatar {
+.bio__avatar {
   max-width: 140px;
   border-radius: 50%;
   align-self: center;
   padding: 12px 24px 12px 0;
 }
-.bio_text {
+.bio__text {
   font-size: 14px;
   font-size: 0.975rem;
   line-height: 1.6;
@@ -224,6 +236,7 @@ footer {
   border-top-color: mix($text-color, $accent-color, 10%);
   font-size: 0.7em;
   color: mix($text-color, $accent-color, 50%);
+  text-align: center;
 
   a:link,
   a:visited {
@@ -235,4 +248,14 @@ footer {
     color: $text-color;
     border-bottom: solid 1px $text-color;
   }
+}
+
+.social-links__item {
+  list-style: none;
+  display: inline;
+  padding: 0 10px;
+}
+.social-links__icon {
+  width: 60px;
+
 }
