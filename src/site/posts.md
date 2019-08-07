@@ -1,7 +1,7 @@
 ---
-title: All Posts
+title: Blog
 layout: layouts/base.njk
-# subtitle: I am a subtitle
+subtitle: Read some of my musings on front-end development, web accessibility, technology, learning...
 ---
 
   <h1>{{ title }}</h1>
