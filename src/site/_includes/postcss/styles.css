@@ -29,7 +29,8 @@ body {
   line-height: 1.8;
   min-height: 100vh;
   background:  $page-color;
-  background: url(/images/bg-grid.png), linear-gradient(320deg, $page-color 0%, $accent-color 100%);
+  /* background: url(/images/bg-grid.png), linear-gradient(320deg, $page-color 100%, $text-color 0%); */
+  background: url(/images/bg-grid.png), linear-gradient(320deg, $dark-color, $page-color);
 
   @media (min-width: $narrow) {
     font-size: 18px;
@@ -57,35 +58,36 @@ body {
     width: 600px;
   };
   @media (min-width: $wide) {
-    width: 700px;
-    width: 40em;
+    width: 800px;
+    width: 45em;
   };
 }
 
 h1, h2, h3 {
-  color: $text-color;
+  color: $heading-color;
   font-weight: 600;
   margin-top: 2em;
   margin-bottom:0.2em;
   line-height: 1;
 }
 h1 {
-  font-size: 3em;
+  font-size: 3rem;
   margin-top:0.4em;
   margin-bottom:0.2em;
   line-height: 1;
 
   @media (min-width: $mid) {
-    font-size: 4rem;
+    font-size: 3.5rem;
   };
   @media (min-width: $wide) {
-    font-size: 5rem;
+    font-size: 4rem;
   };
 }
 
 p {
   margin-top: 1em;
   margin-bottom: 1em;
+  color: $text-color;
 }
 
 .subtitle {
@@ -156,7 +158,9 @@ a:focus {
   }
 }
 
-
+.secondary {
+  color: $heading-color;
+}
 code {
   font-size: 0.8em;
   background-color: mix($text-color,$accent-color, 80%);
@@ -172,6 +176,7 @@ code {
 .date {
   font-size: 0.8em;
   font-style: italic;
+  color: $heading-color;
 }
 
 main {
@@ -193,12 +198,13 @@ pre {
   display: flex;
 }
 .hero__copy {
-  width: 30%;
+  width: 40%;
   align-self: center;
+  padding-right: 1em;
 }
 
 .hero__img { 
-  width: 69%;
+  width: 55%;
   align-self: center;
 	
 }
@@ -210,7 +216,7 @@ pre {
 }
 
 .bio {
-  border: 1px solid #fff;
+  border: 1px solid $heading-color;
   padding: 0 18px;
   display: flex;
 }
@@ -225,6 +231,10 @@ pre {
   font-size: 0.975rem;
   line-height: 1.6;
   align-self: center;
+  color: $heading-color;
+  a {
+    color: $heading-color;
+  }
 }
 
 footer {
@@ -235,18 +245,22 @@ footer {
   border-top-style: solid;
   border-top-color: mix($text-color, $accent-color, 10%);
   font-size: 0.7em;
-  color: mix($text-color, $accent-color, 50%);
+  color: $accent-color;
   text-align: center;
+  
+  p {
+    color: $accent-color;
+  }
 
   a:link,
   a:visited {
-    color: mix($text-color, $accent-color, 90%);
+    color: $heading-color;
     border-bottom: solid 1px mix($accent-color, $page-color, 70%);
   }
   a:hover,
   a:focus {
-    color: $text-color;
-    border-bottom: solid 1px $text-color;
+    color: $heading-color;
+    border-bottom: solid 1px $heading-color;
   }
 }
 
@@ -256,6 +270,6 @@ footer {
   padding: 0 10px;
 }
 .social-links__icon {
-  width: 60px;
-
+  width: 40px;
+  fill: $accent-color;
 }

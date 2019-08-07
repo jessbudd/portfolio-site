@@ -3,6 +3,8 @@ layout: layouts/blog.njk
 pageClass: posts
 templateEngineOverride: njk, md
 ---
+
+<div class="container__blog">
   <h1>{{ title }}</h1>
   {%- if subtitle %}<p class="subtitle">{{ subtitle | safe }}</p>{% endif %}
   
@@ -10,6 +12,8 @@ templateEngineOverride: njk, md
   Posted <time datetime="{{ date }}">{{ date | dateDisplay }}</time>
 </p>
 <main>
+
+
 
   {{ content | safe }}
 
@@ -20,3 +24,4 @@ templateEngineOverride: njk, md
     </p>
   </div>
 </main>
+</div>
