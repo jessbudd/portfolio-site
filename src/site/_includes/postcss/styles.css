@@ -42,10 +42,10 @@ body {
   width: 90%;
   text-align: left;
   @media (min-width: $mid) {
-    width: 600px;
+    width: 800px;
   };
   @media (min-width: $wide) {
-    width: 700px;
+    width: 1200px;
   };
 }
 
@@ -64,10 +64,10 @@ h1 {
   line-height: 1;
 
   @media (min-width: $mid) {
-    font-size: 5em;
+    font-size: 4rem;
   };
   @media (min-width: $wide) {
-    font-size: 6em;
+    font-size: 5rem;
   };
 }
 
@@ -176,6 +176,25 @@ pre {
     padding-left: 0;
     padding-right: 0;
   }
+}
+.hero {
+  display: flex;
+}
+.hero_copy {
+  width: 30%;
+  align-self: center;
+}
+
+.hero_img { 
+  width: 69%;
+  align-self: center;
+	
+}
+.hero_img-svg { 
+	/* display: inline-block; */
+	/* position: absolute;
+	top: 0;
+	left: 0; */
 }
 
 .bio {
