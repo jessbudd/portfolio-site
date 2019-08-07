@@ -80,7 +80,7 @@ h1 {
     font-size: 3.5rem;
   };
   @media (min-width: $wide) {
-    font-size: 4rem;
+    font-size: 4.5rem;
   };
 }
 
@@ -110,7 +110,7 @@ a:visited {
 }
 a:hover,
 a:focus {
-  color: $text-color;
+  color: $text-color; 
   border-bottom-color: $text-color;
 }
 
@@ -199,8 +199,9 @@ pre {
 }
 .hero__copy {
   width: 40%;
-  align-self: center;
+  /* align-self: center; */
   padding-right: 1em;
+  padding-top: 60px;
 }
 
 .hero__img { 
@@ -208,17 +209,12 @@ pre {
   align-self: center;
 	
 }
-.hero__img-svg { 
-	/* display: inline-block; */
-	/* position: absolute;
-	top: 0;
-	left: 0; */
-}
 
 .bio {
   border: 1px solid $heading-color;
   padding: 0 18px;
   display: flex;
+  margin-top: 60px;
 }
 .bio__avatar {
   max-width: 140px;
@@ -254,7 +250,7 @@ footer {
 
   a:link,
   a:visited {
-    color: $heading-color;
+    color: $accent-color;
     border-bottom: solid 1px mix($accent-color, $page-color, 70%);
   }
   a:hover,
@@ -269,7 +265,13 @@ footer {
   display: inline;
   padding: 0 10px;
 }
+a:hover .social-links__icon,
+a:focus .social-links__icon,
+a:active .social-links__icon {
+  fill: $heading-color;
+}
 .social-links__icon {
   width: 40px;
   fill: $accent-color;
+ 
 }
