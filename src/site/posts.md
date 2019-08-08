@@ -1,7 +1,7 @@
 ---
 title: Blog
 layout: layouts/base.njk
-subtitle: Read some of my musings on front-end development, web accessibility, technology, learning...
+subtitle: Read some of my musings on web development, digital accessibility, technology, learning...
 ---
 
   <h1>{{ title }}</h1>

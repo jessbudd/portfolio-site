@@ -41,7 +41,7 @@ Like this gem:
 
 Did you know you can keep learning and stay up to date with your field while you do housework or walk the dog? Turns out there's heaps of fantastic podcasts covering a wide range of tech topics - so you can up your game while getting on with the boring bits of life. Podcasts are a popular medium for developers to help keep their skills and knowledge up to date.
 
-[Read a round-up of my favourite tech podcasts](/best-tech-podcasts).
+[Read a round-up of my favourite tech podcasts](/posts/best-tech-podcasts).
 
 ## Community
 
