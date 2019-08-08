@@ -83,6 +83,19 @@ h1 {
     font-size: 4.5rem;
   };
 }
+h2 {
+  font-size: 1.8rem;
+  margin-top: 72px;
+  margin-bottom:24px;
+  line-height: 1;
+
+  @media (min-width: $mid) {
+    font-size: 2rem;
+  };
+  @media (min-width: $wide) {
+    font-size: 2.5rem;
+  };
+}
 
 p {
   margin-top: 1em;
