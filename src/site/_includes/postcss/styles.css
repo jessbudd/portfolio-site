@@ -71,6 +71,9 @@ h1, h2, h3 {
   margin-top: 2em;
   margin-bottom:0.2em;
   line-height: 1;
+  a,
+  a:link,
+  a:visited {color: $heading-color}
 }
 h1 {
   font-size: 3rem;
@@ -186,6 +189,15 @@ a:focus {
 
 .secondary {
   color: $heading-color;
+}
+.accent {
+  color: $accent-color;
+}
+.blockquote {
+  color: $accent-color;
+  padding-left: 18px;
+  margin-left: 24px;
+  border-left: 1px solid $accent-color;
 }
 code {
   font-size: 0.8em;
