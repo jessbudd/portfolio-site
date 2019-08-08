@@ -194,6 +194,10 @@ pre {
     padding-right: 0;
   }
 }
+
+section.proof-points {
+  padding-top: 150px;
+}
 .hero {
   display: flex;
 }
@@ -209,7 +213,13 @@ pre {
   align-self: center;
 	
 }
-
+.proof-points__img {
+  text-align: center;
+}
+.proof-points__img-svg {
+  width:100%;
+  max-height: 150px;
+}
 .bio {
   border: 1px solid $heading-color;
   padding: 0 18px;
