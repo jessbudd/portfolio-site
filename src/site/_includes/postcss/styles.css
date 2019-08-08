@@ -241,11 +241,11 @@ footer {
   border-top-style: solid;
   border-top-color: mix($text-color, $accent-color, 10%);
   font-size: 0.7em;
-  color: $accent-color;
+  color: $heading-color;
   text-align: center;
   
   p {
-    color: $accent-color;
+    color: $heading-color;
   }
 
   a:link,
