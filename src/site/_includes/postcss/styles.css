@@ -354,8 +354,6 @@ a:active .social-links__icon {
   fill: $accent-color;
  
 }
-
-
 .grid-container {
   display: grid;
   grid-template-columns: 100%;
@@ -364,3 +362,17 @@ a:active .social-links__icon {
     grid-template-columns: 30% 30% 30%;
   }
 }
+
+.img-full {
+  display: block;
+  padding: 18px 0;
+  width: 100%;
+}
+.img-float-right {
+  display: block;
+  margin: 6px auto 18px;
+  @media (min-width: $mid) {
+    float: right;
+  }
+}
+
