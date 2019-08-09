@@ -265,7 +265,7 @@ pre {
 .col {
   padding-top: 50px;
   @media (min-width: $desk) {
-    padding-top: 150px;
+    padding-top: 100px;
   }
 }
 .proof-points__title {

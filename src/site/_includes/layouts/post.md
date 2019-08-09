@@ -18,9 +18,9 @@ templateEngineOverride: njk, md
   {{ content | safe }}
 
   <div class="bio">
-    <img src="/images/jess-budd-bio-fun.jpg" class="bio__avatar"/>
+    <img src="/images/jess-budd-bio-fun.jpg" class="bio__avatar" alt="Jess Budd informal headshot" />
     <p class="bio__text">
-      Jess Budd is a digital producer at <a href="https://hbf.com.au">HBF</a>, a freelance UI developer and web accessibility consultant.  She is a co-organiser of <a href="https://fenders.co/">Fenders Perth</a> and is often found volunteering her time mentoring women learning to code. She’s known for her love of cheese, but is also crazy about UX design, technology, futurism and doggos.
+      Jess Budd is a digital producer at <a href="https://hbf.com.au" target="_blank" title="opens in new window">HBF</a>, a freelance UI developer and web accessibility consultant.  She is a co-organiser of <a href="https://fenders.co/" target="_blank" title="opens in new window">Fenders Perth</a> and is often found volunteering her time mentoring women learning to code. She’s known for her love of cheese, but is also crazy about UX design, technology, futurism and doggos.
     </p>
   </div>
 </main>
