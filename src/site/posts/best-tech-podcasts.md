@@ -10,7 +10,7 @@ Personally, learning to code while juggling a day job, 2 small kids and a range 
 If you're wanting to get started with podcasts, itunes comes with a built in <a href="https://itunes.apple.com/au/app/podcasts/id525463029?mt=8" target="_blank">podcast</a> listener (<a href="https://overcast.fm/" target="_blank">overcast</a> is also a popular iphone app). If you're on android I highly recommend <a href="https://play.pocketcasts.com/" target="_blank">pocketcasts</a> from the play store.
 I've tried out a range of tech podcasts this year and here is a roundup of my favourites.
 
-<p class="blockquote">Protip: Try speeding up the audio in your podcast settings, more content in less time!</p>
+>Protip: Try speeding up the audio in your podcast settings, more content in less time!
 
 ## 1. <a href="http://www.codenewbie.org/podcast" target="_blank"> CodeNewbie</a>
 CodeNewbie was the first podcast I ever listened to and is the perfect start for anyone getting into tech. It introduces the listener to a broad range of topics they may know nothing about such as test driven development, graph databases, robotics and android development.
