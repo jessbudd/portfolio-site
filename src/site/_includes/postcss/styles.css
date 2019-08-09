@@ -239,6 +239,9 @@ pre {
   display: flex;
   flex-direction: column-reverse;
   text-align: center;
+  .subtitle {
+    margin-bottom: 0;
+  }  
   @media (min-width: $mid) {
     flex-direction: row;
     text-align: left;
@@ -358,7 +361,7 @@ a:active .social-links__icon {
   display: grid;
   grid-template-columns: 100%;
   justify-content: space-around;
-  @media (min-width: $desk) {
+  @media (min-wid-th: $desk) {
     grid-template-columns: 30% 30% 30%;
   }
 }
