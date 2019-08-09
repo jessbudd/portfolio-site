@@ -51,10 +51,10 @@ Using “absolute” units such as pixels removes the user’s option to increas
 Always include a label tag for your form elements. Placeholder text is not a <em>replacement</em> for form labels. If design dictates you must break this rule, include the label as <a href="https://css-tricks.com/places-its-tempting-to-use-display-none-but-dont/" >visually hidden text</a> for screen readers.
 If a field is required, indicate this. Use specific input types for email, url, telephone telephone. This will open the most appropriate keyboard or perform the most appropriate action on smart devices.
 
-<img class="img-full" src="/images/posts/formExample-1.jpg" alt="Example of accessible form using labels and an inaccessible form without labels" width="885" height="405">
+<img class="img-full" src="/images/posts/formExample-1.jpg" alt="Example of accessible form using labels compared to an inaccessible form without labels">
 
 ## Buttons
-It's common to see a div or span dressed up like a button and even more common to see a button that is actually just a link. <a href="http://www.karlgroves.com/2013/05/14/links-are-not-buttons-neither-are-divs-and-spans/" >Divs, spans and links are <strong><em>not</em></strong> buttons</a>.
+It's common to see a div or span dressed up like a button and even more common to see a button that is actually just a link. <a href="http://www.karlgroves.com/2013/05/14/links-are-not-buttons-neither-are-divs-and-spans/">Divs, spans and links are <strong><em>not</em></strong> buttons</a>.
 <ul>Rule of thumb:
  	<li>If it <strong>does</strong> something like submit a form, use the button element.</li>
  	<li>If it <strong>navigates</strong> somewhere, use the anchor element and css for styling.</li>
