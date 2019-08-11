@@ -26,7 +26,7 @@ Now that I've recently reclaimed some of my free time (and brain power), I'm aim
 
 #### Fiction
 
-- The Handmaid's Tale
+- The Handmaid's Tale by Margaret Atwood
 - 1984 by George Orwell
 - Surprise Me by Sophie Kinsella
 - Duty and the Beast by Chelsea Field
@@ -82,7 +82,7 @@ Now that I've recently reclaimed some of my free time (and brain power), I'm aim
 #### Fiction
 
 - Ready Player One by Ernest Cline
+- Ender's Game by Orson Scott Card
 - Gone Girl by En Roman
 - The Girl on the Train by Paula Hawkins
 - The Maze Runner by James Dashner
-- Ender's Game by Orson Scott Card
