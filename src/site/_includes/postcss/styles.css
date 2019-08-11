@@ -310,6 +310,14 @@ pre {
   max-height: 150px;
 }
 
+.emoji-legend {
+  color: $heading-color;
+  font-size: .9em;
+}
+.emoji-legend + .emoji-legend {
+  padding-left: 20px;
+}
+
 .bio {
   border: 1px solid $heading-color;
   padding: 0 18px;
