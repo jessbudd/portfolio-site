@@ -19,7 +19,7 @@ Now that I've recently reclaimed some of my free time (and brain power), I'm aim
 
 ### 2019 
 
-#### Non-Fiction
+#### Non-Fiction :)
 
 - Humility is the new smart by Edward Hess & Katherine Ludwig
 - Barefoot investor for families by Scott Pape

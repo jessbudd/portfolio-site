@@ -7,6 +7,16 @@ module.exports = function(config) {
   // A useful way to reference the context we are runing eleventy in
   let env = process.env.ELEVENTY_ENV;
 
+  let markdownIt = require("markdown-it");
+  let markdownItEmoji = require("markdown-it-emoji");
+  let options = {
+    html: true
+  };
+  let markdownLib = markdownIt(options).use(markdownItEmoji);
+  
+  // eleventyConfig.setLibrary("md", markdownLib);
+  config.setLibrary("md", markdownLib);
+
   // Layout aliases can make templates more portable
   config.addLayoutAlias('default', 'layouts/base.njk');
 
@@ -50,4 +60,17 @@ module.exports = function(config) {
     passthroughFileCopy: true
   };
 
+
+
 };
+
+// module.exports = function(eleventyConfig) {
+//   let markdownIt = require("markdown-it");
+//   let markdownItEmoji = require("markdown-it-emoji");
+//   let options = {
+//     html: true
+//   };
+//   let markdownLib = markdownIt(options).use(markdownItEmoji);
+  
+//   eleventyConfig.setLibrary("md", markdownLib);
+// };
