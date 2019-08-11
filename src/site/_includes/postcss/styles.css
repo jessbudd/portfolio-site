@@ -101,16 +101,16 @@ h2 {
   }
 }
 h3 {
-  font-size: 1.5em;
+  font-size: 1.3em;
   margin-top:48px;
   margin-bottom:24px;
   line-height: 1;
 
   @media (min-width: $desk) {
-    font-size: 1.8em;
+    font-size: 1.5em;
   }
   @media (min-width: $desk) {
-    font-size: 2em;
+    font-size: 1.8em;
   }
  }
 
@@ -437,4 +437,6 @@ img, svg {
     float: right;
   }
 }
-
+.headshot {
+  border-radius: 8px;
+}
