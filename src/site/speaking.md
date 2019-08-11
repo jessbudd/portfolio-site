@@ -7,6 +7,6 @@ layout: layouts/base.njk
   <h1>{{title}}</h1>
   {%- if subtitle %}<p class="subtitle">{{ subtitle | safe }}</p>{% endif %}
 
-  ![alt](/images/undraw_work-in-progress.svg)
+  ![alt](/images/undraw_work-in-progress.svg) test
   
  
