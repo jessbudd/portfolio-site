@@ -1,23 +1,23 @@
 ---
 title: Speaking
 layout: layouts/blog.njk
-subtitle: UI developer, web accessibility consultant, digital producer, meetup co-organiser, mentor.
+subtitle: UI developer, web accessibility consultant, digital producer, meetup&nbsp;co&#x2011;organiser, mentor.
 ---
 <div class="container__blog">
   <h1>{{title}}</h1>
   {%- if subtitle %}<p class="subtitle">{{ subtitle | safe }}</p>{% endif %}
 
-## Talks
+<h2 class="h3">Talks</h2>
 
 Coming Soon
 
 
 
-## Bios for publication
+<h2 class="h3">Bios for publication</h2>
 
 <h3 class="h4">Short:</h3>
 
-Jess Budd is a digital producer at [HBF](http://hbf.com.au), a UI developer and a web accessibility consultant.  She is a co-organiser of [Fenders Perth](https://fenders.co/), a community group for front-end developers and is often found volunteering her time mentoring women learning to code. She’s known for her love of cheese, but is also crazy about UX design, technology, futurism and doggos.
+Jess Budd is UI developer, web accessibility consultant and digital producer at [HBF](http://hbf.com.au).  She is a co-organiser of [Fenders Perth](https://fenders.co/), a community group for front-end developers and is often found volunteering her time mentoring women learning to code. She’s known for her love of cheese, but is also crazy about UX design, technology, futurism and doggos.
 
 <h3 class="h4">Long:</h3>
 
@@ -25,14 +25,15 @@ Jess Budd is a digital producer that develops and implements digital initiatives
 
 Jess consistently volunteers her time and energies for the benefit of the local community through various leadership, mentoring and volunteering roles. This includes mentoring primary and high school students, mentoring women learning to code and co-organising a Perth community group for front-end developers, [Fenders](https://fenders.co/). Jess actively promotes increased representation of women and diversity in technology by encouraging a supportive, collaborative and inclusive web community.
 
-## Headshots
+<h2 class="h3">Headshots</h2>
 
 Formal:
 
-<img class="headshot" src="/images/jess-budd-bio-lg-sq.jpg" width="400" height="400" alt="Jess Budd formal headshot">
+<img class="headshot" src="/images/jess-budd-bio-lg-sq.jpg" alt="Jess Budd formal headshot">
+<!-- <img class="headshot" src="/images/jessbudd-bio-bw.jpg" alt="Jess Budd formal headshot black and white"> -->
 
 Informal:
 
-<img class="headshot"  src="/images/jess-budd-bio-fun.jpg" width="400" height="400" alt="Jess Budd informal headshot">
+<img class="headshot" src="/images/jess-budd-bio-funCL.jpg" alt="Jess Budd informal headshot">
 
 </div>

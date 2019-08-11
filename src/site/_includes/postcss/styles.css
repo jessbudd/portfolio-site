@@ -439,4 +439,9 @@ img, svg {
 }
 .headshot {
   border-radius: 8px;
+  width: 400px;
+}
+
+.headshot:not(first-child) {
+  /* padding-left: 20px; */
 }
