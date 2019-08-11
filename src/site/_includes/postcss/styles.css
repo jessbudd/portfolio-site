@@ -392,6 +392,9 @@ a:active .social-links__icon {
   }
 }
 
+img {
+  max-width: 100%;
+}
 .img-full {
   display: block;
   padding: 18px 0;
