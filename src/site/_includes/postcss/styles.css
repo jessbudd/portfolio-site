@@ -144,6 +144,10 @@ p {
 
 ul, ol {
   padding-left: 1em;
+  margin-left: 1em;
+}
+li {
+  margin-bottom: 6px;
 }
 
 a:link,

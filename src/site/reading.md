@@ -17,7 +17,7 @@ Now that I've recently reclaimed some of my free time (and brain power), I'm aim
 
 ## Books I've read (or listened to on audiobook)
 
-### 2019
+### 2019 
 
 #### Non-Fiction
 
