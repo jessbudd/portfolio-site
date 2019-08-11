@@ -33,24 +33,24 @@ Now that I've recently reclaimed some of my free time (and brain power), I'm aim
 - The Handmaid's Tale by Margaret Atwood :star: 
 - 1984 by George Orwell
 - Surprise Me by Sophie Kinsella :heart_eyes:
-- Duty and the Beast by Chelsea Field
-- Don't stop me now by Colleen Coleman
+- Don't Stop Me Now by Colleen Coleman
 - The Rest of Us Just Live Here by Patrick Ness
 - Can You Keep a Secreat by Sophie Kinsella
 - Remember Me by Sophie Kinsella
 - The Undomestic Goddess by Sophie Kinsella
+- Duty and the Beast by Chelsea Field
 - Twenties Girl by Sophie Kinsella
 
 ### 2018
 
 #### Non-Fiction
 
-- The Last Refugee by Ahn Do :star: 
-- Practical SVG by Chris Coiyer
+- The Last Refugee by Anh Do :star: 
+- Practical SVG by Chris Coiyer/A List Apart
 - The 4 Hour Work Week by Tim Ferris
+- The E-Myth by Michael Gerber
 - Barefoot Investor by Scott Pape :star: 
 - The Sober Diaries by Claire Pooley :heart_eyes:
-- The E-Myth by Michael Gerber
 - Flat Broke with Two Goats by Jennifer McGaha :sleeping: 
 - Sober Stick Figure by Amber Tozer
 - Mrs D is Going Without by Lotta Dan
@@ -67,7 +67,7 @@ Now that I've recently reclaimed some of my free time (and brain power), I'm aim
 - Bridget Jone's Baby by Helen Fielding
 - Eat Pray Die by Chelsea Field :heart_eyes:
 - Poison is the New Black by Chelsea Field :heart_eyes:
-- Poison and Predjudice by Chelsea Field :heart_eyes:
+- Poison and Predjudice by Chelsea Field 
 - The Hunger Pains by Chelsea Field
 - The Heist by Lee Goldberg & Janet Evanovich
 - The Chase by Lee Goldberg & Janet Evanovich
@@ -84,6 +84,10 @@ Now that I've recently reclaimed some of my free time (and brain power), I'm aim
 - The Lean Start Up by Eric Ries
 - Bossypants by Tina Fey
 - The Wife Drought by Annabel Crabb
+- Freakonomics by Steven D. Levitt
+- Automate This by Christopher Steiner
+- We Are Anonymous: How Algorithms Came to Rule Our World by Parmy Olsen
+- Ghost in the Wires: My Adventures as the World's Most Wanted Hacker by Kevin D. Mitnick
 - How to Win Friends and Inlfuence People by Dale Carnegie
 - Level Up Your Life by Steve Lamb
 - The Girl with the Lower Back Tattoo by Amy Schumer
