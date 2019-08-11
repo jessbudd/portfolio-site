@@ -19,7 +19,6 @@ html {
 }
 
 body {
-  text-align: center;
   background-color: $page-color;
   color: mix($text-color, $page-color, 90%);
   font-family: sans-serif;
@@ -136,6 +135,7 @@ p {
   font-size: 1.175em;
   margin-top: 1em;
   margin-bottom: 48px;
+  text-align: left;
   @media (min-width: $mid) {
     font-size: 1.3em;
   }
@@ -264,7 +264,6 @@ pre {
 .hero {
   display: flex;
   flex-direction: column-reverse;
-  text-align: center;
   .subtitle {
     margin-bottom: 0;
   }  
@@ -277,6 +276,7 @@ pre {
   }
 }
 .hero__copy {
+  text-align: center;
   width:100%;
   padding-bottom: 32px;
   @media (min-width: $mid) {
@@ -291,6 +291,21 @@ pre {
   align-self: center;
   @media (min-width: $mid) {
     width: 60%;
+  }
+}
+.hero__copy-alt {
+  width:100%;
+  @media (min-width: $mid) {
+    width: 60%;
+    padding-right: 1em;
+    padding-top: 60px;
+  }
+}
+.hero__img-alt { 
+  width: 100%;
+  align-self: center;
+  @media (min-width: $mid) {
+    width: 40%;
   }
 }
 .col {
@@ -400,8 +415,15 @@ a:active .social-links__icon {
   }
 }
 
-img {
+img, svg {
   max-width: 100%;
+}
+
+.svg__reading {
+  height: 100%;
+  @media (max-width: $mid) {
+    max-height: 280px;
+  }
 }
 .img-full {
   display: block;

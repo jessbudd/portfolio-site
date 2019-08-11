@@ -4,15 +4,14 @@ layout: layouts/base.njk
 # subtitle: I used to love and spend many hours reading, but when children came along I found it difficult to find the time or brain power to read more than short articles and blogs. 
 ---
 
-  <h1>{{title}}</h1>
-  {%- if subtitle %}<p class="subtitle">{{ subtitle | safe }}</p>{% endif %}
-  
+  <!-- <h1>{{title}}</h1> -->
+  <!-- {%- if subtitle %}<p class="subtitle">{{ subtitle | safe }}</p>{% endif %} -->
+  {% include "reading-hero.njk" %}
  
-I was inspired by [Una's book list](https://github.com/una/personal-goals/blob/master/ideas-and-misc/book-checklist.md) to keep a record of my reading.
-<!-- and I thought having a rating system might be fun if I wanted to recommend books to others.  -->
+<!-- I was inspired by [Una's book list](https://github.com/una/personal-goals/blob/master/ideas-and-misc/book-checklist.md) to keep a record of my reading.
 
 I used to love and spend many hours reading, but when children came along I found it difficult to make the time to read more than articles and blogs. 
-Now that I've recently reclaimed some of my free time (and brain power), I'm aiming to read at least one book (fiction or non fiction) each month. 
+Now that I've recently reclaimed some of my free time (and brain power), I'm aiming to read at least one book (fiction or non fiction) each month.  -->
 
 
 ## Books I've read (or listened on audiobook)
@@ -99,11 +98,3 @@ Now that I've recently reclaimed some of my free time (and brain power), I'm aim
 - The Maze Runner by James Dashner
 - Divergent by Veronica Roth
 - The Fault in Our Stars by John Green
-
-
-
-:star: Highly recommend
-
-:heart_eyes: Loved, but may not be for everyone
-
-:sleeping: Did not enjoy
