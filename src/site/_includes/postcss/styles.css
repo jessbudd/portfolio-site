@@ -227,7 +227,18 @@ blockquote {
   }
 
 }
-code, pre {
+code {
+  font-size: 1.2rem;
+  white-space: nowrap; 
+  font-family: Menlo,Consolas,Monaco,monospace;
+  padding: 6px;
+  -moz-tab-size: 2;
+  -o-tab-size: 2;
+  tab-size: 2;
+  color: $heading-color;
+}
+pre {
+  font-size: .95rem;
   white-space: nowrap; 
   font-family: Menlo,Consolas,Monaco,monospace;
   clear: both;
@@ -249,6 +260,7 @@ code, pre {
   min-width: 100px;
   max-width: 100%;
   overflow: hidden;
+  margin-bottom: 24px;
   .pink {
     color: #F92672;
   }

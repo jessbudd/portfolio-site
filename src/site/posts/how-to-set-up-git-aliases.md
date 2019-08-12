@@ -1,23 +1,25 @@
 ---
-title: How to Set Up Git Aliases for Faster Development
+title: How to Set Up Bash Aliases for Git
+# subtitle: And speed up your development
 date: 2019-08-13
 meta: Testing meta description
 ---
 
 It was at least a year ago that I first saw someone in a tutorial using an alias for their git commands. I thought at the time it was something I should set up, but not being incredibly comfortable in the command line, I didn't look into it much further.
 
-For those that haven't heard of aliases before, they are like shortcodes to a command in the terminal. 
+## What's an alias?
 
-For example instead of typing `git push` whenever I want to push my repo, I can assign a shortcode for that command and simply type `gp` to do the same thing.
+For those that may not have heard of aliases before, they're like shortcut commands in your terminal. You type the shortcut in place of typing the whole command.
+
+For example instead of typing `git push` whenever I want to push my repo, I can assign a shortcode for that command and simply type `gp` (or whatever shortcut I set) to do the same thing.
 
 Magic!
 
-This week I've been using git on the command line extensively, so I thought it was about time that I set them up. I found a lot of stack-overflow posts on how to create an alias on mac and the most simple to understand gave me a format to follow. 
+## Setting up an alias
 
-So I typed the following into the command line window I had open for my project.
+This week, thinking it was about time I set up these aliases, I went off to google. I found a bunch of posts on how to create git aliases like [this one](https://stackoverflow.com/questions/2553786/how-do-i-alias-commands-in-git) and [this one](https://githowto.com/aliases), but got a little overwhelmed by the different options. 
 
-
-
+So, following the most simple format example, I typed my most common git actions into the command line window I already had open for my current project.
  
 
 <pre>
@@ -37,50 +39,32 @@ So I typed the following into the command line window I had open for my project.
 
 <span class="green">alias</span> gl='git log'
 
-<span class="green">alias</span> got='git '
-
-<span class="green">alias</span> get='git '
 </pre>
 
-I immediately tested my aliases with a `gs`.
+I then tentatively tested my shiny new aliases with a `gs`. 
 
-It worked! Huzzah! 
+And it worked! Huzzah! 
 
 I went along my merry away. 
 
-Until the next day, when I got my dev environment all set up again and tried to use my new aliases. They didn't work.
+Until the next day, when I got my dev environment up again and tried to use my new aliases. They didn't work.
 
     -bash: gs: command not found
 
-Sad face.
+_Sad face_.
 
-It turns out I only created temporary aliases that existed in that window only. To create global aliases that persisted in all future windows, I needed to add them to my `.bash_profile` file.
 
-~/.bash_profile
+## Setting up an alias _globally_
 
- 
+It turns out I had only created temporary aliases that existed in that sinlge CLI window only. To create global aliases that would persist in all future windows I needed to add them to my `.bash_profile`.
 
-In your home user folder
+On a mac, your `.bash_profile` file will be located in your home username folder. This will be a hidden file, so you'll need to show all hidden files. (To show or hide hidden files on a mac, press `CMD + Shft + . `)
 
-The go abbreviation for git checkout is very useful, allowing me to type:
+There is a chance you might not have a `.bash_profile` file already created on your computer, in which case you can create one and save it in your user folder.
 
-go <branch>
-to checkout a particular branch.
-
-Also, I often mistype git as get or got so I created aliases for them too.
+So in my `.bash_profile` I typed the exact same code as I'd typed the day before and saved the file. I closed down all my terminal windows and tested the alias in a fresh window and they worked.  
 
  
+## Other methods
 
-Another trick is to make an alias for folders you navigate to often, for example this website which is made with a static site generator.
-
- 
-
- 
-
-Make your /bash_forile file if you don’t yet have one
-
-cd ~/ ls -A
-
-If .bash_profile exists, you can open it with open .bash_profile (or code .bash_profile if you happen to be using VS Code as a text editor, which I highly recommend).
-
-If it doesn’t exist, run touch .bash_profile to create it, then open it.
+Atlassian has a good article that describes [how to set up your aliases through the gitconfig file](https://www.atlassian.com/git/tutorials/git-alias). I think if you were using bash aliases for a lot of different things, this would be the better method to follow. It would prevent alias double ups from differnt programs. It's not really an issue for me as I don't do a lot of non-git things in the terminal, but it may be something to consider. 
