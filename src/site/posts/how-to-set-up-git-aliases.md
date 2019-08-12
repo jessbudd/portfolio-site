@@ -4,11 +4,19 @@ date: 2019-08-13
 meta: Testing meta description
 ---
 
-~/.bash_profile
+It was at least a year ago that I first saw someone in a tutorial using an alias for their git commands. I thought at the time it was something I should set up, but not being incredibly comfortable in the command line, I didn't look into it much further.
 
- 
+For those that haven't heard of aliases before, they are like shortcodes to a command in the terminal. 
 
-In your home user folder
+For example instead of typing `git push` whenever I want to push my repo, I can assign a shortcode for that command and simply type `gp` to do the same thing.
+
+Magic!
+
+This week I've been using git on the command line extensively, so I thought it was about time that I set them up. I found a lot of stack-overflow posts on how to create an alias on mac and the most simple to understand gave me a format to follow. 
+
+So I typed the following into the command line window I had open for my project.
+
+
 
  
 
@@ -33,6 +41,26 @@ In your home user folder
 
 <span class="green">alias</span> get='git '
 </pre>
+
+I immediately tested my aliases with a `gs`.
+
+It worked! Huzzah! 
+
+I went along my merry away. 
+
+Until the next day, when I got my dev environment all set up again and tried to use my new aliases. They didn't work.
+
+    -bash: gs: command not found
+
+Sad face.
+
+It turns out I only created temporary aliases that existed in that window only. To create global aliases that persisted in all future windows, I needed to add them to my `.bash_profile` file.
+
+~/.bash_profile
+
+ 
+
+In your home user folder
 
 The go abbreviation for git checkout is very useful, allowing me to type:
 
