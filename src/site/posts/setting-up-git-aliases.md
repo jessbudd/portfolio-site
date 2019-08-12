@@ -1,5 +1,5 @@
 ---
-title: How to Set Up Bash Aliases for Git
+title: How I Set Up Bash Aliases for Git
 # subtitle: And speed up your development
 date: 2019-08-13
 meta: Testing meta description
@@ -17,9 +17,9 @@ Magic!
 
 ## Setting up an alias
 
-This week, thinking it was about time I set up these aliases, I went off to google. I found a bunch of posts on how to create git aliases like [this one](https://stackoverflow.com/questions/2553786/how-do-i-alias-commands-in-git) and [this one](https://githowto.com/aliases), but got a little overwhelmed by the different options. 
+This week, thinking it was about time I set up these aliases, I went off to google. I found a bunch of posts on how to create git aliases like [this one](https://stackoverflow.com/questions/2553786/how-do-i-alias-commands-in-git) and [this one](https://githowto.com/aliases), but got a little overwhelmed by the different options and as with most tutorials they assumed a fair bit of up front knowledge. 
 
-So, following the most simple format example, I typed my most common git actions into the command line window I already had open for my current project.
+Following the most simple format example, I typed my most common git actions into the command line window I already had open for my current project.
  
 
 <pre>
@@ -60,13 +60,13 @@ _Sad face_.
 
 It turns out I had only created temporary aliases that existed in that sinlge CLI window only. To create global aliases that would persist in all future windows I needed to add them to my `.bash_profile`.
 
-On a mac, your `.bash_profile` file will be located in your home username folder. This will be a hidden file, so you'll need to show all hidden files. (To show or hide hidden files on a mac, press `CMD + Shft + . `)
-
-There is a chance you might not have a `.bash_profile` file already created on your computer, in which case you can create one and save it in your user folder.
+On a mac, the `.bash_profile` file will be located in your home username folder. This was a hidden file, so I needed to show all hidden files by pressing `CMD + Shft + . ` to find it.
 
 So in my `.bash_profile` I typed the exact same code as I'd typed the day before and saved the file. I closed down all my terminal windows and tested the alias in a fresh window and they worked.  
 
  
 ## Other methods
 
-Atlassian has a good article that describes [how to set up your aliases through the gitconfig file](https://www.atlassian.com/git/tutorials/git-alias). I think if you were using bash aliases for a lot of different things, this would be the better method to follow. It would prevent alias double ups from differnt programs. It's not really an issue for me as I don't do a lot of non-git things in the terminal, but it may be something to consider. 
+Over the next couple days (thanks to twitterverse) I found there are possibly better ways to do this. For example Atlassian has a good article that describes [how to set up your aliases through the gitconfig file](https://www.atlassian.com/git/tutorials/git-alias). Another fender mentioned putting the git aliases in a seperate alias file and then referencing that in your .bashrc file.
+
+I'm sure there are good reasons to choose one method over the other, but for now I'm happy with the way I've done mine.
