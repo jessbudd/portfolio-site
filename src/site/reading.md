@@ -90,6 +90,7 @@ Now that I've recently reclaimed some of my free time (and brain power), I'm aim
 - We Are Anonymous: How Algorithms Came to Rule Our World by Parmy Olsen
 - Ghost in the Wires: My Adventures as the World's Most Wanted Hacker by Kevin D. Mitnick
 - How to Win Friends and Inlfuence People by Dale Carnegie
+- Confessions of a Public Speaker by by Scott Berkun 
 - Level Up Your Life by Steve Lamb
 - The Girl with the Lower Back Tattoo by Amy Schumer
 
