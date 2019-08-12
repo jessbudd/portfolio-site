@@ -227,16 +227,41 @@ blockquote {
   }
 
 }
-code {
-  font-size: 0.8em;
-  background-color: mix($text-color,$accent-color, 80%);
-  color: rgb(42, 65, 77);
-  padding-top: 4px;
-  padding-bottom: 4px;
-  padding-left: 6px;
-  padding-right: 6px;
-  border-radius: 4px;
-  white-space: nowrap;
+code, pre {
+  white-space: nowrap; 
+  font-family: Menlo,Consolas,Monaco,monospace;
+  clear: both;
+  color: #fff;
+  background: #272822;
+  padding: 12px;
+  -moz-tab-size: 2;
+  -o-tab-size: 2;
+  tab-size: 2;
+  -ms-word-break: normal;
+  word-break: normal;
+  word-break: normal;
+  -webkit-hyphens: none;
+  -ms-hyphens: none;
+  hyphens: none;
+  position: relative;
+  line-height: 28px;
+  border-radius: 8px;
+  min-width: 100px;
+  max-width: 100%;
+  overflow: hidden;
+  .pink {
+    color: #F92672;
+  }
+  .blue {
+    color: #66D9EF;
+  }
+  .green {
+    color: #A6E22E;
+  }
+  p {
+    margin-top: 6px;
+    margin-bottom: 6px;
+  }
 }
 
 .date {
@@ -249,7 +274,7 @@ main {
   margin-top: 4em;
 }
 
-pre {
+/* pre {
   overflow: auto;
   border-radius: 6px;
   code {
@@ -259,7 +284,7 @@ pre {
     padding-left: 0;
     padding-right: 0;
   }
-}
+} */
 
 .hero {
   display: flex;

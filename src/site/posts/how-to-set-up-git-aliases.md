@@ -1,5 +1,5 @@
 ---
-title: How to set up git aliases
+title: How to Set Up Git Aliases for Faster Development
 date: 2019-08-13
 meta: Testing meta description
 ---
@@ -12,19 +12,27 @@ In your home user folder
 
  
 
-alias gs='git status '
-alias ga='git add '
-alias gc='git commit -m '
-alias gp='git push'
-alias gb='git branch '
-alias go='git checkout '
-alias gpl='git pull'
-alias gl='git log'
-alias gd='git diff'
- 
-alias got='git '
-alias get='git '
- 
+<pre>
+<span class="green">alias</span> gs='git status '
+
+<span class="green">alias</span> ga='git add '
+
+<span class="green">alias</span> gc='git commit -m '
+
+<span class="green">alias</span> gp='git push'
+
+<span class="green">alias</span> gb='git branch '
+
+<span class="green">alias</span> go='git checkout '
+
+<span class="green">alias</span> gpl='git pull'
+
+<span class="green">alias</span> gl='git log'
+
+<span class="green">alias</span> got='git '
+
+<span class="green">alias</span> get='git '
+</pre>
 
 The go abbreviation for git checkout is very useful, allowing me to type:
 
