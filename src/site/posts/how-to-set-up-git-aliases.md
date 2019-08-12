@@ -35,6 +35,8 @@ So, following the most simple format example, I typed my most common git actions
 
 <span class="green">alias</span> go='git checkout '
 
+<span class="green">alias</span> gm='git merge '
+
 <span class="green">alias</span> gpl='git pull'
 
 <span class="green">alias</span> gl='git log'
