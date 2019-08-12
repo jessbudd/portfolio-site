@@ -1,11 +1,11 @@
 ---
-title: How I Set Up Bash Aliases for Git
+title: How I Set Up Git Aliases on Bash
 # subtitle: And speed up your development
 date: 2019-08-13
-meta: Testing meta description
+meta: Setting up aliases for commonly used commands in the terminal can save yourself a lot of time during development. Here's how I added Git aliases on my mac through bash.
 ---
 
-It was at least a year ago that I first saw someone in a tutorial using an alias for their git commands. I thought at the time it was something I should set up, but not being incredibly comfortable in the command line, I didn't look into it much further.
+It was almost 2 year agos I first saw someone in a tutorial using an alias for their git commands. I thought at the time it was something I should set up, but not being incredibly comfortable in the command line, I didn't look into it much further.
 
 ## What's an alias?
 
@@ -45,7 +45,7 @@ Following the most simple format example, I typed my most common git actions int
 
 I then tentatively tested my shiny new aliases with a `gs`. 
 
-And it worked! Huzzah! 
+It worked! Huzzah! 
 
 I went along my merry away. 
 
@@ -60,13 +60,37 @@ _Sad face_.
 
 It turns out I had only created temporary aliases that existed in that sinlge CLI window only. To create global aliases that would persist in all future windows I needed to add them to my `.bash_profile`.
 
-On a mac, the `.bash_profile` file will be located in your home username folder. This was a hidden file, so I needed to show all hidden files by pressing `CMD + Shft + . ` to find it.
+On a mac, the `.bash_profile` file will be located in your home username folder. This was a hidden file, so I needed to show all hidden files by pressing `cmd + shft + . ` to find it.
 
-So in my `.bash_profile` I typed the exact same code as I'd typed the day before and saved the file. I closed down all my terminal windows and tested the alias in a fresh window and they worked.  
+So in my `.bash_profile` file I typed the exact same code as I'd typed the day before. 
+
+
+<pre>
+<span class="green">alias</span> gs='git status '
+
+<span class="green">alias</span> ga='git add '
+
+<span class="green">alias</span> gc='git commit -m '
+
+<span class="green">alias</span> gp='git push'
+
+<span class="green">alias</span> gb='git branch '
+
+<span class="green">alias</span> go='git checkout '
+
+<span class="green">alias</span> gm='git merge '
+
+<span class="green">alias</span> gpl='git pull'
+
+<span class="green">alias</span> gl='git log'
+
+</pre>
+
+I saved the file, closed down all my terminal windows and tested the alias in a fresh window and they worked.  Yay!
 
  
 ## Other methods
 
-Over the next couple days (thanks to twitterverse) I found there are possibly better ways to do this. For example Atlassian has a good article that describes [how to set up your aliases through the gitconfig file](https://www.atlassian.com/git/tutorials/git-alias). Another fender mentioned putting the git aliases in a seperate alias file and then referencing that in your .bashrc file.
+Over the next couple days (thanks to the twitterverse) I found there are possibly better ways to do this. For example Atlassian has a good article that describes [how to set up your aliases through the gitconfig file](https://www.atlassian.com/git/tutorials/git-alias). One fender mentioned [oh-my-zsh comes with git aliases built in](https://ohmyz.sh/). Another fender mentioned putting the git aliases in a seperate alias file and then referencing that in your .bashrc file.
 
-I'm sure there are good reasons to choose one method over the other, but for now I'm happy with the way I've done mine.
+I'm sure there are good reasons to choose one method over the other, but for now I'm happy with the way I've done mine as it's fine for my situation.
