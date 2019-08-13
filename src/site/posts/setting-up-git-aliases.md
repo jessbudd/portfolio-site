@@ -60,7 +60,7 @@ _Sad face_.
 
 It turns out I had only created temporary aliases that existed in that sinlge CLI window only. To create global aliases that would persist in all future windows I needed to add them to my `.bash_profile`.
 
-On a mac, the `.bash_profile` file will be located in your home username folder. This was a hidden file, so I needed to show all hidden files by pressing `cmd + shft + . ` to find it.
+On a mac, the `.bash_profile` file is located in the home username folder. This was a hidden file, so I needed to show all hidden files by pressing `cmd + shft + . ` to find it.
 
 So in my `.bash_profile` file I typed the exact same code as I'd typed the day before. 
 
