@@ -1,6 +1,6 @@
 ---
 title: Speaking
-layout: layouts/blog.njk
+layout: layouts/base.njk
 subtitle: Topics: HTML, CSS, general web design and developement, web accessibility, digital project management, community organisation, learning
 ---
 <div class="container__blog">
