@@ -1,7 +1,7 @@
 ---
 title: Speaking
 layout: layouts/blog.njk
-subtitle: Topics could include HTML, CSS, general web design and developement, web accessibility, digital project management, community organisation, learning
+subtitle: Topics: HTML, CSS, general web design and developement, web accessibility, digital project management, community organisation, learning
 ---
 <div class="container__blog">
   <h1>{{title}}</h1>
