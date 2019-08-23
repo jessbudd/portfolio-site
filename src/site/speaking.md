@@ -1,7 +1,7 @@
 ---
 title: Speaking
 layout: layouts/base.njk
-subtitle: Topics - HTML, CSS, web design and front-end developement, digital accessibility, digital project management, community organisation, learning
+subtitle: Topics - HTML, CSS, front-end development, digital accessibility, digital project management, web design, community organisation, learning
 meta: Jess Budd is UI developer, web accessibility consultant and digital producer available to speak at your next tech event.
 ---
 <div class="container__blog">
@@ -21,11 +21,12 @@ In this talk, I'll discuss how to avoid common pitfalls when designing and devel
 <h2 class="h3">Bios for publication</h2>
 
 <h3 class="h4">Short:</h3>
+
 Jess is an experienced UI developer and web accessibility consultant, working as a Digital Producer at Australia's second largest not-for-profit health fund [HBF](http://hbf.com.au). She is a co-organiser of [Fenders Perth](https://fenders.co/), a local meetup for front-end developers and is often found volunteering her time mentoring women learning to code. She’s known for her love of cheese, but is also crazy about UX design, technology, futurism and doggos.
 
 <h3 class="h4">Long:</h3>
 
-Jess Budd is an experienced UI developer and a strong advocate for web accessibility, ensuring her knowledge and experience as a digital accessibility consultant is leveraged to to make the web a better place for all people. She is a digital producer at Australia's second largest not-for-profit health fund [HBF](http://hbf.com.au) where she develops and implements digital initiatives and campaigns.
+Jess Budd is an experienced UI developer and a strong advocate for web accessibility, ensuring her knowledge and experience as a digital accessibility consultant is leveraged to make the web a better place for all people. She is a digital producer at Australia's second largest not-for-profit health fund [HBF](http://hbf.com.au) where she develops and implements digital initiatives and campaigns.
 
 Jess consistently volunteers her time and energies for the benefit of the local community through various leadership, mentoring and volunteering roles. This includes mentoring primary and high school students, mentoring women learning to code and co-organising a Perth community group for front-end developers, [Fenders](https://fenders.co/). Jess actively promotes increased representation of women and diversity in technology by encouraging a supportive, collaborative and inclusive web community.
 
