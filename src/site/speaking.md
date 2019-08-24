@@ -12,11 +12,15 @@ meta: Jess Budd is UI developer, web accessibility consultant and digital produc
 
 <h3 >Designing & Developing Accessible Web Forms: Pitfalls to avoid</h3>
 
+<p class="duration">Duration: 25 and 50 minute versions</p>
+
 Every meaningful interaction on the web is achieved with a form of some kind - letting users sign up to your service, contact you via your website, buy your product, and so on. Although creating a form can be as simple as adding text boxes and radio buttons, ensuring your form meets accessibility guidelines and can be used by people with disabilities requires a little more thought.
 
 In this talk, I'll discuss how to avoid common pitfalls when designing and developing forms for your website. We'll cover why you need labels, how to prevent users from making mistakes and how to help your users complete your form with ease.
 
-<h3 >React & Accessibility: They can be friends</h3>
+<h3 >React & Accessibility: They can play nice</h3>
+
+<p class="duration">Duration: 25 and 50 minute versions</p>
 
 React is a great component based library for building out user interfaces. And as developers, we want everyone to be able to use the websites and single page applications we build. But how do we ensure our React apps are usable by all kinds of people?
 
