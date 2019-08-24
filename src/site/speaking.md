@@ -16,7 +16,7 @@ Every meaningful interaction on the web is achieved with a form of some kind - l
 
 In this talk, I'll discuss how to avoid common pitfalls when designing and developing forms for your website. We'll cover why you need labels, how to prevent users from making mistakes and how to help your users complete your form with ease.
 
-<h3 >Designing & Developing Accessible Web Forms: Pitfalls to avoid</h3>
+<h3 >React & Accessibility: They can be friends</h3>
 
 React is a great component based library for building out user interfaces. And as developers, we want everyone to be able to use the websites and single page applications we build. But how do we ensure our React apps are usable by all kinds of people?
 
@@ -24,7 +24,7 @@ Compiling infinite wrapper divs, losing focus with state changes and losing acce
 
 In this talk, we'll see how nothing in React itself prevents us from building accessible web apps. And we'll cover a range of ways to ensure your React app is accessible to everyone, plus a handful of simple tools to help you along the way.  
 
-
+<hr>
 
 <h2>Bios for publication</h2>
 
