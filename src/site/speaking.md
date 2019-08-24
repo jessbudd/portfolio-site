@@ -1,8 +1,8 @@
 ---
 title: Speaking
 layout: layouts/base.njk
-subtitle: Topics - HTML, CSS, front-end web development, digital accessibility, agile project management, web design, community organisation, learning
-meta: Jess Budd is UI developer, web accessibility consultant and digital producer available to speak at your next tech event.
+subtitle: Topics I am available to speak about are  digital accessibility, front-end web development, HTML, CSS, agile project management, web design, community organisation, learning
+meta: Jess Budd is UI developer, web accessibility consultant and digital producer available to speak at your next tech event. Read more for exising talks.
 ---
 <div class="container__blog">
   <h1>{{title}}</h1>
@@ -15,6 +15,14 @@ meta: Jess Budd is UI developer, web accessibility consultant and digital produc
 Every meaningful interaction on the web is achieved with a form of some kind - letting users sign up to your service, contact you via your website, buy your product, and so on. Although creating a form can be as simple as adding text boxes and radio buttons, ensuring your form meets accessibility guidelines and can be used by people with disabilities requires a little more thought.
 
 In this talk, I'll discuss how to avoid common pitfalls when designing and developing forms for your website. We'll cover why you need labels, how to prevent users from making mistakes and how to help your users complete your form with ease.
+
+<h3 >Designing & Developing Accessible Web Forms: Pitfalls to avoid</h3>
+
+React is a great component based library for building out user interfaces. And as developers, we want everyone to be able to use the websites and single page applications we build. But how do we ensure our React apps are usable by all kinds of people?
+
+Compiling infinite wrapper divs, losing focus with state changes and losing access to elements by the keyboard is never our aim. But it can be the result when we use JavaScript frameworks without the right tools in our toolbelt. 
+
+In this talk, we'll see how nothing in React itself prevents us from building accessible web apps. And we'll cover a range of ways to ensure your React app is accessible to everyone, plus a handful of simple tools to help you along the way.  
 
 
 
