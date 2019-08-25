@@ -28,6 +28,7 @@ Now that I've recently reclaimed some of my free time (and brain power), I'm aim
 
 - Humility is the New Smart by Edward Hess & Katherine Ludwig
 - Barefoot Investor for Families by Scott Pape
+- Form Design Patterns by Adam Silver :star:
 
 #### Fiction
 
@@ -46,8 +47,9 @@ Now that I've recently reclaimed some of my free time (and brain power), I'm aim
 
 #### Non-Fiction
 
-- The Last Refugee by Anh Do :star: 
+- Refactoring UI by Steve Schoger :star:
 - Practical SVG by Chris Coiyer/A List Apart
+- The Last Refugee by Anh Do :star: 
 - The 4 Hour Work Week by Tim Ferris
 - The E-Myth by Michael Gerber
 - Barefoot Investor by Scott Pape :star: 
