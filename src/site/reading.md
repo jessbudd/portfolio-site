@@ -26,9 +26,9 @@ Now that I've recently reclaimed some of my free time (and brain power), I'm aim
 
 #### Non-Fiction 
 
+- Form Design Patterns by Adam Silver :star:
 - Humility is the New Smart by Edward Hess & Katherine Ludwig
 - Barefoot Investor for Families by Scott Pape
-- Form Design Patterns by Adam Silver :star:
 
 #### Fiction
 
@@ -37,7 +37,7 @@ Now that I've recently reclaimed some of my free time (and brain power), I'm aim
 - Surprise Me by Sophie Kinsella :heart_eyes:
 - Don't Stop Me Now by Colleen Coleman
 - The Rest of Us Just Live Here by Patrick Ness
-- Can You Keep a Secreat by Sophie Kinsella
+- Can You Keep a Secret by Sophie Kinsella
 - Remember Me by Sophie Kinsella
 - The Undomestic Goddess by Sophie Kinsella
 - Duty and the Beast by Chelsea Field
@@ -49,8 +49,8 @@ Now that I've recently reclaimed some of my free time (and brain power), I'm aim
 
 - Refactoring UI by Steve Schoger :star:
 - Practical SVG by Chris Coiyer/A List Apart
-- The Last Refugee by Anh Do :star: 
 - The 4 Hour Work Week by Tim Ferris
+- The Last Refugee by Anh Do :star: 
 - The E-Myth by Michael Gerber
 - Barefoot Investor by Scott Pape :star: 
 - The Sober Diaries by Claire Pooley :heart_eyes:
@@ -86,6 +86,7 @@ Now that I've recently reclaimed some of my free time (and brain power), I'm aim
 - Start With Why by Simon Sinek
 - The Lean Start Up by Eric Ries
 - Bossypants by Tina Fey
+- Demystifying Public Speaking by Lara Hogan
 - The Wife Drought by Annabel Crabb
 - Freakonomics by Steven D. Levitt
 - Automate This by Christopher Steiner
@@ -93,7 +94,7 @@ Now that I've recently reclaimed some of my free time (and brain power), I'm aim
 - Ghost in the Wires: My Adventures as the World's Most Wanted Hacker by Kevin D. Mitnick
 - How to Win Friends and Inlfuence People by Dale Carnegie
 - Confessions of a Public Speaker by by Scott Berkun 
-- Level Up Your Life by Steve Lamb
+- Level Up Your Life by Steve Kamb
 - The Girl with the Lower Back Tattoo by Amy Schumer
 
 

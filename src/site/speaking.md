@@ -1,7 +1,7 @@
 ---
 title: Speaking
 layout: layouts/base.njk
-subtitle: Topics I am available to speak about are  digital accessibility, front-end web development, HTML, CSS, agile project management, web design, community organisation, learning
+subtitle: Topics I am available to speak about include accessibility, front-end web development, HTML, CSS, agile project management, web design, community organisation, learning
 meta: Jess Budd is UI developer, web accessibility consultant and digital producer available to speak at your next tech event. Read more for exising talks.
 ---
 <div class="container__blog">
@@ -29,6 +29,16 @@ Javascript frameworks get a bad rap when it comes to accessibility. But is it th
 Follow me on a React journey through div soup, past the lost focus and under the unchanged titles. Find out: is there actually anything in React preventing us from building accessible web apps? You'll get a high level overview of fundamental issues, how to address them, and how to ensure your website is accessible and inclusive to all.
 
 
+### Live Life in Perpetual Beta: What software development can teach us about life
+
+<p class="duration">Duration: 25 minutes</p>
+When we release a beta version of a product, we generally understand it will have bugs. And we're okay with that, because hey — it's not the final product. We're testing and learning and gathering insights that will improve the future product.
+
+What if we applied this same principle to our lives? What could we achieve and experience if we adopted the mindset of being in "perpetual beta"?
+
+"Beta" is about focusing on progress, not perfection. Now is the perfect time to embrace this. We'll discuss how to iterate on aspects of our lives we're unhappy with, how to practice deploying early and often, and how to courageously pivot when user testing shows we've gone astray.
+
+
 <hr>
 
 <h2>Bios for publication</h2>
@@ -53,6 +63,6 @@ Formal:
 
 Informal:
 
-<img class="headshot" src="/images/jess-budd-bio-funCL.jpg" alt="Jess Budd informal headshot">
+<img class="headshot" src="/images/jess-budd-bio-fun-alt.jpg" alt="Jess Budd informal headshot">
 
 </div>
