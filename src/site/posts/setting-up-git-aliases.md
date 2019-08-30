@@ -23,24 +23,27 @@ Following the most simple format example, I typed my most common git actions int
  
 
 <pre>
-<span class="green">alias</span> gs='git status '
+<code >
 
-<span class="green">alias</span> ga='git add '
+<span class="token selector">alias</span> gs='git status '
 
-<span class="green">alias</span> gc='git commit -m '
+<span class="token selector">alias</span> ga='git add '
 
-<span class="green">alias</span> gp='git push'
+<span class="token selector">alias</span> gc='git commit -m '
 
-<span class="green">alias</span> gb='git branch '
+<span class="token selector">alias</span> gp='git push'
 
-<span class="green">alias</span> go='git checkout '
+<span class="token selector">alias</span> gb='git branch '
 
-<span class="green">alias</span> gm='git merge '
+<span class="token selector">alias</span> go='git checkout '
 
-<span class="green">alias</span> gpl='git pull'
+<span class="token selector">alias</span> gm='git merge '
 
-<span class="green">alias</span> gl='git log'
+<span class="token selector">alias</span> gpl='git pull'
 
+<span class="token selector">alias</span> gl='git log'
+
+</code>
 </pre>
 
 I then tentatively tested my shiny new aliases with a `gs`. 
@@ -66,23 +69,23 @@ So in my `.bash_profile` file I typed the exact same code as I'd typed the day b
 
 
 <pre>
-<span class="green">alias</span> gs='git status '
+<span class="token selector">alias</span> gs='git status '
 
-<span class="green">alias</span> ga='git add '
+<span class="token selector">alias</span> ga='git add '
 
-<span class="green">alias</span> gc='git commit -m '
+<span class="token selector">alias</span> gc='git commit -m '
 
-<span class="green">alias</span> gp='git push'
+<span class="token selector">alias</span> gp='git push'
 
-<span class="green">alias</span> gb='git branch '
+<span class="token selector">alias</span> gb='git branch '
 
-<span class="green">alias</span> go='git checkout '
+<span class="token selector">alias</span> go='git checkout '
 
-<span class="green">alias</span> gm='git merge '
+<span class="token selector">alias</span> gm='git merge '
 
-<span class="green">alias</span> gpl='git pull'
+<span class="token selector">alias</span> gpl='git pull'
 
-<span class="green">alias</span> gl='git log'
+<span class="token selector">alias</span> gl='git log'
 
 </pre>
 

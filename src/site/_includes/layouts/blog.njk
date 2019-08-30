@@ -1,10 +1,20 @@
 <!doctype html>
 <html lang="en-au">
   <head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-103059618-2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-103059618-2');
+</script>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/css/styles.css">
-    <title>{{ title }}</title>
+     <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon3.png">
+    <title>{{ title }} - Jess Budd</title>
   </head>
   <body {% if bodyClass %}class="{{ bodyClass }}"{% endif %}>
 
@@ -21,6 +31,9 @@
       {% include "js/hello.js" %}
     {% endset %}
     <script>{{ js | jsmin | safe }}</script>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.17.1/components/prism-core.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.17.1/plugins/autoloader/prism-autoloader.min.js"></script>
 
   </body>
 </html>
