@@ -18,7 +18,7 @@ meta: Jess Budd is UI developer, web accessibility consultant and digital produc
 
 Every meaningful interaction on the web is achieved with a form of some kind - letting users sign up to your service, contact you via your website, buy your product, and so on. Although creating a form can be as simple as adding text boxes and radio buttons, ensuring your form meets accessibility guidelines and can be used by people with disabilities requires a little more thought.
 
-In this talk, I'll discuss how to avoid common pitfalls when designing and developing forms for your website. We'll cover why you need labels, how to prevent users from making mistakes and how to help your users complete your form with ease.
+In this talk, we'll discuss learn how to avoid common pitfalls when designing and developing forms for your website. You'll learn why you need labels, how to prevent users from making mistakes and how to help your users complete your form with ease.
 
 <h3 >Making React Apps Accessible: It's easier than you think</h3>
 
@@ -36,7 +36,7 @@ When we release a beta version of a product, we generally understand it will hav
 
 What if we applied this same principle to our lives? What could we achieve and experience if we adopted the mindset of being in "perpetual beta"?
 
-"Beta" is about focusing on progress, not perfection. Now is the perfect time to embrace this. We'll discuss how to iterate on aspects of our lives we're unhappy with, how to practice deploying early and often, and how to courageously pivot when user testing shows we've gone astray.
+"Beta" is about focusing on progress, not perfection. Now is the perfect time to embrace this. You'll learn how to iterate on aspects of our lives we're unhappy with, how to practice deploying early and often, and how to courageously pivot when user testing shows we've gone astray.
 
 
 <hr>
