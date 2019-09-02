@@ -14,7 +14,7 @@ meta: Jess Budd is UI developer, web accessibility consultant and digital produc
 
 <h3 >Designing & Developing Accessible Web Forms: Pitfalls to avoid</h3>
 
-<p class="duration">Duration: 25 and 55 minute versions</p>
+<!-- <p class="duration">Duration: 25 and 55 minute versions</p> -->
 
 Every meaningful interaction on the web is achieved with a form of some kind - letting users sign up to your service, contact you via your website, buy your product, and so on. Although creating a form can be as simple as adding text boxes and radio buttons, ensuring your form meets accessibility guidelines and can be used by people with disabilities requires a little more thought.
 
@@ -22,7 +22,7 @@ In this talk, we'll discuss learn how to avoid common pitfalls when designing an
 
 <h3 >Making React Apps Accessible: It's easier than you think</h3>
 
-<p class="duration">Duration: 25 and 55 minute versions</p>
+<!-- <p class="duration">Duration: 25 and 55 minute versions</p> -->
 
 Javascript frameworks get a bad rap when it comes to accessibility. But is it the frameworks creating the barriers, or us as the developers?
 
@@ -31,7 +31,7 @@ Follow me on a React journey through div soup, past the lost focus and under the
 
 ### Live Life in Perpetual Beta: What software development can teach us about life
 
-<p class="duration">Duration: 25 minutes</p>
+<!-- <p class="duration">Duration: 25 minutes</p> -->
 When we release a beta version of a product, we generally understand it will have bugs. And we're okay with that, because hey — it's not the final product. We're testing and learning and gathering insights that will improve the future product.
 
 What if we applied this same principle to our lives? What could we achieve and experience if we adopted the mindset of being in "perpetual beta"?
@@ -45,11 +45,11 @@ What if we applied this same principle to our lives? What could we achieve and e
 
 <h3 class="h4">Short:</h3>
 
-Jess is an experienced UI developer and web accessibility consultant, working as a Digital Producer at Australia's second largest not-for-profit health fund [HBF](http://hbf.com.au). She is a co-organiser of [Fenders Perth](https://fenders.co/), a local meetup for front-end developers and is often found volunteering her time mentoring women learning to code. She’s known for her love of cheese, but is also crazy about UX design, technology and futurism.
+Jess is an experienced UI developer and web accessibility consultant, working as a Digital Producer at Australia's second largest not-for-profit health fund. She is a co-organiser of a local meetup for front-end developers and is often found volunteering her time mentoring women learning to code. She’s known for her love of cheese, but is also crazy about UX design, technology and futurism.
 
 <h3 class="h4">Long:</h3>
 
-Jess Budd is an experienced UI developer and a strong advocate for web accessibility, ensuring her knowledge and experience as a digital accessibility consultant is leveraged to make the web a better place for all people. She is a digital producer at Australia's second largest not-for-profit health fund [HBF](http://hbf.com.au) where she develops and implements digital initiatives and campaigns.
+Jess Budd is an experienced UI developer and a strong advocate for web accessibility, ensuring her knowledge and experience as a digital accessibility consultant is leveraged to make the web a better place for all people. She is a digital producer at Australia's second largest not-for-profit health fund [HBF](http://hbf.com.au) where she develops and implements digital initiatives.
 
 Jess consistently volunteers her time and energies for the benefit of the local community through various leadership, mentoring and volunteering roles. This includes mentoring primary and high school students, mentoring women learning to code and co-organising a Perth community group for front-end developers, [Fenders](https://fenders.co/). Jess actively promotes increased representation of women and diversity in technology by encouraging a supportive, collaborative and inclusive web community.
 
