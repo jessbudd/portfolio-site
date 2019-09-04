@@ -18,7 +18,7 @@ meta: Jess Budd is UI developer, web accessibility consultant and digital produc
 
 Every meaningful interaction on the web is achieved with a form of some kind - letting users sign up to your service, contact you via your website, buy your product, and so on. Although creating a form can be as simple as adding text boxes and radio buttons, ensuring your form meets accessibility guidelines and can be used by people with disabilities requires a little more thought.
 
-In this talk, we'll discuss learn how to avoid common pitfalls when designing and developing forms for your website. You'll learn why you need labels, how to prevent users from making mistakes and how to help your users complete your form with ease.
+In this talk, we'll learn how to avoid common pitfalls when designing and developing forms for your website. You'll learn why you need labels, how to prevent users from making mistakes and how to help your users complete your form with ease.
 
 <h3 >Making React Apps Accessible: It's easier than you think</h3>
 
@@ -45,7 +45,7 @@ What if we applied this same principle to our lives? What could we achieve and e
 
 <h3 class="h4">Short:</h3>
 
-Jess is an experienced UI developer and web accessibility consultant, working as a Digital Producer at Australia's second largest not-for-profit health fund. She is a co-organiser of a local meetup for front-end developers and is often found volunteering her time mentoring women learning to code. She’s known for her love of cheese, but is also crazy about UX design, technology and futurism.
+Jess is an experienced UI developer and web accessibility consultant, working as a Digital Producer at Australia's second largest not-for-profit health fund. She is a co-organiser of a local meetup for front-end developers and is often found volunteering her time mentoring women learning to code. She’s known for her love of dogs, but is also crazy about UX design, technology and futurism.
 
 <h3 class="h4">Long:</h3>
 
