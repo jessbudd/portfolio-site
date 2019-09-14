@@ -96,6 +96,7 @@ Now that I've recently reclaimed some of my free time (and brain power), I'm aim
 - Confessions of a Public Speaker by by Scott Berkun 
 - Level Up Your Life by Steve Kamb
 - The Girl with the Lower Back Tattoo by Amy Schumer
+- The Fourth Industrial Revolution by Klaus Schwab
 
 
 #### Fiction
@@ -107,3 +108,4 @@ Now that I've recently reclaimed some of my free time (and brain power), I'm aim
 - The Maze Runner by James Dashner
 - Divergent by Veronica Roth
 - The Fault in Our Stars by John Green
+- The Testaments by Margaret Atwood

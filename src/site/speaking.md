@@ -43,7 +43,13 @@ What if we applied this same principle to our lives? What could we achieve and e
 
 <h2>Bios for publication</h2>
 
+
+
 <h3 class="h4">Short:</h3>
+
+Jess Budd is a UI developer, accessibility consultant and digital producer. She co-organises a meetup group for front-end developers, mentors women learning to code and has a love of technology and dogs.
+
+<h3 class="h4">Medium:</h3>
 
 Jess is an experienced UI developer and web accessibility consultant, working as a Digital Producer at Australia's second largest not-for-profit health fund. She is a co-organiser of a local meetup for front-end developers and is often found volunteering her time mentoring women learning to code. She’s known for her love of dogs, but is also crazy about UX design, technology and futurism.
 
