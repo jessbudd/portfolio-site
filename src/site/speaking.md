@@ -12,15 +12,8 @@ meta: Jess Budd is UI developer, web accessibility consultant and digital produc
 
 <h2>Available talks</h2>
 
-<h3 >Designing & Developing Accessible Web Forms: Pitfalls to avoid</h3>
 
-<!-- <p class="duration">Duration: 25 and 55 minute versions</p> -->
-
-Every meaningful interaction on the web is achieved with a form of some kind - letting users sign up to your service, contact you via your website, buy your product, and so on. Although creating a form can be as simple as adding text boxes and radio buttons, ensuring your form meets accessibility guidelines and can be used by people with disabilities requires a little more thought.
-
-In this talk, we'll learn how to avoid common pitfalls when designing and developing forms for your website. You'll learn why you need labels, how to prevent users from making mistakes and how to help your users complete your form with ease.
-
-<h3 >Making React Apps Accessible: It's easier than you think</h3>
+### Making React Apps Accessible: It's easier than you think
 
 <!-- <p class="duration">Duration: 25 and 55 minute versions</p> -->
 
@@ -28,6 +21,13 @@ Javascript frameworks get a bad rap when it comes to accessibility. But is it th
 
 Follow me on a React journey through div soup, past the lost focus and under the unchanged titles. Find out: is there actually anything in React preventing us from building accessible web apps? You'll get a high level overview of fundamental issues, how to address them, and how to ensure your website is accessible and inclusive to all.
 
+### Designing & Developing Accessible Web Forms: Pitfalls to avoid
+
+<!-- <p class="duration">Duration: 25 and 55 minute versions</p> -->
+
+Every meaningful interaction on the web is achieved with a form of some kind - letting users sign up to your service, contact you via your website, buy your product, and so on. Although creating a form can be as simple as adding text boxes and radio buttons, ensuring your form meets accessibility guidelines and can be used by people with disabilities requires a little more thought.
+
+In this talk, we'll learn how to avoid common pitfalls when designing and developing forms for your website. You'll learn why you need labels, how to prevent users from making mistakes and how to help your users complete your form with ease.
 
 ### Live Life in Perpetual Beta: What software development can teach us about life
 
@@ -51,7 +51,7 @@ Jess Budd is a UI developer, accessibility consultant and digital producer. She 
 
 <h3 class="h4">Medium:</h3>
 
-Jess is an experienced UI developer and web accessibility consultant, working as a Digital Producer at Australia's second largest not-for-profit health fund. She is a co-organiser of a local meetup for front-end developers and is often found volunteering her time mentoring women learning to code. She’s known for her love of dogs, but is also crazy about UX design, technology and futurism.
+Jess is an experienced UI developer and web accessibility consultant, working as a digital producer at Australia's second largest not-for-profit health fund. She is a co-organiser of a local meetup for front-end developers and is often found volunteering her time mentoring women learning to code. She’s known for her love of dogs, but is also crazy about UX design, technology and futurism.
 
 <h3 class="h4">Long:</h3>
 
