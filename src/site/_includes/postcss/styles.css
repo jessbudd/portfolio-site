@@ -263,6 +263,19 @@ code {
   tab-size: 2;
   color: $heading-color;
 }
+
+code.block {
+  background: $black;
+  /* display: block; */
+  padding: 6px 12px;
+  hyphens: none;
+  position: relative;
+  line-height: 28px;
+  border-radius: 8px;
+  min-width: 100px;
+  max-width: 100%;
+  overflow: hidden
+}
 pre {
   font-size: .95rem;
   white-space: nowrap; 

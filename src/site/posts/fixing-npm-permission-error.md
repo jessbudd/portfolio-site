@@ -1,40 +1,54 @@
 ---
-title: Fixing npm EACCESS error (permission denied, mkdir)
+title: Fixing npm EACCESS errors 
+subtitle: (permission denied, mkdir)
 date: 2019-09-15
-meta: 
+meta: Build tools like Gulp and Webpack are pretty amazing - but it's really frustrating when you keep getting npm errors! Here's what worked for me.
 ---
 
 
-Nodejs and NPM have made life so easier. If you use Gulp toolkit with it I am sure you love it 😍
+Build tools like Gulp, Grunt and Webpack are pretty amazing - but sometimes when I am using npm to install the node modules required for my project I run into issues. 
 
-However, I was frequently getting errors along the lines of <code> Error: EACCES: permission denied, mkdir </code>
+Recently when running the basic <code>npm install</code> command in the terminal I've been getting quite a few errors along the lines of:
 
-<code>$ npm install</code>
+ <code class="block"> Error: EACCES: permission denied, mkdir </code>
 
-The first thing I tried was running it with sudo. No dice.
 
-<code>
+The first thing I tried was running it with sudo. 
+
+<code class="block">
 $ sudo npm install
 </code>
 
-I checked and updated my versions of node and npm to the latest stable versions. Still no luckk.
+No dice.
 
-<code>
-$ sudo npm update
-$ sudo npm install
+I checked I was running the latest versions of node and npm, and updated to the latest stable release just in case. 
+
+<code class="block">$ sudo npm update </code>
+
+Then I deleted the existing node modules folder in my project and tried running the command again. But I kept getting the same errors for those packages, which was really frustrating. 
+
+
+<!-- <code class="block">$ sudo npm install</code> -->
+
+I did some googling and found adding a particular command worked for quite a few people. So I tried:
+
+<code class="block">$ sudo npm install --unsafe-perm=true --allow-root</code>
+
+Unfortunately, it didn't work for me. 
+
+I went on for more googling and came across [this npm community thread](https://npm.community/t/global-installs-sudo-npm-i-g-fail-on-mac-after-6-5-upgrade-works-fine-after-6-4-1-downgrade/4082/27) where one poster suggested we need to change the permissions of the folder. The code he suggested was:
+
+<code class="block">
+$ sudo chown -R $(whoami) ~/.npm </code>
+
+<code class="block">$ sudo chown -R $(whoami) /usr/local/lib </code>
+
+<code class="block">$ sudo chown -R $(whoami) /usr/local/bin</code>
 </code>
 
-I kept getting the same errors. I did some googling and found adding some terms worked for quite a few people. So I tried:
+And it worked, everything installed correctly after that!
 
-<code>$ sudo npm install --unsafe-perm=true --allow-root</code>
+I have a basic understanding of how this command updates the folder permissions thanks to a mini command-line course I took a couple years ago, but I wouldn't have gotten there on my own. 
 
-Unfortunately, it didn't work for me. I went on for more googling and came across [this npm community thread](https://npm.community/t/global-installs-sudo-npm-i-g-fail-on-mac-after-6-5-upgrade-works-fine-after-6-4-1-downgrade/4082/27) that talked about changing the permissions of the folder.
-
-<code>
-sudo chown -R $(whoami) ~/.npm 
-sudo chown -R $(whoami) /usr/local/lib 
-sudo chown -R $(whoami) /usr/local/bin
-</code>
-
-And it worked, I'm one happy chappy and continue on with my course. I wanted to document this for future me next time!
+I'm one happy chappy and can continue on with the React Gatsby project I was working on. I just wanted to document this for future me next time I come across this issue!
 
