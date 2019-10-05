@@ -21,7 +21,7 @@ As a speaker you get free entry to the event, and quite often, the conference wi
 
 ## Except...
 
-I hate public speaking. Like, afraid to speak up in meetings or in front of more than 3 people at a time, hate. 
+I hated public speaking. Like, afraid to speak up in meetings or in front of more than 3 people at a time, hate. 
 
 Not to mention, what would I even have to say that other people would be interested in?
 
