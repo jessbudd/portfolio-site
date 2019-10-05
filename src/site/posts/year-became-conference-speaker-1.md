@@ -77,7 +77,7 @@ Friends suggested I should submit to [DDDAdelaide](https://www.dddadelaide.com/)
 
 But as [Amy](https://twitter.com/Amys_Kapers) always says, "_That's future Jess's problem_." :sweat_smile:
 
-And the chances of getting were pretty slim anyway. 
+And the chances of getting selected were pretty slim anyway. 
 
 So I put in submissions for those too. 
 
