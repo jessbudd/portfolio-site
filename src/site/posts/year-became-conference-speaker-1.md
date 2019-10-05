@@ -2,7 +2,7 @@
 title: The Year I Became a Conference Speaker (Part One)
 subtitle: 
 date: 2019-10-05
-meta: My experience in going from too shy to speak in up in meetings to becoming a tech conference speaker.
+meta: My experience in going from too shy to speak up in meetings to soonto-be conference speaker.
 # tags: post speaking
 ---
 
