@@ -86,7 +86,7 @@ So I put in submissions for those too.
 
 My friend and mentor had to decline a speaking offer as she was already speaking somewhere else and... RECOMMENDED ME INSTEAD :scream:
 
-The conference organiser liked one of my talk ideas (Making React Apps Accessible) and was willing to take a chance on a newbie - and that was it! My first ever conference talk was booked!
+The conference organiser liked one of my talk ideas (_Making React Apps Accessible_) and was willing to take a chance on a newbie - and that was it! My first ever conference talk was booked!
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Excited to share I&#39;ll be speaking at <a href="https://twitter.com/LaraconAU?ref_src=twsrc%5Etfw">@LaraconAU</a> in Sydney this October! If you&#39;re around, be sure to come say hi 😀 <a href="https://t.co/PuZbmB6bqE">https://t.co/PuZbmB6bqE</a></p>&mdash; Jess Budd (@jessbudd4) <a href="https://twitter.com/jessbudd4/status/1171327217185374208?ref_src=twsrc%5Etfw">September 10, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
