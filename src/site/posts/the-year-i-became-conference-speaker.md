@@ -95,14 +95,14 @@ The conference organiser liked one of my talk ideas (_Making React Apps Accessib
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">I&#39;m speaking at <a href="https://twitter.com/hashtag/DevFest19?src=hash&amp;ref_src=twsrc%5Etfw">#DevFest19</a> Melbourne this November! Will be in excellent company with <a href="https://twitter.com/msandfor?ref_src=twsrc%5Etfw">@msandfor</a> and other fantastic speakers 😍<br><br>Get your tickets and full details at <a href="https://t.co/OGAPsN5Oew">https://t.co/OGAPsN5Oew</a> <a href="https://twitter.com/GDGMelbourne?ref_src=twsrc%5Etfw">@GDGMelbourne</a> <a href="https://twitter.com/yow_conf?ref_src=twsrc%5Etfw">@yow_conf</a></p>&mdash; Jess Budd (@jessbudd4) <a href="https://twitter.com/jessbudd4/status/1178871826056826881?ref_src=twsrc%5Etfw">October 1, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-And a couple days later, to speak at the very first [DDDAdelaide](https://www.dddadelaide.com/).
+And a couple days later, I was selected to speak at the very first [DDDAdelaide](https://www.dddadelaide.com/).
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">So excited that I&#39;ll be speaking at the first ever <a href="https://twitter.com/DDDAdelaide?ref_src=twsrc%5Etfw">@DDDAdelaide</a>! Check out this amazing agenda!<br><br>Also, there&#39;s something really special knowing the developer community voted for your talk and for you to be there 🥰😊 <a href="https://t.co/Dr7KooId3O">https://t.co/Dr7KooId3O</a></p>&mdash; Jess Budd (@jessbudd4) <a href="https://twitter.com/jessbudd4/status/1180050231011885056?ref_src=twsrc%5Etfw">October 4, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 
 ## What have I learned?
 
-- __You've got to be in it to win it__. I always felt I had nothing to say, no one would want to listen to me or take a chance on an inexperienced speaker. I was wrong.
+- __You've got to be in it to win it__. I always felt like I had nothing to say, no one would want to listen to me or take a chance on an inexperienced speaker. I was wrong.
 - __People want to help you__. I've had offers to help come up with talk ideas, write abstracts and give slide feedback from multiple people on twitter I've never even met in real life. If you show interest, people will put their hands up to help you get there.
 
 - __There are lots of free speaking resources__. All over the internet tech speakers are writing resources for us beginners to get into conference speaking. I highly recommend Zach Holman's <a href='https://speaking.io'>speaking.io</a> and Rachel Andrew's <a href="https://www.smashingmagazine.com/2018/02/getting-started-public-speaking/">Getting Started in Public Speaking</a> as starting points.
