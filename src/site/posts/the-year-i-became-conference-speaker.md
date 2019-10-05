@@ -111,7 +111,7 @@ And a couple days later, I was selected to speak at the very first [DDDAdelaide]
 
 - __There are lots of free speaking resources__. All over the internet tech speakers are writing resources for us beginners to get into conference speaking. I highly recommend Zach Holman's <a href='https://speaking.io'>speaking.io</a> and Rachel Andrew's <a href="https://www.smashingmagazine.com/2018/02/getting-started-public-speaking/">Getting Started in Public Speaking</a> as starting points.
 
-- __Listen when people say you can do this!__ Forget that inner voice telling you you're not good enough. Put yourself out there anyway. You never know how far you can go when you take a chance on yourself.
+- __Listen when people say you can do this!__ This one might just me, but I have a bad habit of assuming people are just being nice when they shown confidence in my abilities. I needed to get out of my own way (and own head) to put myself out there for opportunites. 
 
 
 ## What next?
