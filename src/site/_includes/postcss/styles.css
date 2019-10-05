@@ -585,3 +585,7 @@ twitter-widget {
 .sharethis-inline-share-buttons {
   margin: 60px 0 0;
 }
+
+.listing time {
+  color: $heading-color;
+}

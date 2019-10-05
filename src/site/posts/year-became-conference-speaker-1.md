@@ -108,6 +108,7 @@ And a couple days later, to speak at the very first [DDDAdelaide](https://www.dd
 - __There are lots of free speaking resources__. All over the internet tech speakers are writing resources for us beginners to get into conference speaking. I highly recommend Zach Holman's <a href='https://speaking.io'>speaking.io</a> and Rachel Andrew's <a href="https://www.smashingmagazine.com/2018/02/getting-started-public-speaking/">Getting Started in Public Speaking</a> as starting points.
 
 
+
 ## What next?
 
 Well, now I actually have to write, practice and perform the talks :joy:
