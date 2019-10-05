@@ -1,15 +1,14 @@
 ---
 title: Speaking
 layout: layouts/base.njk
-subtitle: In 2019 I decided to share my knowledge with the web  community through public speaking. You can view my upcoming and past talks below.
+subtitle: In 2019 I decided to share my knowledge with the web  community through public speaking. View my upcoming and past talks below.
 meta: A list of Jess Budd's upcoming and past tech talks.
 ---
-<div class="talks">
+<div class="container__blog talks">
   <h1>{{title}}</h1>
   {%- if subtitle %}<p class="subtitle">{{ subtitle | safe }}</p>{% endif %}
 
   <hr>
-
 
 {% include "upcoming-talks.njk" %}
 

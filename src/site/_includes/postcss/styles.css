@@ -62,12 +62,8 @@ body {
   width: 90%;
   text-align: left;
 }
-  @media (min-width: $mid) {
-    .container__blog  {
-    max-width: 600px;
-  }
-}
-  @media (min-width: $wide) {
+
+  @media (min-width: $desk) {
     .container__blog {
     max-width: 800px;
     max-width: 42em;
@@ -549,7 +545,7 @@ img, svg {
 }
 
 .talks {
-  max-width: 50em;
+  max-width: 42em;
   margin: 0 auto;
   h3 {
     margin-bottom: 0px;
