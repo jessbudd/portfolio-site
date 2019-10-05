@@ -43,7 +43,7 @@ Often, my speaker friends would encourage me to come up with talk ideas to submi
 
 ## Until... 
 
-August 2019, [JSConf Hawaiʻi](https://www.jsconfhi.com/) released it's [Call For Proposals (CFP)](https://speaking.io/plan/writing-a-cfp/). And this conference folks, looked _amazing_ :heart_eyes:
+August 2019, [JSConf Hawaiʻi](https://www.jsconfhi.com/) released it's Call for Proposals (CFP). [This is where you](https://speaking.io/plan/writing-a-cfp/). And this conference folks, looked _amazing_ :heart_eyes:
 
 Not only was this well respected event happening in a place I've always dreamed of going (HAWAI'I baby!), the CFP _specifically welcomed first-time speakers_! And the topics didn't even have to be JavaScript!
 
@@ -55,14 +55,18 @@ Not only was this well respected event happening in a place I've always dreamed 
 
 I was sold. 
 
-I needed to at least put my hat in ring, right??
+I needed to at least put my hat in the ring, right??
 
 
 ## Call in the troops
 
 This is when I enlisted my dream team ([Mandy](https://twitter.com/Mandy_Kerr), [Amy](https://twitter.com/Amys_Kapers), [Julie](https://twitter.com/stringy) and [Sandy](https://twitter.com/sandysandy)) to help me figure out how to make this whole CFP thing happen.
 
-We organised a hacksesh and by the end of the night, I had three validated talk ideas and some rough abstracts.
+We organised a hacksesh and Mandy helped me brainstorm potential ideas using questions similar to the ones found in [this post by Lucy Bain](https://lucybain.com/blog/2016/conference-proposal-ideas/). 
+
+I then wrangled these ideas into three talk abstracts. (An abstract is a description of your talk idea in a couple paragraphs that sells the idea to the conference organisers and attendees).
+
+By the end of the night, I had three validated talk ideas and some rough abstracts to polish up.
 
 The next day, I took a big deep breath, drew up all my courage and submitted my all three of my talk ideas to JSConf.
 
@@ -84,9 +88,9 @@ So I put in submissions for those too.
 ##  And then something crazy happened...
 
 
-My friend and mentor had to decline a speaking offer as she was already speaking somewhere else and... RECOMMENDED ME INSTEAD :scream:
+[Mandy](https://twitter.com/Mandy_Kerr) was invited to speak at [LaraconAU](http://laracon.com.au), but had to decline due to already speaking at [Web Directions](https://www.webdirections.org/wds/speakers/mandy-kerr.php) at the same time... so she RECOMMENDED ME :scream:
 
-The conference organiser liked one of my talk ideas (_Making React Apps Accessible_) and was willing to take a chance on a newbie - and that was it! My first ever conference talk was booked!
+Laracon's organiser liked one of my talk ideas (_Making React Apps Accessible_) and was willing to take a chance on a newbie - and that was it! My first ever conference talk was booked!
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Excited to share I&#39;ll be speaking at <a href="https://twitter.com/LaraconAU?ref_src=twsrc%5Etfw">@LaraconAU</a> in Sydney this October! If you&#39;re around, be sure to come say hi 😀 <a href="https://t.co/PuZbmB6bqE">https://t.co/PuZbmB6bqE</a></p>&mdash; Jess Budd (@jessbudd4) <a href="https://twitter.com/jessbudd4/status/1171327217185374208?ref_src=twsrc%5Etfw">September 10, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
@@ -107,7 +111,7 @@ And a couple days later, I was selected to speak at the very first [DDDAdelaide]
 
 - __There are lots of free speaking resources__. All over the internet tech speakers are writing resources for us beginners to get into conference speaking. I highly recommend Zach Holman's <a href='https://speaking.io'>speaking.io</a> and Rachel Andrew's <a href="https://www.smashingmagazine.com/2018/02/getting-started-public-speaking/">Getting Started in Public Speaking</a> as starting points.
 
-- __Listen when people say you can do this__! Forget that inner voice telling you you're not good enough. Put yourself out there anyway. You never know how far you can go when you take a chance on yourself.
+- __Listen when people say you can do this!__ Forget that inner voice telling you you're not good enough. Put yourself out there anyway. You never know how far you can go when you take a chance on yourself.
 
 
 ## What next?
