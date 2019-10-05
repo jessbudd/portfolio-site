@@ -164,7 +164,7 @@ p {
 }
 
 hr {
-  color: $heading-color;
+  border-color: mix($text-color, $accent-color, 20%);
   margin-top:60px;
 }
 ul, ol {
@@ -404,7 +404,7 @@ main {
 }
 .proof-points {
   padding-bottom: 50px;
-  border-bottom: 1px solid #19ffd7;
+  border-bottom: 1px solid $accent-color;
 }
 .proof-points__title {
   margin-top: 24px;
@@ -568,6 +568,6 @@ img, svg {
 .talk__title {
   font-style: italic;
 }
-.talk__details {
-  
+.talk__link {
+  font-style: normal;
 }

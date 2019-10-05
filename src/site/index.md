@@ -36,35 +36,7 @@ meta: Jess Budd is UI developer, web accessibility consultant and digital produc
 
 <section class="talks">
 
-this is a test
-
-<!-- ## I also like to talk
-
-<p class="subtitle">This year I've decided to share my knowledge by speaking at conferences. You can see my upcoming talks below. </p> -->
-
-## Upcoming Talks
-
-### [LaraconAU](https://laracon.com.au/)
-
-<p class="talk__title">Making React Apps Accessible: It's easier than you think</p>
-
-<p class="talk__details">31 October - 1 November 2019, Sydney Australia</p>
-
-
-### [Google DevFest](https://www.gdgmelbourne.com/devfest)
-
-<p class="talk__title">Live Life in Perpetual Beta: What Software Development Can Teach Us About Life</p>
-
-<p  class="talk__details">8 November 2019, Melbourne Australia</p>
-
-
-### [DDDAdelaide](https://www.dddadelaide.com/)
-
-<p class="talk__title">Making React Apps Accessible: It's easier than you think</p>
-
-<p  class="talk__details">23 November 2019, Adelaide Australia</p>
-
-
+{% include "upcoming-talks.njk" %}
 
 
 </section>
