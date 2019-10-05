@@ -9,7 +9,7 @@ meta: My experience in going from too shy to speak up in meetings to soonto-be c
 <p class="subtitle">Three and a half months ago, I decided to give some public speaking a go. Today, I have 3 conference talks lined up. How did this happen??</p>
 
 
-I suppose it actually all started nearly 2 years ago, when I was fortunate enough to be gifted a free ticket to attend [CSSConfAU](https://2018.cssconf.com.au) in Melbourne. I managed to use frequent flyer points accumulated from years of grocery shopping to pay for flights, and split the cost of an airbnb with two friends also attending from Perth. 
+I suppose it actually all started nearly 2 years ago, when I was fortunate enough to be gifted a free ticket to attend [CSSConfAU](https://2018.cssconf.com.au) in Melbourne. I managed to use frequent flyer points accumulated from years of grocery shopping to pay for flights, and split the cost of an Airbnb with two friends also attending from Perth. 
 
 At the airport, waiting for our flights home, I was gushing what an amazing experience the conference had been. And in quick succession, lamenting how I wished I could afford to attend more. 
 
@@ -17,7 +17,7 @@ My friends then let me in on a little secret.
 
 If I wanted to attend conferences on (very) limited funds, I could become a _speaker_.
 
-As a speaker you get free entry to the event, and quite often, the conference will cover flights and acommodation for  interstate speakers. What an amazing way to increase the number of conferences you can attend!
+As a speaker you get free entry to the event, and quite often, the conference will cover flights and accommodation for  interstate speakers. What an amazing way to increase the number of conferences you can attend!
 
 ## Except...
 
@@ -37,7 +37,7 @@ But that was the moment, the seed was planted.
 
 ## The Seed Grows...
 
-Fast forward a year and I'm co-organiser of a [meetup group for front-end developers](http://fenders.co). I've MC'd our events a few times without anything too disasterous happening. And although I'm still afraid of public speaking, I've come around to the fact it's a really beneficial skill to have.
+Fast forward a year and I'm co-organiser of a [meetup group for front-end developers](http://fenders.co). I've MC'd our events a few times without anything too disastrous happening. And although I'm still afraid of public speaking, I've come around to the fact it's a really beneficial skill to have.
 
 Often, my speaker friends would encourage me to come up with talk ideas to submit to events. And I would continue to deflect, because speaking at conferences is something _other people do_.
 
@@ -45,7 +45,7 @@ Often, my speaker friends would encourage me to come up with talk ideas to submi
 
 August 2019, [JSConf Hawaiʻi](https://www.jsconfhi.com/) released it's Call for Proposals (CFP). [This is where you](https://speaking.io/plan/writing-a-cfp/). And this conference folks, looked _amazing_ :heart_eyes:
 
-Not only was this well respected event happening in a place I've always dreamed of going (HAWAI'I baby!), the CFP _specifically welcomed first-time speakers_! And the topics didn't even have to be JavaScript!
+Not only was this well-respected event happening in a place I've always dreamed of going (HAWAI'I baby!), the CFP _specifically welcomed first-time speakers_! And the topics didn't even have to be JavaScript!
 
 <figure>
 <img src="/images/posts/jsconf-cfp.png" alt="JSConf Call For Papers Diversity Wording, We welcome beginner speakers apply"/>
@@ -68,7 +68,7 @@ I then wrangled these ideas into three talk abstracts. (An abstract is a descrip
 
 By the end of the night, I had three validated talk ideas and some rough abstracts to polish up.
 
-The next day, I took a big deep breath, drew up all my courage and submitted my all three of my talk ideas to JSConf.
+The next day, I took a big deep breath, drew up all my courage and submitted all three of my talk ideas to JSConf.
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Just submitted my first ever conference proposal - eeek! Big thanks to <a href="https://twitter.com/Mandy_Kerr?ref_src=twsrc%5Etfw">@Mandy_Kerr</a> <a href="https://twitter.com/Amys_Kapers?ref_src=twsrc%5Etfw">@Amys_Kapers</a> and <a href="https://twitter.com/stringy?ref_src=twsrc%5Etfw">@stringy</a> who&#39;ve been my constant inspiration/supporters and <a href="https://twitter.com/sandysandy?ref_src=twsrc%5Etfw">@sandysandy</a> for her wordsmith help ❤️🤗</p>&mdash; Jess Budd (@jessbudd4) <a href="https://twitter.com/jessbudd4/status/1165114649743749125?ref_src=twsrc%5Etfw">August 24, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
@@ -77,7 +77,7 @@ The next day, I took a big deep breath, drew up all my courage and submitted my 
 
 So now I had these three talk proposals (and so very little chance of being accepted to my dream conference). It would be a waste not to use them again....
 
-Friends suggested I should submit to [DDDAdelaide](https://www.dddadelaide.com/) and [Google DevFest](https://www.gdgmelbourne.com/devfest), both known for being exceptionally welcoming to beginners. Now, these are community run conferences, which means unfortunately they're not able to cover speaker flights or accomodation. 
+Friends suggested I should submit to [DDDAdelaide](https://www.dddadelaide.com/) and [Google DevFest](https://www.gdgmelbourne.com/devfest), both known for being exceptionally welcoming to beginners. Now, these are community run conferences, which means unfortunately they're not able to cover speaker flights or accommodation. 
 
 But as [Amy](https://twitter.com/Amys_Kapers) always says, "_That's future Jess's problem_." :sweat_smile:
 
