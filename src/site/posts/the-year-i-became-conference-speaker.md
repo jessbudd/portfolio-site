@@ -77,7 +77,7 @@ Friends suggested I should submit to [DDDAdelaide](https://www.dddadelaide.com/)
 
 But as [Amy](https://twitter.com/Amys_Kapers) always says, "_That's future Jess's problem_." :sweat_smile:
 
-And the chances of getting were pretty slim anyway. 
+And the chances of getting in were pretty slim anyway. 
 
 So I put in submissions for those too. 
 
@@ -86,12 +86,12 @@ So I put in submissions for those too.
 
 My friend and mentor had to decline a speaking offer as she was already speaking somewhere else and... RECOMMENDED ME INSTEAD :scream:
 
-The conference organiser liked one of my talk ideas (Making React Apps Accessible) and was willing to take a chance on a newbie - and that was it! My first ever conference talk was booked!
+The conference organiser liked one of my talk ideas (_Making React Apps Accessible_) and was willing to take a chance on a newbie - and that was it! My first ever conference talk was booked!
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Excited to share I&#39;ll be speaking at <a href="https://twitter.com/LaraconAU?ref_src=twsrc%5Etfw">@LaraconAU</a> in Sydney this October! If you&#39;re around, be sure to come say hi 😀 <a href="https://t.co/PuZbmB6bqE">https://t.co/PuZbmB6bqE</a></p>&mdash; Jess Budd (@jessbudd4) <a href="https://twitter.com/jessbudd4/status/1171327217185374208?ref_src=twsrc%5Etfw">September 10, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 
-3 weeks after that, my submission to speak at [Google DevFest](https://www.gdgmelbourne.com/devfest) in Melbourne as accepted.
+3 weeks after that, my submission to speak at [Google DevFest](https://www.gdgmelbourne.com/devfest) in Melbourne was accepted.
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">I&#39;m speaking at <a href="https://twitter.com/hashtag/DevFest19?src=hash&amp;ref_src=twsrc%5Etfw">#DevFest19</a> Melbourne this November! Will be in excellent company with <a href="https://twitter.com/msandfor?ref_src=twsrc%5Etfw">@msandfor</a> and other fantastic speakers 😍<br><br>Get your tickets and full details at <a href="https://t.co/OGAPsN5Oew">https://t.co/OGAPsN5Oew</a> <a href="https://twitter.com/GDGMelbourne?ref_src=twsrc%5Etfw">@GDGMelbourne</a> <a href="https://twitter.com/yow_conf?ref_src=twsrc%5Etfw">@yow_conf</a></p>&mdash; Jess Budd (@jessbudd4) <a href="https://twitter.com/jessbudd4/status/1178871826056826881?ref_src=twsrc%5Etfw">October 1, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
