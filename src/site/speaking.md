@@ -2,7 +2,7 @@
 title: Speaking
 layout: layouts/base.njk
 subtitle: Topics I am available to speak about include accessibility, front-end web development, HTML, CSS, agile project management, web design, community organisation, learning
-meta: Jess Budd is UI developer, web accessibility consultant and digital producer available to speak at your next tech event. Read more for exising talks.
+meta: Jess Budd is UI developer, web accessibility consultant and digital producer based in Perth and available to speak at your next tech event.
 ---
 <div class="container__blog">
   <h1>{{title}}</h1>

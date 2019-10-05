@@ -112,7 +112,7 @@ h2, .h2 {
     margin-bottom:24px;
     }
   };
-  @media (min-width: $desk) {
+  @media (min-width: $wide) {
     h2, .h2 {
     font-size: 2.5em;
   }
@@ -128,7 +128,7 @@ h3, .h3 {
     font-size: 1.5em;
     }
   }
-  @media (min-width: $desk) {
+  @media (min-width: $wide) {
     h3, .h3 {
     font-size: 1.8em;
   }
@@ -402,8 +402,13 @@ main {
     padding-top: 100px;
   }
 }
+.proof-points {
+  padding-bottom: 50px;
+  border-bottom: 1px solid #19ffd7;
+}
 .proof-points__title {
   margin-top: 24px;
+  text-align: center;
 }
 .proof-points__img {
   text-align: center;
@@ -413,6 +418,11 @@ main {
   max-height: 150px;
 }
 
+@media (min-width: $desk) {
+  .proof-points__title {
+    text-align: left;
+  }
+}
 .emoji-legend {
   color: $heading-color;
   font-size: .9em;
@@ -538,3 +548,26 @@ img, svg {
   width: 400px;
 }
 
+.talks {
+  max-width: 50em;
+  margin: 0 auto;
+  h3 {
+    margin-bottom: 0px;
+    margin-top: 24px;
+  }
+   h3 a {
+    color: $text-color;
+    font-weight: normal;
+    font-size: 1.3rem;
+  }
+  p {
+    margin-top: .5em;
+    margin-bottom: .5em;
+  }
+}
+.talk__title {
+  font-style: italic;
+}
+.talk__details {
+  
+}
