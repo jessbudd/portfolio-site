@@ -1,21 +1,18 @@
 ---
-layout: layouts/base.njk
+layout: layouts/blog.njk
 pageClass: posts
+# tags: {{tags}}
 templateEngineOverride: njk, md
 ---
 
-<div class="container__blog">
-  <h1>{{ title }}</h1>
-  {%- if subtitle %}<p class="subtitle">{{ subtitle | safe }}</p>{% endif %}
-  
-<p class="date">
-  Posted <time datetime="{{ date }}">{{ date | dateDisplay }}</time>
-</p>
-<main>
+
 
 
 
   {{ content | safe }}
+
+
+<div class="sharethis-inline-share-buttons" data-title="{{title}} @jessbudd4"></div>
 
   <div class="bio">
     <img src="/images/jess-budd-bio-fun.jpg" class="bio__avatar" alt="Jess Budd informal headshot" />
