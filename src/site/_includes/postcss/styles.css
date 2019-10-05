@@ -589,3 +589,9 @@ twitter-widget {
 .listing time {
   color: $heading-color;
 }
+
+@media (max-width:480px) {
+.nav li:nth-of-type(3) {
+  display:none;
+}
+}
