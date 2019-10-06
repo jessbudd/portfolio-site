@@ -615,12 +615,18 @@ blockquote.twitter-tweet p {
   color: $black;
 }
 
-blockquote.twitter-tweet a {
+blockquote.twitter-tweet a[href^="https://twitter"] {
   color: $black;
   font-weight: normal;
   text-decoration: none;
   outline: 0 none;
 }
+
+
+blockquote.twitter-tweet .Tweet-header {
+  color: $black;
+}
+
 
 blockquote.twitter-tweet a:hover,
 blockquote.twitter-tweet a:focus {
