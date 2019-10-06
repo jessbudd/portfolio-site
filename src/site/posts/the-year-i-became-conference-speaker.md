@@ -69,11 +69,11 @@ This is when I enlisted my dream team ([@Mandy_Kerr](https://twitter.com/Mandy_K
 
 We organised a hacksesh and Mandy helped me brainstorm potential ideas using questions similar to the ones found in [this post by Lucy Bain](https://lucybain.com/blog/2016/conference-proposal-ideas/). 
 
-I then wrangled these ideas into three talk abstracts. (An abstract is a description of your talk idea in a couple paragraphs that sells the idea to the conference organisers and attendees).
+I then wrangled these ideas into three talk abstracts. (An abstract is a description of your talk idea, in a couple paragraphs, to sell it to the conference organisers and attendees).
 
 By the end of the night, I had three validated talk ideas and some rough abstracts to polish up.
 
-The next day, I took a big deep breath, drew up all my courage and submitted all three of my talk ideas to JSConf.
+The next day, I took a big deep breath, drew up my courage and submitted all three of my talk ideas to JSConf.
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Just submitted my first ever conference proposal - eeek! Big thanks to <a href="https://twitter.com/Mandy_Kerr?ref_src=twsrc%5Etfw">@Mandy_Kerr</a> <a href="https://twitter.com/Amys_Kapers?ref_src=twsrc%5Etfw">@Amys_Kapers</a> and <a href="https://twitter.com/stringy?ref_src=twsrc%5Etfw">@stringy</a> who&#39;ve been my constant inspiration/supporters and <a href="https://twitter.com/sandysandy?ref_src=twsrc%5Etfw">@sandysandy</a> for her wordsmith help ❤️🤗</p>&mdash; Jess Budd (@jessbudd4) <a href="https://twitter.com/jessbudd4/status/1165114649743749125?ref_src=twsrc%5Etfw">August 24, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
@@ -95,7 +95,7 @@ So I put in submissions for those too.
 
 [@Mandy_Kerr](https://twitter.com/Mandy_Kerr) was invited to speak at [LaraconAU](http://laracon.com.au), but had to decline due to already speaking at [Web Directions](https://www.webdirections.org/wds/speakers/mandy-kerr.php) at the same time... so SHE RECOMMENDED ME :scream:
 
-Laracon's organiser liked one of my talk ideas (_Making React Apps Accessible_) and was willing to take a chance on a newbie - and that was it! My first ever conference talk was booked!
+Laracon's organiser was willing to take a chance on a newbie - and that was it! My first ever conference talk was booked!
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Excited to share I&#39;ll be speaking at <a href="https://twitter.com/LaraconAU?ref_src=twsrc%5Etfw">@LaraconAU</a> in Sydney this October! If you&#39;re around, be sure to come say hi 😀 <a href="https://t.co/PuZbmB6bqE">https://t.co/PuZbmB6bqE</a></p>&mdash; Jess Budd (@jessbudd4) <a href="https://twitter.com/jessbudd4/status/1171327217185374208?ref_src=twsrc%5Etfw">September 10, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
