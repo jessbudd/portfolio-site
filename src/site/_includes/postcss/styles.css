@@ -597,6 +597,7 @@ blockquote.twitter-tweet {
   font-size: 12px;
   font-weight: bold;
   line-height: 16px;
+  background-color: #fff;
   border-color: #eee #ddd #bbb;
   border-radius: 5px;
   border-style: solid;
@@ -611,10 +612,11 @@ blockquote.twitter-tweet p {
   font-size: 16px;
   font-weight: normal;
   line-height: 20px;
+  color: $black;
 }
 
 blockquote.twitter-tweet a {
-  color: inherit;
+  color: $black;
   font-weight: normal;
   text-decoration: none;
   outline: 0 none;
