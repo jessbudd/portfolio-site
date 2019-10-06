@@ -44,7 +44,10 @@ Often, my speaker friends would encourage me to come up with talk ideas to submi
 
 ## Until... 
 
-August 2019, [JSConf Hawaiʻi](https://www.jsconfhi.com/) released it's Call for Proposals (CFP). [This is where you](https://speaking.io/plan/writing-a-cfp/). And this conference folks, looked _amazing_ :heart_eyes:
+August 2019, [JSConf Hawaiʻi](https://www.jsconfhi.com/) released it's Call for Proposals (CFP). 
+(A CFP is the formal process of conferences requesting people to apply to speak at their conference.)
+
+And this conference folks, looked _amazing_ :heart_eyes:
 
 Not only was this well-respected event happening in a place I've always dreamed of going (HAWAI'I baby!), the CFP _specifically welcomed first-time speakers_! And the topics didn't even have to be JavaScript!
 
