@@ -61,6 +61,14 @@ body {
   margin-right: auto;
   width: 90%;
   text-align: left;
+
+}
+
+.twitter a[href^="https://twitter"] {
+  font-weight: bold;
+  color: $accent-color;
+  text-decoration: none;
+  border-bottom: none;
 }
 
   @media (min-width: $desk) {

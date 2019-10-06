@@ -6,6 +6,7 @@ meta: My experience in going from too shy to speak up in meetings to soonto-be c
 # tags: post speaking
 ---
 
+<div class="twitter">
 <p class="subtitle">Three and a half months ago, I decided to give some public speaking a go. Today, I have 3 conference talks lined up. How did this happen??</p>
 
 
@@ -60,7 +61,7 @@ I needed to at least put my hat in the ring, right??
 
 ## Call in the troops
 
-This is when I enlisted my dream team ([Mandy](https://twitter.com/Mandy_Kerr), [Amy](https://twitter.com/Amys_Kapers), [Julie](https://twitter.com/stringy) and [Sandy](https://twitter.com/sandysandy)) to help me figure out how to make this whole CFP thing happen.
+This is when I enlisted my dream team ([@Mandy_Kerr](https://twitter.com/Mandy_Kerr), [@Amys_Kapers](https://twitter.com/Amys_Kapers), [@stringy](https://twitter.com/stringy) and [@sandysandy](https://twitter.com/sandysandy)) to help me figure out how to make this whole CFP thing happen.
 
 We organised a hacksesh and Mandy helped me brainstorm potential ideas using questions similar to the ones found in [this post by Lucy Bain](https://lucybain.com/blog/2016/conference-proposal-ideas/). 
 
@@ -79,7 +80,7 @@ So now I had these three talk proposals (and so very little chance of being acce
 
 Friends suggested I should submit to [DDDAdelaide](https://www.dddadelaide.com/) and [Google DevFest](https://www.gdgmelbourne.com/devfest), both known for being exceptionally welcoming to beginners. Now, these are community run conferences, which means unfortunately they're not able to cover speaker flights or accommodation. 
 
-But as [Amy](https://twitter.com/Amys_Kapers) always says, "_That's future Jess's problem_." :sweat_smile:
+But as [@Amys_Kapers](https://twitter.com/Amys_Kapers) always says, "_That's future Jess's problem_." :sweat_smile:
 
 And the chances of getting in were pretty slim anyway. 
 
@@ -88,7 +89,7 @@ So I put in submissions for those too.
 ##  And then something crazy happened...
 
 
-[Mandy](https://twitter.com/Mandy_Kerr) was invited to speak at [LaraconAU](http://laracon.com.au), but had to decline due to already speaking at [Web Directions](https://www.webdirections.org/wds/speakers/mandy-kerr.php) at the same time... so SHE RECOMMENDED ME :scream:
+[@Mandy_Kerr](https://twitter.com/Mandy_Kerr) was invited to speak at [LaraconAU](http://laracon.com.au), but had to decline due to already speaking at [Web Directions](https://www.webdirections.org/wds/speakers/mandy-kerr.php) at the same time... so SHE RECOMMENDED ME :scream:
 
 Laracon's organiser liked one of my talk ideas (_Making React Apps Accessible_) and was willing to take a chance on a newbie - and that was it! My first ever conference talk was booked!
 
@@ -122,3 +123,5 @@ I'll let you know how that goes in Part Two!
 
 
 _To be continued...._
+
+</div>

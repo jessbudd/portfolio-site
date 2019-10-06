@@ -15,7 +15,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/css/styles.css">
      <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon3.png">
+        <link rel="stylesheet" href="/css/prism.css">
     <title>{{ title }} - Jess Budd</title>
+    {%- if meta %}<meta name="description" content="{{ meta | safe }}"">{% endif %}
     <script type="text/javascript" src="https://platform-api.sharethis.com/js/sharethis.js#property=5d9861d9c34c650019cbc214&product=inline-share-buttons" async="async"></script>
   </head>
   <body {% if bodyClass %}class="{{ bodyClass }}"{% endif %}>
