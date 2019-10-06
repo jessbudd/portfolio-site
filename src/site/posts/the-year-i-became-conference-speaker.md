@@ -11,7 +11,7 @@ img: https://jessbudd.com/images/featured/confSpeaker.png
 <p class="subtitle">Three and a half months ago, I decided to give some public speaking a go. Today, I have 3 conference talks lined up. How did this happen??</p>
 
 
-You could say it actually all started nearly 2 years ago, when I was fortunate enough to be gifted a free ticket to attend [CSSConfAU](https://2018.cssconf.com.au) in Melbourne. I managed to use frequent flyer points accumulated from years of grocery shopping to pay for flights, and split the cost of an Airbnb with two friends also attending from Perth. 
+You could say it actually all started nearly 2 years ago, when I was fortunate enough to be gifted a free ticket to attend [CSSConfAU](https://2018.cssconf.com.au). I managed to use frequent flyer points accumulated from years of grocery shopping to pay for flights, and split the cost of an Airbnb with two friends also attending from Perth. 
 
 At the airport, waiting for our flights home, I was gushing what an amazing experience the conference had been. And in quick succession, lamenting how I wished I could afford to attend more. 
 
@@ -41,7 +41,7 @@ But that was the moment, the seed was planted.
 
 Fast forward a year and I'm co-organiser of a [meetup group for front-end developers](http://fenders.co). I've MC'd our events a few times without anything too disastrous happening. And although I'm still afraid of public speaking, I've come around to the fact it's a really beneficial skill to have.
 
-Often, my speaker friends would encourage me to come up with talk ideas to submit to events. And I would continue to deflect, because speaking at conferences is something _other people do_.
+Frequently, my speaker friends would encourage me to apply to speak at events. And I would continue to deflect, because speaking at conferences is something _other people do_.
 
 ## Until... 
 
