@@ -20,7 +20,6 @@
     {%- if meta %}<meta name="description" content="{{ meta | safe }}">{% endif %}
 
 <!--twitter sharing-->
- 
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:creator" content="@jessbudd4">
     <meta name="twitter:title" content="{{ title | safe }}">
@@ -31,7 +30,6 @@
     {%- if img %}
     <meta name="twitter:image" content="{{ img | safe }}">
     {% endif %}
-
     <script type="text/javascript" src="https://platform-api.sharethis.com/js/sharethis.js#property=5d9861d9c34c650019cbc214&product=inline-share-buttons" async="async"></script>
   </head>
   <body {% if bodyClass %}class="{{ bodyClass }}"{% endif %}>
