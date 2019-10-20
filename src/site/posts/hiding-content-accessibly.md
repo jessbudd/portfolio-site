@@ -113,7 +113,7 @@ this can also be achieved with
 
 <pre>
 <code class="language-markup">
-&lt;div aria-hidden="true">I am hidden from the accessibility tree</&lt;
+&lt;div aria-hidden="true">I am hidden from the accessibility tree</div>```
 </code>
 </pre>
 
