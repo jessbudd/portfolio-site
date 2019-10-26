@@ -1,5 +1,5 @@
 ---
-title: Home
+title: Jess Budd, Accessibility Consultant & Front-end Dev
 # subtitle: (Metaphorically speaking)
 layout: layouts/base.njk
 meta: Jess Budd is UI developer, web accessibility consultant and digital producer based in Perth, Australia. 
