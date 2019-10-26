@@ -1,7 +1,7 @@
 ---
 title: Speaking
 layout: layouts/base.njk
-subtitle: In 2019 I decided to share my knowledge with the web  community through public speaking. View my upcoming and past talks below.
+subtitle: I love to share my knowledge about web accessibility and front-end development with the tech community. This year I'm doing this through public speaking. <br>See my upcoming and past talk events below.
 meta: A list of Jess Budd's upcoming and past tech talks.
 ---
 <div class="container__blog talks">

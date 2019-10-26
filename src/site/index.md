@@ -1,5 +1,5 @@
 ---
-title: Home
+title: Jess Budd, Accessibility Consultant & Front-end Dev
 # subtitle: (Metaphorically speaking)
 layout: layouts/base.njk
 meta: Jess Budd is UI developer, web accessibility consultant and digital producer based in Perth, Australia. 
@@ -15,7 +15,7 @@ meta: Jess Budd is UI developer, web accessibility consultant and digital produc
       <div class="proof-points__img">
         <img class="proof-points__img-svg" src="/images/undraw_developer.svg" alt="">
       </div>
-      <h2 class="proof-points__title">UI Developer</h2>
+      <h2 class="proof-points__title">Front-end Developer</h2>
       <p class="proof-points__subtitle">My focus lies in the front-end, where semantic, accessible HTML, well structured CSS and presentational JavaScript come together to craft human-centric user experiences.  </p>
     </div><!--col-->
     <div class="col">
