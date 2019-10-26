@@ -7,19 +7,18 @@ meta:
 # tag: speaking
 ---
 
-There are often situations in web development where we need to hide content, either temporarily or permanently. However different techniques for hiding content will have different impacts on people using assistive technologies, such as screen readers. 
+<p class="subtitle">There are often situations where we need to hide content on a page, either temporarily or permanently. However different techniques will have different impacts for accessibility and some methods will be more appropriate for certain situations.</p> 
 
-This means particular techniques will be more appropriate for certain situations.
-
-I want to quickly cover some of those situations, and which method would be appropriate to ensure web accessibility. 
+<!-- 
+I want to quickly cover some of those situations, and which method would be appropriate to ensure web accessibility.  -->
 
 <!-- If you're new to accessibility, I recommend checking out <a href="#">Microsoft's What Is Inclusive Design</a>. -->
 
 There are generally 3 scenarios where we want to hide content:
 
-- We want to hide content for everyone, including people using screen readers.
-- We want to hide content visually, but not from screenreaders
-- We want to hide content from screenreaders, but not visually
+1. We want to hide content for everyone (including people using screen readers).
+1. We want to hide content visually (but not from screenreaders)
+1. We want to hide content from screenreaders (but not visually)
 
 ## Hiding content for everyone
 
