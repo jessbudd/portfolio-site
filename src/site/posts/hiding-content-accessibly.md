@@ -1,7 +1,7 @@
 ---
 title: Hiding Content Accessibly
 subtitle: 
-date: 2019-10-29
+date: 2019-10-27
 meta: There are often situations where we need to hide content on a page, here's how to do so accessibily.
 # img: https://jessbudd.com/images/featured/confSpeaker.png
 # tag: speaking
