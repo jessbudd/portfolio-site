@@ -2,7 +2,7 @@
 title: Hiding Content Accessibly
 subtitle: 
 date: 2019-10-27
-meta: There are often situations where we need to hide content on a page, here's how to do so accessibily.
+meta: There are often situations where we need to hide content on a page, here's how to do it accessibily.
 img: https://jessbudd.com/images/featured/hidingContent.png
 # tag: speaking
 ---
