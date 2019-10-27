@@ -115,7 +115,7 @@ We use a combination of css properties to position the content offscreen and the
 
 
 ### Combined approach
-An alternative approach is to combine these two methods and use the ```:not(:focus)``` and .```:not(:active)``` pseudo elements within the sr-only class. This will remove the hidden styling when an element is focused or active. 
+An alternative approach is to combine these two methods and use the ```:not(:focus)``` and ```:not(:active)``` pseudo elements within the sr-only class. This will remove the hidden styling when an element is focused or active. 
 
 <pre>
 <code class="language-css">
