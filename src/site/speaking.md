@@ -1,7 +1,7 @@
 ---
 title: Speaking
 layout: layouts/base.njk
-subtitle: I love to share my knowledge about web accessibility and front-end development with the tech community. This year I'm doing this through public speaking. <br>See my upcoming and past talk events below.
+subtitle: I enjoy sharing my knowledge about web accessibility and front-end development at a range of conferences and events.
 meta: A list of Jess Budd's upcoming and past tech talks.
 ---
 <div class="container__blog talks">
@@ -16,13 +16,13 @@ meta: A list of Jess Budd's upcoming and past tech talks.
 
 ## Past Talks
 
-<p class="subtitle">Coming soon</p>
+### [LaraconAU](https://laracon.com.au/) <span style="line-height: 1;">&bull; </span><a href="https://noti.st/jessbudd/pQ4gBc/" class="talk__link">  View Talk</a></p>
+
+<p class="talk__title">Making Single Page Apps Accessible</p>
+
+31 October - 1 November 2019, Sydney Australia 
 
 
-<!-- ### [LaraconAU](https://laracon.com.au/)
 
-<p class="talk__title">Making React Apps Accessible: It's easier than you think | <a href="#" class="talk__link">View Talk</a></p>
-
-<p class="talk__details">31 October - 1 November 2019, Sydney Australia</p> -->
 
 </div>
