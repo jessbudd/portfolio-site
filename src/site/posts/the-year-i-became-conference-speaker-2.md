@@ -1,7 +1,7 @@
 ---
 title: The Year I Became a Conference Speaker (Part Two)
 subtitle: 
-date: 2019-11-30
+date: 2019-11-04
 tags: ['post', 'speaking']
 meta: My experience going from too shy to speak up in meetings to a conference speaker - Part Two
 img: https://jessbudd.com/images/featured/confSpeaker2.png
@@ -105,8 +105,11 @@ If you're interested, you can find [my slides and other tweets I received here](
 ## What have I learned?
 
 - __Always check your speaker notes before you start talking :laughing:__ It won't hurt to take an extra minute to double check everything before you start, but it will damage your confidence if you're forced to stop part way through to fix your setup!
+
 - __Positive feedback means a lot to speakers__. Getting up on stage in front of a crowd makes you feel pretty vulnerable. Recieving positive comments helps make your world right again. If you enjoyed someone's talk, tell or tweet them!
-- __No one else will notice how nervous you are__. Despite my voice wavering, having to take constant drinks due to dry mouth and somewhat shaking hands, everyone else thought I was confident and not nervous! Don't stress yourself out worrying people will  notice your nerves.
+
+- __Other people won't notice how nervous you are__. Despite my voice wavering, having to take constant drinks due to dry mouth and somewhat shaking hands, everyone else thought I was confident and not nervous! Don't stress yourself out worrying people will  notice your nerves.
+
 - __Giving a conference talk is a _lot_ of work__. Writing your presentation, creating your slides and practicing your delivery is significantly more time intensive than I expected. I would easily have spent 40 hours on this talk. I'm sure it will be a faster process in the future, but it's certainly not something you whip up in an afternoon.
 
 
@@ -114,7 +117,7 @@ If you're interested, you can find [my slides and other tweets I received here](
 
 Right now I'm prepping hard for my next talk at [Google Dev Fest](https://www.gdgmelbourne.com/devfest) in Melbourne this weekend!
 
-Shortly after, I'll be off to Adelaide for the last leg of my Australian speaking tour for the very first [DDDAdelaide](https://www.dddadelaide.com/). (There's still [a few tickets left!](https://www.dddadelaide.com/tickets))
+Shortly after, I'll be off to Adelaide for the last leg of my speaking tour for the very first [DDDAdelaide](https://www.dddadelaide.com/). (There's still [a few tickets left!](https://www.dddadelaide.com/tickets))
 
 The third and final installment of this series will follow shortly after :smile:
 

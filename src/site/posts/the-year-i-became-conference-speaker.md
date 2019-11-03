@@ -124,9 +124,11 @@ And a couple days later, I was selected to speak at the very first [DDDAdelaide]
 
 Well, now I actually have to write, practice and perform the talks :joy:
 
-I'll let you know how that goes in Part Two!
-
 
 _To be continued...._
+
+
+<a href="/posts/the-year-i-became-conference-speaker"> Read Part Two of The Year I Became a Conference Speaker</a>
+
 
 </div>
