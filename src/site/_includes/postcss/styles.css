@@ -444,7 +444,7 @@ main {
   flex-flow: column wrap;
   margin-top: 36px;
   @media (min-width: $mid) {
-    flex-flow: row wrap;
+    flex-flow: row nowrap;
   }
 }
 .bio__avatar {
