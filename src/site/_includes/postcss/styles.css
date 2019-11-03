@@ -444,7 +444,7 @@ main {
   flex-flow: column wrap;
   margin-top: 36px;
   @media (min-width: $mid) {
-    flex-flow: row rap;
+    flex-flow: row wrap;
   }
 }
 .bio__avatar {
@@ -468,7 +468,32 @@ main {
     color: $heading-color;
   }
 }
-
+/* blog card styling */
+.blog__listing {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  h2 {
+    color: $page-color;
+    font-size: 1.8rem;
+    margin: 24px 0 0;
+  }
+  p {
+    color: $page-color;
+  }
+ time {
+    text-decoration: none;
+    /* color: white; */
+    font-style: italic;
+    font-size: .875rem;
+  }
+}
+.card {
+  /* border: 1px solid $heading-color; */
+  padding: 0 18px;
+  margin-bottom: 24px;
+  background: white;
+}
 
 footer {
   margin-top: 6em;

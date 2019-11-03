@@ -12,7 +12,7 @@ subtitle: Read some of my musings on web development, digital accessibility, tec
 {%- for page in collections.post | reverse -%}
   <li>
     <a href="{{ page.url }}">{{ page.data.title }}</a> -
-    <time datetime="{{ page.date }}">{{ page.date | dateDisplay("LLLL d, y") }}</time>
+    <time datetime="{{ page.date }}">{{ page.date | dateDisplay("LLLL  y") }}</time>
   </li>
 {%- endfor -%}
 </ul>

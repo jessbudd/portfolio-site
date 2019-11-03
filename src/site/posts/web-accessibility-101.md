@@ -1,6 +1,8 @@
 ---
 title: Web Accessibility 101
+tags: ['post', 'accessibility']
 date: 2017-03-27
+# meta: What is web accessibility? 
 ---
 So first of all, _what is web accessibility?_
 
