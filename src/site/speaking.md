@@ -16,11 +16,11 @@ meta: A list of Jess Budd's upcoming and past tech talks.
 
 ## Past Talks
 
-### [LaraconAU](https://laracon.com.au/) <span style="line-height: 1;">&bull; </span><a href="https://noti.st/jessbudd/pQ4gBc/" class="talk__link">  View Talk</a></p>
+### [LaraconAU](https://laracon.com.au/) &nbsp; <a href="https://noti.st/jessbudd/pQ4gBc/" class="talk__link">  View Talk</a></p>
 
 <p class="talk__title">Making Single Page Apps Accessible</p>
 
-31 October - 1 November 2019, Sydney Australia 
+31 October 2019, Sydney Australia 
 
 
 
