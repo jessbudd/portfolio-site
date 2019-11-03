@@ -8,14 +8,14 @@ img: https://jessbudd.com/images/featured/confSpeaker2.png
 ---
 
 <div class="twitter">
-<p class="subtitle">I  <a href="/posts/the-year-i-became-conference-speaker"> recently wrote about</a> how I came to be giving 3 conference talks, within 3 weeks, in 3 different states. This is the story of how it all panned out.</p>
+<p class="subtitle">I  <a href="/posts/the-year-i-became-conference-speaker"> recently wrote about</a> how I came to be giving 3 conference talks, within 3 weeks, in 3 different states. This is the story of my first talk.</p>
 
 <figure>
 <img src="/images/posts/laracon-speaking.jpg" alt="Jess Budd speaking at LaraconAU"/>
-<figcaption>At least it doesn't look like I'm shitting myself</figcaption>
+<figcaption>At least it <em>looks</em> like I'm not freaking out</figcaption>
 </figure>
 
-The Monday before I set off for my first talk, I had a skype [interview  with one of the DDDAdelaide sponsors](https://www.linkedin.com/pulse/coffee-catch-ups-jess-budd-simon-cook/). We chatted about my upcoming speaking opportunities, among other things, but something I particularly enjoyed was his reference to my "speaking tour of Australia" - which is a phrase I will now steal, thanks [@encodetalent](https://twitter.com/encodetalent) :joy:
+The Monday before I set off for my first talk, I had a skype [interview  with one of the DDDAdelaide sponsors](https://www.linkedin.com/pulse/coffee-catch-ups-jess-budd-simon-cook/). We chatted about my upcoming speaking engagements, among other things, but something I particularly enjoyed was his reference to my "speaking tour of Australia" - which is a phrase I will now steal, thanks [@encodetalent](https://twitter.com/encodetalent) :joy:
 
 ## My Australian Speaking Tour
 
@@ -31,11 +31,11 @@ First stop: Sydney for [LaraconAU](https://laracon.com.au/). This was a fantasti
 My talk was scheduled for early afternoon on the first day.
 
 
-My speaker friends warned me I would be too nervous to eat lunch, so the lovely [@Amys_Kapers](https://twitter.com/Amys_Kapers) (who was speaking an hour after me) made us both a wholesome, nutritious breakfast to keep us going until after our talks. 
+Speaker friends warned me I would be too nervous to eat lunch, so the lovely [@Amys_Kapers](https://twitter.com/Amys_Kapers) (who was speaking an hour after me) made us both a wholesome, nutritious breakfast to keep us going until after our talks. 
 
 As it turns out, nerves don't affect my appetite :smile: so I ended up having a salad and gelato for lunch anyway,  but it's always good to be prepared! 
 
-In the break before my speaking slot, the venue's AV person Bryce got me all set up with my mic. I was endlessly amused by the fact it was a Britney mic*, instead of a boring lapel mic. 
+In the break before my speaking slot, the venue's AV person got me all set up with my microphone and battery pack. I was endlessly amused by the fact it was a Britney* mic, instead of a boring lapel mic. 
 
 <p style="font-size:.85rem; margin-top: 0;">*These are not really called Britney mics, but that is what they will forever be to me.</p>
 
@@ -44,56 +44,83 @@ In the break before my speaking slot, the venue's AV person Bryce got me all set
 <figcaption>Me, childishly excited by my rockstar mic</figcaption>
 </figure>
 
-People were asking me often in the lead up to this moment if I was nervous - and honestly, I wasn't anywhere nervous as I was expecting to be. Maybe it was because I kept telling myself nerves were just excitement, and I was keeping myself busy, but I really was feeling pretty good. 
+People were asking me often in the lead up to this moment if I was nervous - and honestly, I wasn't anywhere near as nervous as I was expecting to be. Maybe it was because I kept telling myself nerves were just excitement, or I was keeping myself distracted, but I felt pretty good. 
 
-As I waited backstage to be called up, I did some [power posing](https://www.youtube.com/watch?v=C4ACeoqEjeA) and slow controlled breathing. I have no idea if these things really help, but figured it couldn't hurt!
+As I waited backstage to be introduced, I did some [power posing](https://www.youtube.com/watch?v=C4ACeoqEjeA) and slow controlled breathing. I have no idea if these things really help, but figured it couldn't hurt.
 
 And then I was called up.
 
+Pretty quickly all those nerves I had kept at bay rose to the surface. 
+
+But I knew I had practiced and was prepared -  so I told myself _"I got this"_ and started strong, despite my voice wavering a little.
+
 
 <figure>
-<img src="/images/posts/laracon-speaking.jpg" alt="Jess Budd speaking at LaraconAU"/>
-<figcaption>At least it doesn't look like I'm shitting myself</figcaption>
+<img src="/images/posts/laracon-setup.jpg" alt="Jess Budd getting ready to speak at LaraconAU"/>
+<figcaption>On stage before my talk, setting up my laptop</figcaption>
 </figure>
 
-Shout out to the amazing job [@michaeldyrynda](https://twitter.com/michaeldyrynda) and his team did on this conference and making the first time speakers feel welcome.
+Unfortunately, a couple minutes into my talk, I realised I didn't have my speaker notes. 
 
-If you're interested, you can find [my slides and tweets about this talk here](http://bit.ly/2WHANxd).
+Instead of using the projector as a separate display, it was mirroring my laptop - which instead of showing my speaker notes, was showing my slides.
 
-### Google Dev Fest, Melbourne
+I had to stop my presentation, change the display settings, apologise and explain to the audience what was happening, and restart again with my notes. 
 
-<figure>
-<img src="/images/posts/cssconfAU2018.jpg" alt="CSSConf name lanyard and 2 photobooth strips"/>
-<figcaption>The Perth crew representin' at CSSConfAU 2018</figcaption>
-</figure>
+This, (in hindsight minor), hiccup _completely_ threw me off balance. 
+
+My voice was now wavering intensly. My mouth felt like sandpaper. I just couldn't regain my original confidence.
+
+When my talk was finished and I walked off stage, I did not feel good about my performance. (In fact, I think my exact words to the MC were "I'll just go out the back to puke now").
+
+But later that day, many attendees came up and congratulated me on a great talk and wanted to chat about my topic. 
+
+And I started seeing responses like this one:
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr"><a href="https://twitter.com/jessbudd4?ref_src=twsrc%5Etfw">@jessbudd4</a> Absolutely killed it. That’s you you deliver a tech conference talk! Scribbled notes like a maniac.</p>&mdash; Andrew Feeney (@AndrewFeeney) <a href="https://twitter.com/AndrewFeeney/status/1189755710608957441?ref_src=twsrc%5Etfw">October 31, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+And this:
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr"><a href="https://twitter.com/jessbudd4?ref_src=twsrc%5Etfw">@jessbudd4</a> gave the what might be the most socially important talk of <a href="https://twitter.com/hashtag/LaraconAU?src=hash&amp;ref_src=twsrc%5Etfw">#LaraconAU</a>. Information learned here will help me assist with student accessibility at <a href="https://twitter.com/Sydney_Uni?ref_src=twsrc%5Etfw">@Sydney_Uni</a>. Great job on your first talk Jess 🙏🏽👍🏽 <a href="https://twitter.com/LaraconAU?ref_src=twsrc%5Etfw">@LaraconAU</a> <a href="https://t.co/FEJnJ9oQEP">pic.twitter.com/FEJnJ9oQEP</a></p>&mdash; Zayn Buksh (@zaynbuksh) <a href="https://twitter.com/zaynbuksh/status/1189757936047755264?ref_src=twsrc%5Etfw">October 31, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+And this:
+
+<!-- <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Yessssssss! <a href="https://twitter.com/jessbudd4?ref_src=twsrc%5Etfw">@jessbudd4</a> is nailing her talk on accessibility at <a href="https://twitter.com/LaraconAU?ref_src=twsrc%5Etfw">@LaraconAU</a>. <br><br>Awesome content. Ya&#39;ll, how lucky are we to be learning from this amazing dev!!! 🙌 <a href="https://t.co/zfx9zHBCR0">pic.twitter.com/zfx9zHBCR0</a></p>&mdash; Patima™ 👸🏻 (@the_patima) <a href="https://twitter.com/the_patima/status/1189749689819615233?ref_src=twsrc%5Etfw">October 31, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> -->
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Easily one of my favourite talks from the day</p>&mdash; Tim MacDonald (@timacdonald87) <a href="https://twitter.com/timacdonald87/status/1189789577675821057?ref_src=twsrc%5Etfw">October 31, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+This positive feedback, combined with a few days distance, have me feeling pretty darn okay about my first conference talk after all. 
+
+I want to say a huge thank you to everyone that came and said nice things to me after my talk and everyone who posted on twitter. It really meant a lot to me :heart:
 
 
-### DDD, Adelaide
 
-<figure>
-<img src="/images/posts/cssconfAU2018.jpg" alt="CSSConf name lanyard and 2 photobooth strips"/>
-<figcaption>The Perth crew representin' at CSSConfAU 2018</figcaption>
-</figure>
+Shout out to the amazing job [@michaeldyrynda](https://twitter.com/michaeldyrynda) and his team did on this conference and making the first time speakers feel welcome and valued.
 
+Special thanks to my [@fendersperth](https://twitter.com/fendersperth) crew for cheering me on either in person, on twitter or in slack. 
 
-
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Just submitted my first ever conference proposal - eeek! Big thanks to <a href="https://twitter.com/Mandy_Kerr?ref_src=twsrc%5Etfw">@Mandy_Kerr</a> <a href="https://twitter.com/Amys_Kapers?ref_src=twsrc%5Etfw">@Amys_Kapers</a> and <a href="https://twitter.com/stringy?ref_src=twsrc%5Etfw">@stringy</a> who&#39;ve been my constant inspiration/supporters and <a href="https://twitter.com/sandysandy?ref_src=twsrc%5Etfw">@sandysandy</a> for her wordsmith help ❤️🤗</p>&mdash; Jess Budd (@jessbudd4) <a href="https://twitter.com/jessbudd4/status/1165114649743749125?ref_src=twsrc%5Etfw">August 24, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+If you're interested, you can find [my slides and other tweets I received here](http://bit.ly/2WHANxd).
 
 
 
 ## What have I learned?
 
-- __Always check your speaker notes before you start talking :laughing:__ It won't hurt to take an extra moment to double check everything is correct, but it will damage your confidence if you're forced to stop part way through speaking to fix your setup!
-- __Giving a conference talk is a lot of work__. Writing your presentation, creating your slides and practicing your delivery is significantly more time intensive than I expected. I would easily have spent 40 hours on my first talk. I'm sure it will be a faster process in the future, but it's certainly not something to take on lightly.
+- __Always check your speaker notes before you start talking :laughing:__ It won't hurt to take an extra minute to double check everything before you start, but it will damage your confidence if you're forced to stop part way through to fix your setup!
+- __Positive feedback means a lot to speakers__. Getting up on stage in front of a crowd makes you feel pretty vulnerable. Recieving positive comments helps make your world right again. If you enjoyed someone's talk, tell or tweet them!
+- __No one else will notice how nervous you are__. Despite my voice wavering, having to take constant drinks due to dry mouth and somewhat shaking hands, everyone else thought I was confident and not nervous! Don't stress yourself out worrying people will  notice your nerves.
+- __Giving a conference talk is a _lot_ of work__. Writing your presentation, creating your slides and practicing your delivery is significantly more time intensive than I expected. I would easily have spent 40 hours on this talk. I'm sure it will be a faster process in the future, but it's certainly not something you whip up in an afternoon.
 
 
 ## What next?
 
-I guess the question now is _do I want to continue applying to speak at conferences?_
+Right now I'm prepping hard for my next talk at [Google Dev Fest](https://www.gdgmelbourne.com/devfest) in Melbourne this weekend!
 
-Due to the big time commitment of giving a talk, I will be quite selective on which conferences I apply to speak at. Community events that are outside my state will probably be off the list for a while, as the cost of flights and accommodation aren't something I can really afford. 
+Shortly after, I'll be off to Adelaide for the last leg of my Australian speaking tour for the very first [DDDAdelaide](https://www.dddadelaide.com/). (There's still [a few tickets left!](https://www.dddadelaide.com/tickets))
 
-I'd really love to speak at an international conference next, so that will be my next goal.
+The third and final installment of this series will follow shortly after :smile:
+
+<!-- I'm definitely keen to continue public speaking and would love to add international conference speaker to my bio in 2020! -->
+
+<!-- Due to the big commitment of preparing, travelling and taking time off work to give a talk, I'll be selective on which and how many conferences I submit to. Community events that are outside my city will probably be off the list for a while due to the cost involved. -->
 
 
 
