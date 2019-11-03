@@ -115,11 +115,11 @@ If you're interested, you can find [my slides and other tweets I received here](
 
 ## What next?
 
-Right now I'm prepping hard for my next talk at [Google Dev Fest](https://www.gdgmelbourne.com/devfest) in Melbourne this weekend!
+Right now I'm prepping hard for my next talk at [Google Dev Fest](https://www.gdgmelbourne.com/devfest) in Melbourne this weekend.
 
-Shortly after, I'll be off to Adelaide for the last leg of my speaking tour for the very first [DDDAdelaide](https://www.dddadelaide.com/). (There's still [a few tickets left!](https://www.dddadelaide.com/tickets))
+Soon after I'll be off to Adelaide for the last leg of my speaking tour and the very first [DDDAdelaide](https://www.dddadelaide.com/). (There's still [a few tickets left!](https://www.dddadelaide.com/tickets))
 
-The third and final installment of this series will follow shortly after :smile:
+I'll let you know how those both go in my third and final installment of this series!
 
 <!-- I'm definitely keen to continue public speaking and would love to add international conference speaker to my bio in 2020! -->
 
