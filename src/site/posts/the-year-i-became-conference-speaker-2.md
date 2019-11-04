@@ -8,14 +8,14 @@ img: https://jessbudd.com/images/featured/confSpeaker2.png
 ---
 
 <div class="twitter">
-<p class="subtitle">I  <a href="/posts/the-year-i-became-conference-speaker"> recently wrote about</a> how I came to be giving 3 conference talks, within 3 weeks, in 3 different states. This is the story of my first talk.</p>
+<p class="subtitle">I  <a href="/posts/the-year-i-became-conference-speaker"> recently wrote about</a> how I came to be giving 3 conference talks, in 3 weeks, in 3 different states. This is the story of my first talk.</p>
 
 <figure>
 <img src="/images/posts/laracon-speaking.jpg" alt="Jess Budd speaking at LaraconAU"/>
 <figcaption>At least it <em>looks</em> like I'm not freaking out</figcaption>
 </figure>
 
-The Monday before I set off for my first talk, I had a skype [interview  with one of the DDDAdelaide sponsors](https://www.linkedin.com/pulse/coffee-catch-ups-jess-budd-simon-cook/). We chatted about my upcoming speaking engagements, among other things, but something I particularly enjoyed was his reference to my "speaking tour of Australia" - which is a phrase I will now steal, thanks [@encodetalent](https://twitter.com/encodetalent) :joy:
+The Monday before I set off, I had a skype [interview  with one of the DDDAdelaide sponsors](https://www.linkedin.com/pulse/coffee-catch-ups-jess-budd-simon-cook/). We chatted about my upcoming speaking engagements, among other things, but something I particularly enjoyed was his reference to my "speaking tour of Australia" - which is a phrase I will now steal, thanks [@encodetalent](https://twitter.com/encodetalent) :joy:
 
 ## My Australian Speaking Tour
 
@@ -26,7 +26,7 @@ The Monday before I set off for my first talk, I had a skype [interview  with on
 <!-- <figcaption>Day 1 of LaraconAU</figcaption> -->
 <!-- </figure> -->
 
-First stop: Sydney for [LaraconAU](https://laracon.com.au/). This was a fantastic event, and despite not being a PHP or Laravel developer, I had an overwhelmingly positive experience. 
+First stop, Sydney for [LaraconAU](https://laracon.com.au/). This was a fantastic event, and despite not being a PHP or Laravel developer, I had an overwhelmingly positive experience. 
 
 My talk was scheduled for early afternoon on the first day.
 
@@ -44,7 +44,7 @@ In the break before my speaking slot, the venue's AV person got me all set up wi
 <figcaption>Me, childishly excited by my rockstar mic</figcaption>
 </figure>
 
-People were asking me often in the lead up to this moment if I was nervous - and honestly, I wasn't anywhere near as nervous as I was expecting to be. Maybe it was because I kept telling myself nerves were just excitement, or I was keeping myself distracted, but I felt pretty good. 
+People were often asking me in the lead up to this moment if I was nervous - and honestly, I wasn't anywhere near as nervous as I was expecting to be. Maybe it was because I kept telling myself nerves are just excitement, or I was keeping myself distracted, but I felt pretty good. 
 
 As I waited backstage to be introduced, I did some [power posing](https://www.youtube.com/watch?v=C4ACeoqEjeA) and slow controlled breathing. I have no idea if these things really help, but figured it couldn't hurt.
 
@@ -60,21 +60,21 @@ But I knew I had practiced and was prepared -  so I told myself _"I got this"_ a
 <figcaption>On stage before my talk, setting up my laptop</figcaption>
 </figure>
 
-Unfortunately, a couple minutes into my talk, I realised I didn't have my speaker notes. 
+Unfortunately, a couple minutes into my talk I realised....I didn't have my speaker notes. 
 
 Instead of using the projector as a separate display, it was mirroring my laptop - which instead of showing my speaker notes, was showing my slides.
 
 I had to stop my presentation, change the display settings, apologise and explain to the audience what was happening, and restart again with my notes. 
 
-This, (in hindsight minor), hiccup _completely_ threw me off balance. 
+This (in hindsight, minor) hiccup _completely_ threw me off balance. 
 
 My voice was now wavering intensly. My mouth felt like sandpaper. I just couldn't regain my original confidence.
 
-When my talk was finished and I walked off stage, I did not feel good about my performance. (In fact, I think my exact words to the MC were "I'll just go out the back to puke now").
+When my talk was finished and I walked off stage, I did not feel good about my performance. (In fact, I think my exact words to the MC when he asked me how I felt about it, were "I'll just go out the back and puke now").
 
-But later that day, many attendees came up and congratulated me on a great talk and wanted to chat about my topic. 
+If you'd asked me at that moment if I was happy with how it, the answer would not have been yes.
 
-And I started seeing responses like this one:
+But later that day, many attendees came up and congratulated me on a great talk and wanted to chat about my topic.  And I started seeing tweets like this one:
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr"><a href="https://twitter.com/jessbudd4?ref_src=twsrc%5Etfw">@jessbudd4</a> Absolutely killed it. That’s you you deliver a tech conference talk! Scribbled notes like a maniac.</p>&mdash; Andrew Feeney (@AndrewFeeney) <a href="https://twitter.com/AndrewFeeney/status/1189755710608957441?ref_src=twsrc%5Etfw">October 31, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
@@ -88,15 +88,15 @@ And this:
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Easily one of my favourite talks from the day</p>&mdash; Tim MacDonald (@timacdonald87) <a href="https://twitter.com/timacdonald87/status/1189789577675821057?ref_src=twsrc%5Etfw">October 31, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-This positive feedback, combined with a few days distance, have me feeling pretty darn okay about my first conference talk after all. 
+This positive feedback, combined with a few days distance, have me feeling pretty darn okay about my first conference talk now. 
 
-I want to say a huge thank you to everyone that came and said nice things to me after my talk and everyone who posted on twitter. It really meant a lot to me :heart:
+Thank you to everyone that came up and said nice things to me after my talk and everyone who posted on twitter. It really meant a lot to me :heart:
 
 
 
 Shout out to the amazing job [@michaeldyrynda](https://twitter.com/michaeldyrynda) and his team did on this conference and making the first time speakers feel welcome and valued.
 
-Special thanks to my [@fendersperth](https://twitter.com/fendersperth) crew for cheering me on either in person, on twitter or in slack. 
+Special thanks to the [@fendersperth](https://twitter.com/fendersperth) crew for cheering me on either in person, on twitter or in slack. 
 
 If you're interested, you can find [my slides and other tweets I received here](http://bit.ly/2WHANxd).
 
@@ -106,9 +106,9 @@ If you're interested, you can find [my slides and other tweets I received here](
 
 - __Always check your speaker notes before you start talking :laughing:__ It won't hurt to take an extra minute to double check everything before you start, but it will damage your confidence if you're forced to stop part way through to fix your setup!
 
-- __Positive feedback means a lot to speakers__. Getting up on stage in front of a crowd makes you feel pretty vulnerable. Recieving positive comments helps make your world right again. If you enjoyed someone's talk, tell them or tweet them!
+- __Positive feedback means a lot to speakers__. Getting up on stage in front of a crowd makes you feel pretty vulnerable. Recieving positive comments after helps make the world feel right again. If you enjoyed someone's talk, tell them or tweet them!
 
-- __Other people won't notice how nervous you are__. Despite my voice wavering, having to take constant drinks due to dry mouth and somewhat shaking hands, everyone else thought I was confident and not incredibly nervous! Don't stress yourself out worrying people will  notice your nerves.
+- __Other people won't notice how nervous you are__. Despite hearing my own voice wavering, having to take constant drinks due to dry mouth and somewhat shaking hands, other people don't really notice. Don't make yourself more nervous thinking about how nervous you're coming across! 
 
 - __Giving a conference talk is a _lot_ of work__. Writing your presentation, creating your slides and practicing your delivery is significantly more time intensive than I expected. I would easily have spent 40 hours on this talk. I'm sure it will be a faster process in the future, but it's certainly not something you whip up in an afternoon.
 
@@ -119,7 +119,7 @@ Right now I'm prepping for and focusing on my next talk at [Google Dev Fest](htt
 
 Soon after I'll be off to Adelaide for the last leg of my speaking tour and the very first [DDDAdelaide](https://www.dddadelaide.com/). (There's still [a few tickets left!](https://www.dddadelaide.com/tickets))
 
-I'll let you know how those both go in my third and final installment of this series!
+I'll let you know how those both go in the third and final installment!
 
 <!-- I'm definitely keen to continue public speaking and would love to add international conference speaker to my bio in 2020! -->
 
