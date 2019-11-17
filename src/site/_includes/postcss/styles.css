@@ -258,7 +258,7 @@ blockquote {
 
 }
 code {
-  font-size: .9rem;
+  font-size: .975rem;
   white-space: nowrap; 
   font-family: Menlo,Consolas,Monaco,monospace;
   padding: 6px;
@@ -266,6 +266,10 @@ code {
   -o-tab-size: 2;
   tab-size: 2;
   color: $heading-color;
+}
+
+code[class*=language-] {
+  font-size: .975rem;
 }
 
 code.block {

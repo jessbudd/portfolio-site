@@ -70,19 +70,21 @@ The most commonly accepted practice for modern browser support is using clip-rec
 <pre>
 <code class="language-css">
 .sr-only {
-    clip: rect(1px, 1px, 1px, 1px);
-    clip-path: inset(50%);
+    position: absolute;
     height: 1px;
     width: 1px;
+    clip: rect(1px, 1px, 1px, 1px);
+    clip-path: inset(50%);
     margin: -1px;
     overflow: hidden;
     padding: 0;
-    position: absolute;
+    border: 0;
+    white-space: nowrap;
 }
 </code>
 </pre>
 
-Elements with this class would not be visible on the page or take up any space in the visual flow, but would announce the contents to assistive technologies. 
+Elements with this class will not be visible on the page or take up space in the visual flow, but will announce the contents to assistive technologies. 
 
 ### Visible when focused
 
@@ -125,14 +127,15 @@ An alternative approach is to combine these two methods and use the ```:not(:foc
 <pre>
 <code class="language-css">
 .sr-only:not(:focus):not(:active) {
+    position: absolute;
+    width: 1px;
+    height: 1px;
     clip: rect(1px, 1px, 1px, 1px);
     clip-path: inset(50%);
-    height: 1px;
-    width: 1px;
     margin: -1px;
     overflow: hidden;
     padding: 0;
-    position: absolute;
+    white-space: nowrap;
 }
 </code>
 </pre>
