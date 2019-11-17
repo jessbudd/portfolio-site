@@ -50,7 +50,7 @@ Each of the CSS styles below will prevent the element displaying visually on the
 
 The difference between ```display: none;``` and ```visibility: hidden;``` is that hidden elements are not removed from the document flow, so will retain its physical space on the page.
 
-A common mistake when hiding content is to use ```opacity: 0;``` when the intention is to hide the content from everyone. Although this styling makes the content invisible visually, the content is still announced by screen readers and potentially focusable by the keyboard.
+A common mistake when hiding content is to use ```opacity: 0;``` when the intention is to hide the content from everyone. Although this styling removes the content visually, it is still announced by screen readers and potentially focusable by the keyboard.
 
 ## Hiding content visually
 
