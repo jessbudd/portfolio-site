@@ -48,9 +48,9 @@ Each of the CSS styles below will prevent the element displaying visually on the
 </code>
 </pre>
 
-The difference between ```display: none``` and ```visibility: hidden``` is that hidden elements is not removed from the document flow, so will retain it's physical space on the page.
+The difference between ```display: none;``` and ```visibility: hidden;``` is that hidden elements are not removed from the document flow, so will retain its physical space on the page.
 
-A common mistake when hiding content is to use ```opacity: 0``` when the intention is for the content to be hidden for everyone. Although this styling makes the content invisible visually, the element is still announced by screen readers and potentially focusable by the keyboard.
+A common mistake when hiding content is to use ```opacity: 0;``` when the intention is for the content to be hidden for everyone. Although this styling makes the content invisible visually, the content is still announced by screen readers and potentially focusable by the keyboard.
 
 ## Hiding content visually
 
@@ -84,19 +84,19 @@ The most commonly accepted practice for modern browser support is using clip-rec
 
 Elements with this class would not be visible on the page or take up any space in the visual flow, but would announce the contents to assistive technologies. 
 
-### Visble when focused
+### Visible when focused
 
-Sometimes we want to hide an element only until it recieves keyboard focus. 
+Sometimes we want to hide an element only until it receives keyboard focus. 
 
 A perfect example of this are skip-links. A [skip-link](https://webaim.org/techniques/skipnav/) is styled with CSS to remain out of view until a user tabs to the element and is then sent back off-screen when it leaves keyboard focus. This behaviour benefits sighted keyboard users, without changing the visual design for mouse users.
 
 <!-- ### Method - Visble when focused: -->
 
-We use a combination of css properties to position the content offscreen and the ```:focus``` pseudo element to bring the position onto the page as the element by the keyboard.
+We use a combination of CSS properties to position the content offscreen and the ```:focus``` pseudo element to bring the position onto the page as the element by the keyboard.
 
 <pre style="margin-bottom:0;">
 <code class="language-css">
-/* positioned way off sceen so not visible */
+/* positioned offsceen so not visible */
 .skip-link a {
     position: absolute;
     left: -10000px;
