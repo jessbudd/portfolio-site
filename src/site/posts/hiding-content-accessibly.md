@@ -8,7 +8,7 @@ img: https://jessbudd.com/images/featured/hidingContent.png
 # tag: speaking
 ---
 
-<p class="subtitle">There are often situations where we need to hide content on a page, either temporarily or permanently. Different techniques will impact accessibility in different ways, and this post will explain which technique is appropriate in certain situations.</p> 
+<p class="subtitle">There are often situations where we need to hide content on a page, either temporarily or permanently. The method you use for hiding content can have a big impact on accessibility, so this post will discuss when to use particular techniques.</p> 
 
 <!-- 
 I want to quickly cover some of those situations, and which method would be appropriate to ensure web accessibility.  -->
