@@ -8,7 +8,7 @@ img: https://jessbudd.com/images/featured/hidingContent.png
 # tag: speaking
 ---
 
-<p class="subtitle">There are often situations where we need to hide content on a page, either temporarily or permanently. Different techniques will have differing impacts on accessibility, and certain methods are more appropriate for certain situations.</p> 
+<p class="subtitle">There are often situations where we need to hide content on a page, either temporarily or permanently. Different techniques will impact accessibility in different ways, and this post will explain which technique is appropriate in certain situations.</p> 
 
 <!-- 
 I want to quickly cover some of those situations, and which method would be appropriate to ensure web accessibility.  -->
@@ -18,50 +18,52 @@ I want to quickly cover some of those situations, and which method would be appr
 There are generally 3 scenarios where we want to hide content:
 
 1. We want to hide content for everyone (including people using screen readers).
-1. We want to hide content visually (but not from screenreaders).
-1. We want to hide content from screenreaders (but not visually).
+1. We want to hide content visually (but not from screen readers).
+1. We want to hide content from screen readers (but not visually).
 
 ## Hiding content for everyone
 
 <!-- ### Usecase: -->
 
-Common situations where you want to hide content from everyone, including people navigating by keyboard and using screenreaders are closed navigation menus, tooltip text and collapsed accordions. 
+Common situations where you want to hide content from everyone, including sighted keyboard users and people using screen readers, are closed navigation menus, tooltip text and collapsed accordions. 
 
-Any of the styles below will  remove the content from the visual flow of the page, will be ignored by screen readers and will prevent keyboard users tabbing to the content. 
+Each of the CSS styles below will prevent the element displaying visually on the page, will be ignored by screen readers, and will prevent keyboard users tabbing to the content. 
 
 <!-- ### Method: -->
 <pre>
 <code class="language-css">
-{ display: none; }
+.hide-for-all { display: none; }
 </code>
 </pre>
 
 <pre>
 <code class="language-css">
-{ visibility: hidden; }
+.hide-for-all { visibility: hidden; }
 </code>
 </pre>
 
 <pre>
 <code class="language-css">
-{ width: 0px, height: 0px; }
+.hide-for-all { width: 0px, height: 0px; }
 </code>
 </pre>
 
+The difference between ```display: none``` and ```visibility: hidden``` is that hidden elements is not removed from the document flow, so will retain it's physical space on the page.
 
+A common mistake when hiding content is to use ```opacity: 0``` when the intention is for the content to be hidden for everyone. Although this styling makes the content invisible visually, the element is still announced by screen readers and potentially focusable by the keyboard.
 
 ## Hiding content visually
 
 There are two main situations when you want to hide content visually:
 
 - When you _never_ want the content to be visible on the page.
-- When you want the content to become visible when focused.
+- When you want the content to become visible when focused by the keyboard.
 
 ### Never visible
 
 There are times when the visual information in a design is not sufficient for screen readers users. A common example of this is form inputs that aren't given visual labels. 
 
-Labels are imperitive for screen reader users to understand and successfully complete forms. So in a situation like this you could visually hide the label with CSS. 
+Labels are crucial for screen reader users to understand and successfully complete forms. So in a situation like this you could visually hide the label with CSS. 
 
 The most commonly accepted practice for modern browser support is using clip-rect.
 
@@ -80,13 +82,13 @@ The most commonly accepted practice for modern browser support is using clip-rec
 </code>
 </pre>
 
-Elements with this class would be not be visible on the page or take up any space in the visual flow. This technique is not suitable for elements that are focusable by the keyboard.
+Elements with this class would not be visible on the page or take up any space in the visual flow, but would announce the contents to assistive technologies. 
 
 ### Visble when focused
 
 Sometimes we want to hide an element only until it recieves keyboard focus. 
 
-A perfect example of this is [skip-links](https://webaim.org/techniques/skipnav/). A skip-link is styled with CSS to remain out of view until a user tabs to the element and then sent back out of view when it leaves focus. This behaviour benefits sighted keyboard users, for example people with mobility impairments.
+A perfect example of this are skip-links. A [skip-link](https://webaim.org/techniques/skipnav/) is styled with CSS to remain out of view until a user tabs to the element and is then sent back off-screen when it leaves keyboard focus. This behaviour benefits sighted keyboard users, without changing the visual design for mouse users.
 
 <!-- ### Method - Visble when focused: -->
 
@@ -94,6 +96,7 @@ We use a combination of css properties to position the content offscreen and the
 
 <pre style="margin-bottom:0;">
 <code class="language-css">
+/* positioned way off sceen so not visible */
 .skip-link a {
     position: absolute;
     left: -10000px;
@@ -106,6 +109,7 @@ We use a combination of css properties to position the content offscreen and the
 </pre>
 <pre style="margin-top:0">
 <code class="language-css">
+/* appears back on screen when focused with keyboard */
 .skip-link a:focus { 
     position: static; 
     width: auto; 
@@ -116,7 +120,7 @@ We use a combination of css properties to position the content offscreen and the
 
 
 ### Combined approach
-An alternative approach is to combine these two methods and use the ```:not(:focus)``` and ```:not(:active)``` pseudo elements within the sr-only class. This will remove the hidden styling when an element is focused or active. 
+An alternative approach is to combine these two methods and use the ```:not(:focus)``` and ```:not(:active)``` pseudo elements within the ```sr-only``` class. This will remove the offscreen styling when an element is focused or active. 
 
 <pre>
 <code class="language-css">
@@ -137,24 +141,26 @@ An alternative approach is to combine these two methods and use the ```:not(:foc
 
 <!-- ### Usecase: -->
 
-It's uncommon to need content to be hidden from screenreaders only, however this can be appropriate when visual content is decorative or duplicative. An example would be svg or font icons that are accompanied by text labels. 
+It's uncommon to need content to be hidden from screen readers only, however this can be appropriate when visual content is decorative or duplicative. An example would be SVG or font icons that are accompanied by text labels. 
 
-We can hide the icons from assistive technology using ```aria-hidden="true"```. This effectively has the opposite behaviour of our ```sr-only``` class.
+We can hide the icons from assistive technology using ```aria-hidden="true"```. This effectively has the opposite behaviour of our ```sr-only``` class, in that it remains visually on the page while being ignored by assistive technologies.
 
 <!-- ### Method: -->
 
 <pre>
 <code class="language-markup">
 &lt;button>
-    &lt;span class="icon-close-menu" aria-hidden="true"></span> 
-    &lt;span class="sr-only">Close navigation menu</span>
+    &lt;span class="icon-close-menu" aria-hidden="true">&lt;&sol;span> 
+    &lt;span class="sr-only">Close navigation menu&lt;&sol;span>
 &lt;/button>
 </code>
 </pre>
 
+
 ## Further Reading
 
-If you're interested in learning more about hiding content accessibly I've included some links to more information below:
+
+If you're interested in learning more about hiding content accessibly here are some great resources:
 
 - [Invisible Content Just For Screen Readers by WebAIM](https://webaim.org/techniques/css/invisiblecontent/)
 - [How to Hide Content by The A11y Project](https://a11yproject.com/posts/how-to-hide-content/)
