@@ -27,7 +27,7 @@ There are generally 3 scenarios where we want to hide content:
 
 Common situations where you want to hide content from everyone, including sighted keyboard users and people using screen readers, are closed navigation menus, tooltip text and collapsed accordions. 
 
-Each of the CSS styles below will prevent the element displaying visually on the page, will be ignored by screen readers, and will prevent keyboard users tabbing to the content. 
+The CSS styles below will prevent the element displaying visually on the page, will be ignored by screen readers, and will prevent keyboard users tabbing to the content. 
 
 <!-- ### Method: -->
 <pre>
@@ -39,12 +39,6 @@ Each of the CSS styles below will prevent the element displaying visually on the
 <pre>
 <code class="language-css">
 .hide-for-all { visibility: hidden; }
-</code>
-</pre>
-
-<pre>
-<code class="language-css">
-.hide-for-all { width: 0px, height: 0px; }
 </code>
 </pre>
 
