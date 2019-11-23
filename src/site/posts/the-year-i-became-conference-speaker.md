@@ -5,7 +5,6 @@ date: 2019-10-05
 tags: ['post', 'speaking']
 meta: My experience going from too shy to speak up in meetings to soon-to-be conference speaker.
 img: https://jessbudd.com/images/featured/confSpeaker.png
-# tags: post speaking
 ---
 
 <div class="twitter">

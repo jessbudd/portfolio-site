@@ -23,7 +23,7 @@ meta: Jess Budd is UI developer, web accessibility consultant and digital produc
         <img class="proof-points__img-svg" src="/images/undraw_accessibility-alt.svg" alt="">
       </div>
       <h2 class="proof-points__title">Accessibility Consultant</h2>
-      <p class="proof-points__subtitle">I work with organisations to support and educate staff in removing barriers that prevent people living with disabilities from accessing their websites and apps.</p>
+      <p class="proof-points__subtitle">I work with organisations to support and educate staff in removing barriers that prevent people with disabilities from accessing their websites and apps.</p>
     </div><!--col-->
     <div class="col">
       <div class="proof-points__img">
