@@ -17,6 +17,14 @@ meta: A list of Jess Budd's upcoming and past tech talks.
 
 <h2 id="pastTalks"> Previous Talks</h2>
 
+
+### [DDDAdelaide](https://www.dddadelaide.com/) &nbsp; <a href="https://bit.ly/DDDA19" class="talk__link">  View Talk</a></p>
+
+<p class="talk__title">Making React Apps Accessible: It's easier than you think</p>
+
+23 November 2019, Adelaide Australia 
+
+
 ### [Google DevFest](https://www.gdgmelbourne.com/devfest) &nbsp; <a href="https://noti.st/jessbudd/sB6Kmd" class="talk__link">  View Talk</a></p>
 
 <p class="talk__title">Live Life in Beta: What Software Development Can Teach Us About Life </p>
