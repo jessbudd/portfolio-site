@@ -633,6 +633,22 @@ twitter-widget {
   padding-bottom: 25px;
 }
 
+/* archive pages */
+.listing li {
+  list-style: none;
+}
+.archive__date {
+
+}
+.archive__title {
+  margin-top: 0;
+  a {
+    border-bottom: none;
+    text-decoration: none;
+
+  }
+}
+
 /* fallback styles for twitter embeds */
 blockquote.twitter-tweet {
   display: inline-block;
