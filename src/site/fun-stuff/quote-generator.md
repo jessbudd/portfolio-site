@@ -136,7 +136,7 @@ padding: 0px 18px;
 font-weight: bold;
 }  
 a.btn__twitter:before {
-    content: url("https://platform-cdn.sharethis.com/img/twitter.svg");
+    content: url("/images/icons/twitter-white.svg");
     margin-right: 18px;
     position: relative;
     top: 3px;
