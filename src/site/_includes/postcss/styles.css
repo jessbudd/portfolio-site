@@ -1,5 +1,5 @@
-@import '_variables.css';
-@import '_syntax.css';
+@import "_variables.css";
+@import "_syntax.css";
 
 * {
   margin: 0;
@@ -26,13 +26,14 @@ body {
   font-size: 16px;
   line-height: 1.8;
   min-height: 100vh;
-  background:  $page-color;
+  background: $page-color;
   /* background: url(/images/bg-grid.png), linear-gradient(320deg, $page-color 100%, $text-color 0%); */
-  background: url(/images/bg-grid.png), linear-gradient(320deg, $dark-color, $page-color);
+  background: url(/images/bg-grid.png),
+    linear-gradient(320deg, $dark-color, $page-color);
 
   @media (min-width: $narrow) {
     font-size: 18px;
-  };
+  }
 }
 
 .container {
@@ -41,18 +42,18 @@ body {
   width: 90%;
   text-align: left;
 }
-  @media (min-width: $mid) {
-    .container {
+@media (min-width: $mid) {
+  .container {
     max-width: 700px;
-    }
   }
-  @media (min-width: $desk) {
-    .container {
+}
+@media (min-width: $desk) {
+  .container {
     max-width: 800px;
-    }
   }
-  @media (min-width: $wide) {
-    .container {
+}
+@media (min-width: $wide) {
+  .container {
     max-width: 1200px;
   }
 }
@@ -61,7 +62,6 @@ body {
   margin-right: auto;
   width: 90%;
   text-align: left;
-
 }
 
 .twitter a[href^="https://twitter"] {
@@ -71,84 +71,96 @@ body {
   border-bottom: none;
 }
 
-  @media (min-width: $desk) {
-    .container__blog {
+@media (min-width: $desk) {
+  .container__blog {
     max-width: 800px;
     max-width: 42em;
   }
 }
 
-h1, h2, h3, h4, h5 {
+h1,
+h2,
+h3,
+h4,
+h5 {
   color: $heading-color;
   font-weight: 600;
   line-height: 1;
   a,
   a:link,
-  a:visited {color: $heading-color}
+  a:visited {
+    color: $heading-color;
+  }
 }
 h1 {
   font-size: 3em;
-  margin-top:0.4em;
-  margin-bottom:0.2em;
+  margin-top: 0.4em;
+  margin-bottom: 0.2em;
   line-height: 1;
 }
-  @media (min-width: $desk) {
-    h1 {
+@media (min-width: $desk) {
+  h1 {
     font-size: 4em;
-    }
   }
-  @media (min-width: $wide) {
-    h1 {
+}
+@media (min-width: $wide) {
+  h1 {
     font-size: 4.5em;
   }
 }
-h2, .h2 {
+h2,
+.h2 {
   font-size: 2em;
   margin-top: 48px;
-  margin-bottom:24px;
+  margin-bottom: 24px;
   line-height: 1;
 }
 
-  @media (min-width: $desk) {
-    h2, .h2 {
+@media (min-width: $desk) {
+  h2,
+  .h2 {
     font-size: 2.2em;
     margin-top: 60px;
-    margin-bottom:24px;
-    }
-  };
-  @media (min-width: $wide) {
-    h2, .h2 {
+    margin-bottom: 24px;
+  }
+}
+@media (min-width: $wide) {
+  h2,
+  .h2 {
     font-size: 2.5em;
   }
 }
-h3, .h3 {
+h3,
+.h3 {
   font-size: 1.3em;
-  margin-top:48px;
-  margin-bottom:24px;
+  margin-top: 48px;
+  margin-bottom: 24px;
   line-height: 1.4;
 }
-  @media (min-width: $desk) {
-    h3, .h3 {
+@media (min-width: $desk) {
+  h3,
+  .h3 {
     font-size: 1.5em;
-    }
   }
-  @media (min-width: $wide) {
-    h3, .h3 {
+}
+@media (min-width: $wide) {
+  h3,
+  .h3 {
     font-size: 1.8em;
   }
- }
+}
 
-  h4, .h4 {
-    font-size: 1em;
-    margin-top:24px;
-    margin-bottom:12px;
-    line-height: 1;
-    /* @media (min-width: $wide) {
+h4,
+.h4 {
+  font-size: 1em;
+  margin-top: 24px;
+  margin-bottom: 12px;
+  line-height: 1;
+  /* @media (min-width: $wide) {
       font-size: 1.6em;
     } */
-  }
-  
-  
+}
+
 p {
   margin-top: 1em;
   margin-bottom: 1em;
@@ -161,17 +173,18 @@ p {
   margin-bottom: 48px;
   text-align: left;
 }
-  @media (min-width: $mid) {
-    .subtitle {
+@media (min-width: $mid) {
+  .subtitle {
     font-size: 1.3em;
   }
 }
 
 hr {
   border-color: mix($text-color, $accent-color, 20%);
-  margin-top:60px;
+  margin-top: 60px;
 }
-ul, ol {
+ul,
+ol {
   padding-left: 1em;
   margin-left: 1em;
 }
@@ -185,11 +198,11 @@ a:visited {
   text-decoration: none;
   border-bottom-style: solid;
   border-bottom-width: 1px;
-  border-bottom-color: mix($text-color, $accent-color, 20%)
+  border-bottom-color: mix($text-color, $accent-color, 20%);
 }
 a:hover,
 a:focus {
-  color: $text-color; 
+  color: $text-color;
   border-bottom-color: $text-color;
 }
 
@@ -197,7 +210,7 @@ a:focus {
 .nakedLink a:visited,
 .nakedLink a:hover,
 .nakedLink a:focus {
-  border-bottom-style:none;
+  border-bottom-style: none;
 }
 
 .nav {
@@ -224,22 +237,22 @@ a:focus {
     text-decoration: none;
     @media (min-width: $mid) {
       width: 6em;
-    };
+    }
     @media (min-width: $wide) {
       width: 9em;
     }
   }
   a:hover,
   a:focus {
-      color: $text-color;
-      border-top-color: $text-color;
-      border-bottom-style: none;
+    color: $text-color;
+    border-top-color: $text-color;
+    border-bottom-style: none;
   }
 
   small {
     display: block;
     font-size: 0.7em;
-    color: mix($text-color,$accent-color, 60%);
+    color: mix($text-color, $accent-color, 60%);
   }
 }
 
@@ -252,15 +265,15 @@ a:focus {
 blockquote {
   padding-left: 18px;
   margin-left: 24px;
-  border-left: 1px solid $accent-color;p {
+  border-left: 1px solid $accent-color;
+  p {
     color: $accent-color;
   }
-
 }
 code {
-  font-size: .975rem;
-  white-space: nowrap; 
-  font-family: Menlo,Consolas,Monaco,monospace;
+  font-size: 0.975rem;
+  white-space: nowrap;
+  font-family: Menlo, Consolas, Monaco, monospace;
   padding: 6px;
   -moz-tab-size: 2;
   -o-tab-size: 2;
@@ -268,8 +281,8 @@ code {
   color: $heading-color;
 }
 
-code[class*=language-] {
-  font-size: .975rem;
+code[class*="language-"] {
+  font-size: 0.975rem;
 }
 
 code.block {
@@ -282,12 +295,12 @@ code.block {
   border-radius: 8px;
   min-width: 100px;
   max-width: 100%;
-  overflow: hidden
+  overflow: hidden;
 }
 pre {
-  font-size: .95rem;
-  white-space: nowrap; 
-  font-family: Menlo,Consolas,Monaco,monospace;
+  font-size: 0.95rem;
+  white-space: nowrap;
+  font-family: Menlo, Consolas, Monaco, monospace;
   clear: both;
   color: #fff;
   background: #272822;
@@ -322,7 +335,7 @@ pre {
     margin-bottom: 6px;
   } */
 }
-pre[class*=language-] {
+pre[class*="language-"] {
   padding: 0 1em;
 }
 .date,
@@ -353,7 +366,7 @@ main {
   flex-direction: column-reverse;
   .subtitle {
     margin-bottom: 0;
-  }  
+  }
   @media (min-width: $mid) {
     flex-direction: row;
     text-align: left;
@@ -364,42 +377,41 @@ main {
 }
 .hero__copy {
   text-align: center;
-  width:100%;
+  width: 100%;
   padding-bottom: 32px;
 }
-  @media (min-width: $mid) {
-    .hero__copy {
+@media (min-width: $mid) {
+  .hero__copy {
     width: 40%;
     padding-right: 1em;
     padding-top: 60px;
   }
-  
 }
-.hero__img { 
+.hero__img {
   width: 100%;
   align-self: center;
 }
-  @media (min-width: $mid) {
-    .hero__img {
+@media (min-width: $mid) {
+  .hero__img {
     width: 60%;
   }
 }
 .hero__copy-alt {
-  width:100%; 
+  width: 100%;
 }
-  @media (min-width: $mid) {
-    .hero__copy-alt {
+@media (min-width: $mid) {
+  .hero__copy-alt {
     width: 60%;
     padding-right: 1em;
     padding-top: 60px;
   }
 }
-.hero__img-alt { 
+.hero__img-alt {
   width: 100%;
   align-self: center;
 }
-  @media (min-width: $mid) {
-    .hero__img-alt {
+@media (min-width: $mid) {
+  .hero__img-alt {
     width: 40%;
   }
 }
@@ -407,8 +419,8 @@ main {
   padding-top: 50px;
 }
 
-  @media (min-width: $desk) {
-    .col {
+@media (min-width: $desk) {
+  .col {
     padding-top: 100px;
   }
 }
@@ -424,7 +436,7 @@ main {
   text-align: center;
 }
 .proof-points__img-svg {
-  width:100%;
+  width: 100%;
   max-height: 150px;
 }
 
@@ -435,7 +447,7 @@ main {
 }
 .emoji-legend {
   color: $heading-color;
-  font-size: .9em;
+  font-size: 0.9em;
 }
 .emoji-legend + .emoji-legend {
   padding-left: 20px;
@@ -457,10 +469,10 @@ main {
   align-self: center;
   padding: 12px 0 0 0;
 }
-  @media (min-width: $mid) {
-    .bio__avatar {
-  padding: 12px 24px 12px 0;;
-  };
+@media (min-width: $mid) {
+  .bio__avatar {
+    padding: 12px 24px 12px 0;
+  }
 }
 .bio__text {
   font-size: 14px;
@@ -485,11 +497,11 @@ main {
   p {
     color: $page-color;
   }
- time {
+  time {
     text-decoration: none;
     /* color: white; */
     font-style: italic;
-    font-size: .875rem;
+    font-size: 0.875rem;
   }
 }
 .card {
@@ -509,7 +521,7 @@ footer {
   font-size: 0.7em;
   color: $heading-color;
   text-align: center;
-  
+
   p {
     color: $heading-color;
   }
@@ -539,28 +551,28 @@ a:active .social-links__icon {
 .social-links__icon {
   width: 40px;
   fill: $accent-color;
- 
 }
 .grid-container {
   display: grid;
   grid-template-columns: 100%;
   justify-content: space-around;
 }
-  @media (min-width: $desk) {
-    .grid-container {
+@media (min-width: $desk) {
+  .grid-container {
     grid-template-columns: 30% 30% 30%;
   }
 }
 
-img, svg {
+img,
+svg {
   max-width: 100%;
 }
 
 .svg__reading {
   height: 100%;
 }
-  @media (max-width: $mid) {
-    .svg__reading {
+@media (max-width: $mid) {
+  .svg__reading {
     max-height: 280px;
   }
 }
@@ -573,8 +585,8 @@ img, svg {
   display: block;
   margin: 6px auto 18px;
 }
-  @media (min-width: $mid) {
-    .img-float-right {
+@media (min-width: $mid) {
+  .img-float-right {
     float: right;
   }
 }
@@ -590,14 +602,14 @@ img, svg {
     margin-bottom: 0px;
     margin-top: 24px;
   }
-   h3 a {
+  h3 a {
     color: $text-color;
     font-weight: normal;
     font-size: 1.3rem;
   }
   p {
-    margin-top: .5em;
-    margin-bottom: .5em;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
   }
 }
 .talk__title {
@@ -615,7 +627,7 @@ figure {
 figcaption {
   text-align: right;
   color: $heading-color;
-  font-size: .872rem;
+  font-size: 0.872rem;
 }
 twitter-widget {
   padding-bottom: 25px;
@@ -653,7 +665,6 @@ blockquote.twitter-tweet a[href^="https://twitter"] {
   outline: 0 none;
 }
 
-
 blockquote.twitter-tweet a:hover,
 blockquote.twitter-tweet a:focus {
   text-decoration: underline;
@@ -667,8 +678,9 @@ blockquote.twitter-tweet a:focus {
   color: $heading-color;
 }
 
-@media (max-width:480px) {
-.nav li:nth-of-type(3) {
-  display:none;
+@media (max-width: 480px) {
+  .nav li:nth-of-type(3) {
+    display: none;
+  }
 }
-}
+
