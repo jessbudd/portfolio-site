@@ -1,7 +1,7 @@
 ---
 title: Fun Stuff
 layout: layouts/base.njk
-subtitle: Little things I'm making for fun!
+subtitle: A compilation of little things I'm making for fun
 ---
 
 <div class="container__blog">

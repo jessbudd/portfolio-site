@@ -24,7 +24,7 @@ tags: funstuff
 
 <h2 class="h4">Why make this?</h2>
 
-A friend was recently given a list of inspirational quotes to add to a student handbook. Out of the 40+ quotes (one for each school week), only two were from women. So I decided to showcase some great women quotes. Also, for funsies 😄
+A friend was recently given a list of inspirational quotes to add to a student handbook. Out of the 40+ quotes (one for each school week), only two were from women. So I decided to showcase more than 60 quotes from women. Also, for funsies 🙂
 
 <!-- <h2 class="h4">Can I see the whole list of quotes?</h2>
 
@@ -80,6 +80,7 @@ cite {
 .quote__wrapper {
     min-height: 300px;
     padding-top: 42px;
+            transition: opacity 2s ease-in;
 }
   blockquote {
     font-size: 1.6rem;
@@ -147,6 +148,10 @@ a.btn__twitter {
     margin-top: 12px;
 }
 }
+.show {
+    opacity: 1;
+}
+.hide {opacity: 0;}
 
 </style>
 
@@ -158,14 +163,14 @@ var author = document.getElementById('author');
 // update share tool link href
 var shareToolText = 'In need of some inspiration? Try this inspirational women quote generator by @jessbudd4 bit.ly/klsjdhfk ';
 var shareTool = shareToolText.split(' ').join('%20');
-shareTool = "https://twitter.com/intent/tweet?text=" + shareTool.split('"').join('');
+shareTool = "https://twitter.com/intent/tweet?text=" + shareTool.split('"').join('') ;
 document.getElementById('shareTool').setAttribute('href', shareTool);
 
 // set tweet quote link href
-var credit = ' via Inspirational Women Quote Generator bit.ly/klsjdhfk  @jessbudd4' 
+var credit = '' 
 var tweetQuoteText = document.getElementById('tweetQuote');
 var tweetQuote = quote.innerHTML.split(' ').join('%20') + '%22%20-%20' + author.innerHTML.split(' ').join('%20');
-tweetQuote = "https://twitter.com/intent/tweet?text=\"" + tweetQuote.split('"').join('') + credit;
+tweetQuote = "https://twitter.com/intent/tweet?text=\"" + tweetQuote.split('"').join('') + credit;;
 tweetQuoteText.setAttribute('href', tweetQuote);
 
 
@@ -177,7 +182,7 @@ function getNewQuote() {
     // update tweet quote link href
     tweetQuote = '';
     tweetQuote = quote.innerHTML.split(' ').join('%20')+ '%22%20-%20' + author.innerHTML.split(' ').join('%20');
-    tweetQuote = "https://twitter.com/intent/tweet?text=\"" + tweetQuote.split('"').join('')+ credit;
+    tweetQuote = "https://twitter.com/intent/tweet?text=\"" + tweetQuote.split('"').join('') + credit;
     tweetQuoteText.setAttribute('href', tweetQuote);
 }
 
@@ -263,11 +268,11 @@ quote: 'Done is better than perfect.',
 author: 'Sheryl Sandberg',
 url: ''
 },
-{
-quote: 'Don\'t let anyone rob you of your imagination, your creativity, or your curiosity. It\'s your place in the world; it\'s your life. Go on and do all you can with it, and make it the life you want to live.',
-author: 'Mae Jemison,',
-url: 'https://www.space.com/17169-mae-jemison-biography.html'
-},
+// {
+// quote: 'Don\'t let anyone rob you of your imagination, your creativity, or your curiosity. It\'s your place in the world; it\'s your life. Go on and do all you can with it, and make it the life you want to live.',
+// author: 'Mae Jemison',
+// url: 'https://www.space.com/17169-mae-jemison-biography.html'
+// },
 {
 quote: 'I was taught that the way of progress was neither swift nor easy.',
 author: 'Marie Curie',
@@ -345,7 +350,7 @@ url: ''
 },
 {
 quote: 'One of the secrets to staying young is to always do things you don\’t know how to do, to keep learning.',
-author: '',
+author: 'Ruth Reichl',
 url: ''
 },
 {
@@ -397,82 +402,117 @@ url: ''
 quote: 'Doubt is a killer. You just have to know who you are and what you stand for.',
 author: 'Jennifer Lopez',
 url: ''
+},
+{
+quote: 'I am not afraid of storms for I am learning how to sail my ship.',
+author: 'Louisa May Alcott',
+url: ''
+},
+{
+quote: 'When you feel copied, remember that people can only go where you have already been, they have no idea where you are going next.”',
+author: 'Liz Lange',
+url: ''
+},
+{
+quote: 'Hold your head and your standards high even as people or circumstances try to pull you down.',
+author: 'Tory Johnson',
+url: ''
+},
+{
+quote: 'Normal is not something to aspire to, it\’s something to get away from.',
+author: 'Jodie Foster',
+url: ''
+},
+{
+quote: 'I learned a long time ago that there is something worse than missing the goal, and that\’s not pulling the trigger.',
+author: 'Mia Hamm',
+url: ''
+},
+{
+quote: 'Owning our story can be hard but not nearly as difficult as spending our lives running from it.',
+author: 'Brene Brown',
+url: ''
+},
+{
+quote: 'I do not try to dance better than anyone else. I only try to dance better than myself.',
+author: 'Arianna Huffington',
+url: ''
+},
+{
+quote: 'I\’m always perpetually out of my comfort zone.',
+author: 'Tory Burch',
+url: ''
+},
+{
+quote: 'If you can\’t go straight ahead, you go around the corner.',
+author: 'Cher',
+url: ''
+},
+{
+quote: 'If you don\’t get out of the box you’ve been raised in, you won\’t understand how much bigger the world is.”',
+author: 'Angelina Jolie',
+url: ''
+},
+{
+quote: 'Everyone shines, given the right lighting.',
+author: 'Susan Cain',
+url: ''
+},
+{
+quote: 'When you embrace your difference, your DNA, your look or heritage or religion or your unusual name, that’s when you start to shine.',
+author: 'Bethenny Frankel',
+url: ''
+},
+{
+quote: 'You can\’t be that kid standing at the top of the waterslide, overthinking it. You have to go down the chute.',
+author: 'Tina Fey  ',
+url: ''
+},
+{
+quote: 'If you just set out to be liked, you would be prepared to compromise on anything at any time, and you would achieve nothing.',
+author: 'Margaret Thatcher',
+url: ''
+},
+{
+quote: 'Don\’t look at your feet to see if you are doing it right. Just dance.',
+author: 'Anne Lamott',
+url: ''
+},
+{
+quote: 'All careers go up and down like friendships, like marriages, like anything else, and you can’t bat a thousand all the time.',
+author: 'Julie Andrews',
+url: ''
+},
+{
+quote: 'We do not need magic to change the world, we carry all the power we need inside ourselves already: we have the power to imagine better.',
+author: 'J.K. Rowling',
+url: ''
+},
+{
+quote: 'Dying seems less sad than having lived too little.',
+author: 'Gloria Steinem',
+url: ''
+},
+{
+quote: 'Style is a way to say who you are without having to speak.',
+author: 'Rachel Zoe',
+url: ''
+},
+{
+quote: 'I need to listen well so that I hear what is not said.',
+author: 'Thuli Madonsela',
+url: ''
+},
+{
+quote: 'Style is a way to say who you are without having to speak.',
+author: 'Rachel Zoe',
+url: ''
+},
+{
+quote: 'It’s not the absence of fear, it’s overcoming it. Sometimes you’ve got to blast through and have faith.',
+author: 'Emma Watson',
+url: ''
 }
-// {
-// quote: '',
-// author: '',
-// url: ''
-// },
-// {
-// quote: '',
-// author: '',
-// url: ''
-// },
-// {
-// quote: '',
-// author: '',
-// url: ''
-// },
-// {
-// quote: '',
-// author: '',
-// url: ''
-// },
-// {
-// quote: '',
-// author: '',
-// url: ''
-// },
-// {
-// quote: '',
-// author: '',
-// url: ''
-// },
-// {
-// quote: '',
-// author: '',
-// url: ''
-// },
-// {
-// quote: '',
-// author: '',
-// url: ''
-// },
-// {
-// quote: '',
-// author: '',
-// url: ''
-// },
-// {
-// quote: '',
-// author: '',
-// url: ''
-// },
-// {
-// quote: '',
-// author: '',
-// url: ''
-// },
-// {
-// quote: '',
-// author: '',
-// url: ''
-// },
-// {
-// quote: '',
-// author: '',
-// url: ''
-// },
-// {
-// quote: '',
-// author: '',
-// url: ''
-// },
-// {
-// quote: '',
-// author: '',
-// url: ''
-// }
 ]
 
 </script>
