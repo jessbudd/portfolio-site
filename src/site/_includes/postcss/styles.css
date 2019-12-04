@@ -1,3 +1,4 @@
+@import "_utilities.css";
 @import "_variables.css";
 @import "_syntax.css";
 
@@ -202,8 +203,8 @@ a:visited {
 }
 a:hover,
 a:focus {
-  color: $text-color;
-  border-bottom-color: $text-color;
+  color: $accent-color;
+  border-bottom-color: $accent-color;
 }
 
 .nakedLink a:link,
@@ -636,12 +637,16 @@ twitter-widget {
 /* archive pages */
 .listing li {
   list-style: none;
+  padding: 30px 0;
+}
+.listing li:not(:last-of-type) {
+  border-bottom: $accent-color 1px solid;
 }
 .archive__date {
 
 }
 .archive__title {
-  margin-top: 0;
+  margin-top: 12px;
   a {
     border-bottom: none;
     text-decoration: none;
@@ -692,6 +697,21 @@ blockquote.twitter-tweet a:focus {
 
 .listing time {
   color: $heading-color;
+}
+
+a.archive__read-more {
+  /* font-size: .875rem; */
+  /* font-weight: bolder; */
+  color: $heading-color;
+  border-bottom-color: $heading-color;
+}
+a.archive__read-more:hover,
+a.archive__read-more:focus
+ {
+  /* font-size: .875rem; */
+  /* font-weight: bolder; */
+  color: $accent-color;
+  border-bottom-color: $accent-color;
 }
 
 @media (max-width: 480px) {
