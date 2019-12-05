@@ -5,7 +5,9 @@ date: 2019-12-05
 meta: A simple generator of inspirational quotes from women
 tags: funstuff
 img: https://jessbudd.com/images/featured/quoteGenerator.png
+excerpt: A friend was recently given a list of inspirational quotes to add to a student handbook. Out of the 40+ quotes (one for each school week), only two were from women. So I decided to showcase more than 60 quotes from women.
 ---
+
  <link href="https://fonts.googleapis.com/css?family=Julius+Sans+One|Nanum+Myeongjo&display=swap" rel="stylesheet"> 
 <div class="quote-generator">
 <!-- <h1>{{title}}</h1> -->
@@ -37,8 +39,6 @@ Sure, why not.
 </section>
 
 </div>
-
-
 
 <style>
 
