@@ -1,8 +1,10 @@
 ---
 title: Inspirational Women Quote Generator
 layout: layouts/blank.njk
-meta: meta
+date: 2019-12-05
+meta: A simple generator of inspirational quotes from women
 tags: funstuff
+img: https://jessbudd.com/images/featured/quoteGenerator.png
 ---
  <link href="https://fonts.googleapis.com/css?family=Julius+Sans+One|Nanum+Myeongjo&display=swap" rel="stylesheet"> 
 <div class="quote-generator">
