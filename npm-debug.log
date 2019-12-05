@@ -59,7 +59,7 @@
 23 silly get     'x-amz-meta-rev': '376-a159b080e4373c68bcd9d6c45e4a528a',
 23 silly get     server: 'cloudflare' } ]
 24 verbose etag https://registry.npmjs.org/n from cache
-25 verbose get saving n to /Users/feralfp/.npm/registry.npmjs.org/n/.cache.json
+25 verbose get saving n to /Users/feralfp/.npm/registry.npmjs.org/n/.cacheon
 26 verbose correctMkdir /Users/feralfp/.npm correctMkdir not in flight; initializing
 27 silly install normalizeTree
 28 silly loadCurrentTree Finishing
@@ -105,9 +105,9 @@
 54 silly addNamed n@5.0.2
 55 verbose addNamed "5.0.2" is a plain semver version for n
 56 silly cache afterAdd n@5.0.2
-57 verbose afterAdd /Users/feralfp/.npm/n/5.0.2/package/package.json not in flight; writing
+57 verbose afterAdd /Users/feralfp/.npm/n/5.0.2/package/packageon not in flight; writing
 58 verbose correctMkdir /Users/feralfp/.npm correctMkdir not in flight; initializing
-59 verbose afterAdd /Users/feralfp/.npm/n/5.0.2/package/package.json written
+59 verbose afterAdd /Users/feralfp/.npm/n/5.0.2/package/packageon written
 60 silly loadAllDepsIntoIdealTree Finishing
 61 silly loadIdealTree Finishing
 62 silly currentTree lib

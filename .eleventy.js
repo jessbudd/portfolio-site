@@ -1,9 +1,7 @@
 const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
 const pluginRss = require("@11ty/eleventy-plugin-rss");
 
-
-module.exports = function (config) {
-
+module.exports = function(config) {
   config.addPlugin(pluginRss);
 
   // A useful way to reference the context we are runing eleventy in
@@ -20,21 +18,20 @@ module.exports = function (config) {
   config.setLibrary("md", markdownLib);
 
   // Layout aliases can make templates more portable
-  config.addLayoutAlias('default', 'layouts/base.njk');
+  config.addLayoutAlias("default", "layouts/base.njk");
 
   // Add some utility filters
-  config.addFilter("squash", require("./src/utils/filters/squash.js"));
-  config.addFilter("dateDisplay", require("./src/utils/filters/date.js"));
-
+  config.addFilter("squash", require("./src/utils/filters/squash"));
+  config.addFilter("dateDisplay", require("./src/utils/filters/date"));
 
   // add support for syntax highlighting
   config.addPlugin(syntaxHighlight);
 
   // minify the html output
-  config.addTransform("htmlmin", require("./src/utils/minify-html.js"));
+  config.addTransform("htmlmin", require("./src/utils/minify-html"));
 
   // compress and combine js files
-  config.addFilter("jsmin", function (code) {
+  config.addFilter("jsmin", function(code) {
     const UglifyJS = require("uglify-js");
     let minified = UglifyJS.minify(code);
     if (minified.error) {
@@ -44,25 +41,20 @@ module.exports = function (config) {
     return minified.code;
   });
 
-
-
   // pass some assets right through
   config.addPassthroughCopy("./src/site/images");
 
   // make the seed target act like prod
-  env = (env == "seed") ? "prod" : env;
+  env = env == "seed" ? "prod" : env;
   return {
     dir: {
       input: "src/site",
       output: "dist",
       data: `_data/${env}`
     },
-    templateFormats: ["njk", "md", "11ty.js"],
+    templateFormats: ["njk", "md", "11ty"],
     htmlTemplateEngine: "njk",
     markdownTemplateEngine: "njk",
     passthroughFileCopy: true
   };
-
-
-
 };

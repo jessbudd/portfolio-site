@@ -2,6 +2,11 @@
 title: Blog
 layout: layouts/base.njk
 subtitle: Read some of my musings on web development, digital accessibility, technology, learning...
+pagination:
+  data: collections.post
+  size: 2
+  reverse: true
+  alias: post
 ---
 
 <div class="container__blog">
@@ -13,13 +18,14 @@ subtitle: Read some of my musings on web development, digital accessibility, tec
   <li>
     <time datetime="{{ page.date }}">{{ page.date | dateDisplay(" d LLLL  y") }}</time>
     <h2 class="h3 archive__title"><a href="{{ page.url }}">{{ page.data.title }}</a></h2> 
-    {%- if page.data.title%}<p>{{ page.data }}</p>{% endif %} 
-    
-  <a href="{{ page.url }}" aria-label="Read more - {{ page.data.title }}" class="archive__read-more">Read more</a>
+    {%- if page.data.title%}<p>  </p>{% endif %}
+
+<a href="{{ page.url }}" aria-label="Read more - {{ page.data.title }}" class="archive__read-more">Read more</a>
 
   </li>
 
 {%- endfor -%}
+
 </ul>
 
 </div>
