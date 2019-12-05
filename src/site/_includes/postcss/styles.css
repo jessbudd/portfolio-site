@@ -642,15 +642,14 @@ twitter-widget {
 .listing li:not(:last-of-type) {
   border-bottom: $accent-color 1px solid;
 }
-.archive__date {
-
-}
 .archive__title {
   margin-top: 12px;
   a {
     border-bottom: none;
     text-decoration: none;
-
+    &:hover {
+      color: $accent-color;
+    }
   }
 }
 
@@ -706,8 +705,7 @@ a.archive__read-more {
   border-bottom-color: $heading-color;
 }
 a.archive__read-more:hover,
-a.archive__read-more:focus
- {
+a.archive__read-more:focus {
   /* font-size: .875rem; */
   /* font-weight: bolder; */
   color: $accent-color;
@@ -719,4 +717,3 @@ a.archive__read-more:focus
     display: none;
   }
 }
-

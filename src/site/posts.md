@@ -18,7 +18,7 @@ pagination:
   <li>
     <time datetime="{{ page.date }}">{{ page.date | dateDisplay(" d LLLL  y") }}</time>
     <h2 class="h3 archive__title"><a href="{{ page.url }}">{{ page.data.title }}</a></h2> 
-    {%- if page.data.title%}<p>  </p>{% endif %}
+    {%- if page.data.excerpt %}<p> {{ page.data.excerpt }}</p>{% endif %}
 
 <a href="{{ page.url }}" aria-label="Read more - {{ page.data.title }}" class="archive__read-more">Read more</a>
 

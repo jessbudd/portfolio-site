@@ -1,6 +1,8 @@
 ---
 title: What I've Learned About the Web Industry
 date: 2017-02-27
+meta: It's been 9 months since I started the journey of self-taught web developer and here's what I've learned.
+excerpt: It's been 9 months since I started the journey of self-taught web developer and I've learned a lot. Besides the multitude of technical things (like what the hell a do-while loop is), there's also been plenty of cultural things to figure out too...
 ---
 
 It's been 9 months since I started the journey of self-taught web developer and I've learned a _lot_. Besides the multitude of technical things (like what the hell a do-while loop is), there's also been plenty of cultural things to figure out too.
@@ -49,5 +51,3 @@ There is no shortage of brilliant, helpful and insightful people in the global t
 
 The culture of ingenuity, continuous learning, welcoming newcomers and building communities is inspiring like no other I've seen.
 The web industry achieves absolutely amazing things due to the inspirational, hardworking people of it’s community!
-
-
