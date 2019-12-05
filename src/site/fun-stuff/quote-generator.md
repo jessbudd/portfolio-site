@@ -150,11 +150,6 @@ a.btn__twitter {
     margin-top: 12px;
 }
 }
-.show {
-    opacity: 1;
-}
-.hide {opacity: 0;}
-
 </style>
 
 <script>
@@ -177,15 +172,24 @@ tweetQuoteText.setAttribute('href', tweetQuote);
 
 
 function getNewQuote() {
-    var randomNumber = Math.floor(Math.random()*(quotes.length));
-    quote.innerText = quotes[randomNumber].quote;
-    author.innerText = quotes[randomNumber].author;
+    if (quotes.length > 0 ) {
+        var randomNumber = Math.floor(Math.random()*(quotes.length));
+        quote.innerText = quotes[randomNumber].quote;
+        author.innerText = quotes[randomNumber].author;
 
-    // update tweet quote link href
-    tweetQuote = '';
-    tweetQuote = quote.innerHTML.split(' ').join('%20')+ '%22%20-%20' + author.innerHTML.split(' ').join('%20');
-    tweetQuote = "https://twitter.com/intent/tweet?text=\"" + tweetQuote.split('"').join('') + credit;
-    tweetQuoteText.setAttribute('href', tweetQuote);
+        //remove quote from array
+        quotes.splice(randomNumber,1);
+
+        // update tweet quote link href
+        tweetQuote = '';
+        tweetQuote = quote.innerHTML.split(' ').join('%20')+ '%22%20-%20' + author.innerHTML.split(' ').join('%20');
+        tweetQuote = "https://twitter.com/intent/tweet?text=\"" + tweetQuote.split('"').join('') + credit;
+        tweetQuoteText.setAttribute('href', tweetQuote);
+    } 
+    else {
+        quote.innerText = 'That\'s all folks!';
+        author.innerText = '';
+    }
 }
 
 // array of quotes
