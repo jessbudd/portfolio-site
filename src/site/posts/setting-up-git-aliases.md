@@ -3,7 +3,6 @@ title: How I Set Up Git Aliases on Bash
 # subtitle: And speed up your development
 date: 2019-08-13
 meta: Setting up aliases for commonly used commands in the terminal can save yourself a lot of time during development. Here's how I added Git aliases on my mac through bash.
-excerpt: It was almost 2 year agos I first saw someone in a tutorial using an alias for their git commands. I thought at the time it was something I should set up, but not being incredibly comfortable in the command line, I didn't look into it much further...
 ---
 
 It was almost 2 year agos I first saw someone in a tutorial using an alias for their git commands. I thought at the time it was something I should set up, but not being incredibly comfortable in the command line, I didn't look into it much further.
@@ -18,9 +17,10 @@ Magic!
 
 ## Setting up an alias
 
-This week, thinking it was about time I set up these aliases, I went off to google. I found a bunch of posts on how to create git aliases like [this one](https://stackoverflow.com/questions/2553786/how-do-i-alias-commands-in-git) and [this one](https://githowto.com/aliases), but got a little overwhelmed by the different options and as with most tutorials they assumed a fair bit of up front knowledge.
+This week, thinking it was about time I set up these aliases, I went off to google. I found a bunch of posts on how to create git aliases like [this one](https://stackoverflow.com/questions/2553786/how-do-i-alias-commands-in-git) and [this one](https://githowto.com/aliases), but got a little overwhelmed by the different options and as with most tutorials they assumed a fair bit of up front knowledge. 
 
 Following the most simple format example, I typed my most common git actions into the command line window I already had open for my current project.
+ 
 
 <pre>
 <code >
@@ -46,11 +46,11 @@ Following the most simple format example, I typed my most common git actions int
 </code>
 </pre>
 
-I then tentatively tested my shiny new aliases with a `gs`.
+I then tentatively tested my shiny new aliases with a `gs`. 
 
-It worked! Huzzah!
+It worked! Huzzah! 
 
-I went along my merry away.
+I went along my merry away. 
 
 Until the next day, when I got my dev environment up again and tried to use my new aliases. They didn't work.
 
@@ -58,13 +58,15 @@ Until the next day, when I got my dev environment up again and tried to use my n
 
 _Sad face_.
 
+
 ## Setting up an alias _globally_
 
 It turns out I had only created temporary aliases that existed in that sinlge CLI window only. To create global aliases that would persist in all future windows I needed to add them to my `.bash_profile`.
 
-On a mac, the `.bash_profile` file is located in the home username folder. This was a hidden file, so I needed to show all hidden files by pressing `cmd + shft + .` to find it.
+On a mac, the `.bash_profile` file is located in the home username folder. This was a hidden file, so I needed to show all hidden files by pressing `cmd + shft + . ` to find it.
 
-So in my `.bash_profile` file I typed the exact same code as I'd typed the day before.
+So in my `.bash_profile` file I typed the exact same code as I'd typed the day before. 
+
 
 <pre>
 <span class="token selector">alias</span> gs='git status '
@@ -87,8 +89,9 @@ So in my `.bash_profile` file I typed the exact same code as I'd typed the day b
 
 </pre>
 
-I saved the file, closed down all my terminal windows and tested the alias in a fresh window and they worked. Yay!
+I saved the file, closed down all my terminal windows and tested the alias in a fresh window and they worked.  Yay!
 
+ 
 ## Other methods
 
 Over the next couple days (thanks to the twitterverse) I found there are possibly better ways to do this. For example Atlassian has a good article that describes [how to set up your aliases through the gitconfig file](https://www.atlassian.com/git/tutorials/git-alias). One fender mentioned [oh-my-zsh comes with git aliases built in](https://ohmyz.sh/). Another fender mentioned putting the git aliases in a seperate alias file and then referencing that in your .bashrc file.
