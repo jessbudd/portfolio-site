@@ -204,11 +204,11 @@ quote: 'It is often easier to ask for forgiveness than to ask for permission.',
 author: 'Grace Hopper',
 url: 'https://www.biography.com/scientist/grace-hopper'
 },
-{
-quote: 'The most dangerous phrase in the language is, \"We\'ve always done it this way.\"',
-author: 'Grace Hopper',
-url: 'https://www.biography.com/scientist/grace-hopper'
-},
+//{
+// quote: 'The most dangerous phrase in the language is, \"We\'ve always done it this way.\"',
+// author: 'Grace Hopper',
+// url: 'https://www.biography.com/scientist/grace-hopper'
+// },
 {
 quote: 'A ship in port is safe, but that is not what ships are for.',
 author: 'Grace Hopper',
@@ -295,7 +295,7 @@ author: 'Stephanie Kwolek',
 url: 'http://www2.dupont.com/Kevlar/en_US/assets/downloads/DuPont_Cooper_River_Timeline_Online_Piece_FINAL%20100311.pdf'
 },
 {
-quote: 'As always in life, people want a simple answer...and it\’s always wrong.”',
+quote: 'As always in life, people want a simple answer...and it\’s always wrong.',
 author: 'Susan Greenfield',
 url: 'http://extraordinarywls.blogspot.com/2016/01/quote-susan-greenfield.html'
 },
@@ -365,7 +365,7 @@ author: 'Madeleine Albright',
 url: ''
 },
 {
-quote: 'Step out of the history that is holding you back. Step into the new story you are willing to create.”',
+quote: 'Step out of the history that is holding you back. Step into the new story you are willing to create.',
 author: 'Oprah Winfrey',
 url: ''
 },
