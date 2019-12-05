@@ -6,6 +6,7 @@ tags: ["post", "a11y"]
 meta: There are often situations where we need to hide content on a page, here's how to do it accessibily.
 img: https://jessbudd.com/images/featured/hidingContent.png
 # tag: speaking
+excerpt: There are often situations where we need to hide content on a page, either temporarily or permanently. The method you use for hiding content can have a big impact on accessibility, so this post will discuss when to use particular techniques...
 ---
 
 <p class="subtitle">There are often situations where we need to hide content on a page, either temporarily or permanently. The method you use for hiding content can have a big impact on accessibility, so this post will discuss when to use particular techniques.</p>
