@@ -633,6 +633,9 @@ figcaption {
 twitter-widget {
   padding-bottom: 25px;
 }
+* {
+  border: 1px solid red;
+}
 
 /* archive pages */
 .listing li {
@@ -647,12 +650,8 @@ twitter-widget {
   a {
     border-bottom: none;
     text-decoration: none;
-    &:hover {
-      color: $accent-color;
-    }
   }
 }
-
 /* fallback styles for twitter embeds */
 blockquote.twitter-tweet {
   display: inline-block;
