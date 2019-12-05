@@ -21,14 +21,14 @@ module.exports = function(config) {
   config.addLayoutAlias("default", "layouts/base.njk");
 
   // Add some utility filters
-  config.addFilter("squash", require("./src/utils/filters/squash"));
-  config.addFilter("dateDisplay", require("./src/utils/filters/date"));
+  config.addFilter("squash", require("./src/utils/filters/squash.js"));
+  config.addFilter("dateDisplay", require("./src/utils/filters/date.js"));
 
   // add support for syntax highlighting
   config.addPlugin(syntaxHighlight);
 
   // minify the html output
-  config.addTransform("htmlmin", require("./src/utils/minify-html"));
+  config.addTransform("htmlmin", require("./src/utils/minify-html.js"));
 
   // compress and combine js files
   config.addFilter("jsmin", function(code) {
@@ -52,7 +52,7 @@ module.exports = function(config) {
       output: "dist",
       data: `_data/${env}`
     },
-    templateFormats: ["njk", "md", "11ty"],
+    templateFormats: ["njk", "md", "11ty.js"],
     htmlTemplateEngine: "njk",
     markdownTemplateEngine: "njk",
     passthroughFileCopy: true

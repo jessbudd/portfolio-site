@@ -633,7 +633,9 @@ figcaption {
 twitter-widget {
   padding-bottom: 25px;
 }
-
+* {
+  border: red 1px solid;
+}
 /* archive pages */
 .listing li {
   list-style: none;
