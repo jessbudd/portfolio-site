@@ -11,3 +11,5 @@
 [[redirects]]
   from = "/posts/learned-about-web-industry/"
   to = "/posts/2017/learned-about-web-industry/"
+  from = "/posts/best-tech-podcasts/"
+  to = "/posts/2017/best-tech-podcasts/"
