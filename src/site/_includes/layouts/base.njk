@@ -19,13 +19,13 @@
     <!--twitter sharing-->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:creator" content="@jessbudd4">
-    <meta name="twitter:title" content="{{ title | safe }}">
+    <meta name="og:title" content="{{ title | safe }}">
     <meta name="twitter:site" content="@jessbudd4" />
     {%- if meta %}
-    <meta name="twitter:description" content="{{ meta | safe }}">
+    <meta name="og:description" content="{{ meta | safe }}">
     {% endif %}
     {%- if img %}
-    <meta name="twitter:image" content="{{ img | safe }}">
+    <meta name="og:image" content="{{ img | safe }}">
     {% endif %}
 
   </head>
