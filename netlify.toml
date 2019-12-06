@@ -9,6 +9,6 @@
 
 
 [[redirects]]
-  from = "/api/*"
-  to = "/.netlify/functions/:splat"
+  from = "/posts/learned-about-web-industry/"
+  to = "/posts/2017/learned-about-web-industry/"
   status = 200
