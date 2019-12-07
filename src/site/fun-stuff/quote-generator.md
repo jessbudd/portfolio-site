@@ -28,7 +28,7 @@ excerpt: A friend was recently given a list of inspirational quotes to add to a 
 
 <h2 class="h4">Why make this?</h2>
 
-A friend was recently given a list of inspirational quotes to add to a student handbook. Out of the 40+ quotes (one for each school week), only two were from women. So I decided to showcase more than 60 quotes from women. Also, for funsies 🙂
+A friend was recently given a list of inspirational quotes to add to a student handbook. Out of the 50+ quotes (one for each school week), only two were from women. So I decided to showcase more than 60 quotes from women. Also, for funsies 🙂
 
 <!-- <h2 class="h4">Can I see the whole list of quotes?</h2>
 
