@@ -12,7 +12,7 @@ Essentially “web accessibility" boils down to making your website functional (
 
 When you're just starting out as a developer it can be easy to dismiss accessibility as something you can figure out "later". Especially when some of the content on the subject seems to require a PHD to decipher!
 
-Today I want to share the TL:DR cheat sheet I wish I'd had for web accessibility earlier. Will doing these things make your entire website accessible for everyone? Unfortunately no, but you can feel better knowing you've got the basics covered. This list will give a beginner the biggest bang for their buck in terms of accessibility.
+Today I want to share the TL;DR cheat sheet I wish I'd had for web accessibility earlier. Will doing these things make your entire website accessible for everyone? Unfortunately no, but you can feel better knowing you've got the basics covered. This list will give a beginner the biggest bang for their buck in terms of accessibility.
 
 Let’s get started.
 
@@ -75,6 +75,7 @@ It's common to see a div or span dressed up like a button and even more common t
  	<li>If it <strong>navigates</strong> somewhere, use the anchor element and css for styling.</li>
 </ul>
 One reason this matters is because buttons and links are triggered with different keyboard actions.
+
 ## Media
 Avoid auto playing video or audio, pop-ups and carousels where possible and provide user controls for media. Ever opened multiple browser tabs and suddenly had music blaring from one of them? Imagine not being able to figure out where it was coming from to turn it off.
 
