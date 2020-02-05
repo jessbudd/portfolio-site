@@ -35,8 +35,11 @@ meta: Jess Budd is UI developer, web accessibility consultant and digital produc
 </section>
 
 <section class="talks">
+<div style="margin-bottom:42x;">
 
 {% include "upcoming-talks.njk" %}
+
+</div>
 
 <a href="/speaking#pastTalks">View previous talks</a>
 
