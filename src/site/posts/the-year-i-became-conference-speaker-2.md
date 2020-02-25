@@ -13,7 +13,7 @@ excerpt: I recently wrote about how I came to be giving 3 conference talks, in 3
 
 <figure>
 <img src="/images/posts/laracon-speaking.jpg" alt="Jess Budd speaking at LaraconAU"/>
-<figcaption>At least it <em>looks</em> like I'm not freaking out</figcaption>
+<figcaption>At least it <em>looks</em> like I'm not freaking out. Photo credit: Amy Kapernick</figcaption>
 </figure>
 
 The Monday before I set off, I had a skype [interview with one of the DDDAdelaide sponsors](https://www.linkedin.com/pulse/coffee-catch-ups-jess-budd-simon-cook/). We chatted about my upcoming speaking engagements, among other things, but something I particularly enjoyed was his reference to my "speaking tour of Australia" - which is a phrase I will now steal, thanks [@encodetalent](https://twitter.com/encodetalent) :joy:
@@ -41,7 +41,7 @@ In the break before my speaking slot, the venue's AV person got me all set up wi
 
 <figure>
 <img src="/images/posts/laracon-mic.jpg" alt="CSSConf name lanyard and 2 photobooth strips"/>
-<figcaption>Me, childishly excited by my rockstar mic</figcaption>
+<figcaption>Me, childishly excited about my rockstar mic</figcaption>
 </figure>
 
 People were often asking me in the lead up to this moment if I was nervous - and honestly, I wasn't anywhere near as nervous as I was expecting to be. Maybe it was because I kept telling myself nerves are just excitement, or I was keeping myself distracted, but I felt pretty good.
@@ -56,7 +56,7 @@ But I knew I had practiced and was prepared - so I told myself _"I got this"_ an
 
 <figure>
 <img src="/images/posts/laracon-setup.jpg" alt="Jess Budd getting ready to speak at LaraconAU"/>
-<figcaption>On stage before my talk, setting up my laptop</figcaption>
+<figcaption>On stage before my talk, setting up my laptop. Photo credit: Amy Kapernick</figcaption>
 </figure>
 
 Unfortunately, a couple minutes into my talk I realised....I didn't have my speaker notes.

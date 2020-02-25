@@ -40,6 +40,6 @@ meta: A list of Jess Budd's upcoming and past tech talks.
 <figure>
   <img src="/images/speakingLaracon2.jpg" alt="Jess Budd speaking at LarconAU">
 
-<figcaption>Presenting at LaraconAU 2019</figcaption>
+<figcaption>Presenting at LaraconAU 2019. Photo credit: Giles Park</figcaption>
 </figure>
 </div>
