@@ -42,14 +42,16 @@ In contrast, my Laracon talk was on a theatre stage with the ambient lights turn
 
 My DevFest talk was also non-technical, whereas my Laracon talk was the opposite. On one hand, you would think it would be easier because no one can dispute your points when you're discussing and drawing on your personal life experience. But on the other hand, it made me really nervous in the time leading up - I kept thinking _"why would anyone want to listen to me talk about myself?!_"
 
-Thankfully, it all went well and despite a small hiccup (forgetting to turn my lapel mic on - whoops!), I felt good about it when it was finished.  The audience laughed and reacted in the right places and were smiling, nodding and giving me positive feedback throughout, which helped me relax. 
+There was a small hiccup in the beginning, in that I had forgotten to turn my mic on. Members of the audience let me know during my introduction. Something like this could easily have thrown me off balance (like my slide notes did at Laracon), but it didn't thankfully. 
+
+The audience was really friendly, laughing and reacting in all the right places, nodding along and giving me positive feedback throughout. This really helped, and I found my voice to be more even and I could slow down more than previously.
 
 <figure>
 <img src="/images/posts/devfest4.jpg" alt="Jess Budd presenting at Google DevFest Melbourne"/>
 <figcaption>Giving my talk <em>Live Life in Perpetual Beta</em> at Google Dev Fest Melbourne.</figcaption>
 </figure>
 
-I felt less drained after this talk then my previous talk, probably because it felt more like I had been chatting with a group of new friends than performing under a spotlight.
+I felt less drained after this talk then my previous talk, I think because it felt more like I had been chatting with a group of new friends than performing under a spotlight.
 
 If you're interested, you can [watch the video and check out my slides](http://bit.ly/googledevfest19).
 
@@ -65,25 +67,27 @@ Last stop: Adelaide for their inaugural [DDD](https://dddadelaide.com).
 DDD is a not-for-profit community conference run on a weekend for low cost and I was really happy to be involved in their very first one. Mostly for the bragging rights of course 😄 
 
 
-There were no audio or visual mishaps this time, I'm happy to report! The room was very wide though, with 3 separate sections so I struggled to maintain an even spread of eye contact. Particularly as I still needed to refer to my slide notes (which I really need to work on!). 
+There were no audio or visual mishaps this time, I'm happy to report! 
 
-Other than that though, the audience was friendly and I was happy with my talk's pace and my speed. I finished about 5 minutes early so there was time for questions from the audience. 
+The room was very wide though, with 3 separate sections, so I struggled to maintain an even spread of eye contact. Particularly as I still needed to refer to my slide notes (which I really need to work on!). 
+
+Other than that though, the audience was friendly and I was happy with my talk's pace and speed. I finished about 5 minutes early so there was time for questions from the audience. 
 
 I've previously not wanted to take questions after a talk for a few reasons:
 - I'm a bit hard of hearing, and concerned I could have trouble hearing the questions;
 - I'm anxious about getting one of _those_ attendees that just want to correct or one-up the speaker;
  - Worried that I would not know an answer and  be proven an imposter!
 
- But I was riding the waves of a smooth talk high, so I accepted questions - and it wasn't a disaster.  I would be happy to take questions again in a similar size and type of audience. 
+ But I was riding the waves of a smooth talk high, so I accepted questions - and it wasn't a disaster. Some of the questions were really good and think the audience would have benefited from the extra information. I would be happy to take questions again in a similar size and type of audience. 
 
 <figure>
 <img src="/images/posts/DDD2.jpg" alt=""/>
 <figcaption>Presenting on <em>Making React Applications Accessible</em> at the inaugural DDDAdelaide</figcaption>
 </figure>
 
-After my talk, I received a lot of positive feedback from people in the audience and speakers I admire. 
+After my talk, I received a lot of positive feedback in person, on twitter and from speakers I admire. 
 
-Unfortunately, I did receive negative feedback from one person (some constructive, some less so). And to be honest, it really sucked knowing that someone didn't enjoy my talk. 
+Unfortunately, I did receive negative feedback from one person (some constructive, some less so). To be honest, it really sucked knowing that someone didn't enjoy my talk. 
 
 But I also know it had to happen at some point. And recognise that uncomfortable experiences like receiving criticism can be excellent opportunities for personal growth. 
 
@@ -109,10 +113,10 @@ So with my 3 talks, in 3 weeks, in 3 states all wrapped up, it was time to retur
 
 ## What next?
 
-I took a few months to recover and reflect on how I felt about presenting again in the future. But now, I'm excited to say I'll be adding "international" to my speaker bio! 
+I took a few months to reflect on how I felt about presenting again in the future. Now, I'm excited to announce I'll be adding "international" to my speaker bio! 
 
-<a href="https://codemania.io/">Codemania</a> in New Zealand have an amazing lineup of extremely talented people and I'm excited to be speaking alongside them in May. 
+<a href="https://codemania.io/">Codemania</a> in New Zealand have an amazing lineup of extremely talented people speaking at their conference in May 2020 and I'm excited to be speaking alongside them. 
 
-I hope you've enjoyed reading about my speaking journey, and if you hit me up on twitter I'd love to hear yours!
+I hope you've enjoyed reading about my speaking journey, and if you hit me up on twitter I'd love to hear about yours!
 
 </div>
