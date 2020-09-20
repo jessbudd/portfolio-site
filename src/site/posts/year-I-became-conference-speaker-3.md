@@ -1,5 +1,5 @@
 ---
-title: The Year I Became a Conference Speaker (Conclusion)
+title: The year I became a conference speaker (conclusion)
 subtitle:
 date: 2020-02-26
 meta: The last instalment in my story of going from too shy to speak up in meetings to a 3 time conference speaker

@@ -1,5 +1,5 @@
 ---
-title: The Year I Became a Conference Speaker (Part Two)
+title: The year I became a conference speaker (Part Two)
 subtitle:
 date: 2019-11-04
 meta: My experience going from too shy to speak up in meetings to a conference speaker - Part Two

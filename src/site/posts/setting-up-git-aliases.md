@@ -1,5 +1,5 @@
 ---
-title: How I Set Up Git Aliases on Bash
+title: How I set up git aliases on bash
 # subtitle: And speed up your development
 date: 2019-08-13
 meta: Setting up aliases for commonly used commands in the terminal can save yourself a lot of time during development. Here's how I added Git aliases on my mac through bash.

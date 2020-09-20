@@ -1,5 +1,5 @@
 ---
-title: Web Accessibility 101
+title: Web accessibility 101
 date: 2017-03-27
 excerpt: So first of all, what is web accessibility? Essentially “web accessibility" boils down to making your website functional (and hopefully easy to use) for as many people as possible. Including people with additional challenges such as ...
 meta: Accessibility 101 for front end web developers.

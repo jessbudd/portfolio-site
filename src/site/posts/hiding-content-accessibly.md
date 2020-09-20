@@ -1,5 +1,5 @@
 ---
-title: Hiding Content Accessibly
+title: Hiding content accessibly
 subtitle:
 date: 2019-11-17
 tags: [post, accessibility]
