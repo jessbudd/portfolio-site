@@ -100,8 +100,8 @@ So with my 3 talks, in 3 weeks, in 3 states all wrapped up, it was time to retur
 - **Writing technical talks is a different process to writing non-technical talks.** Most speakers will have a preference for one or the other, but personally I found writing and presenting a non-technical talk to be more difficult. With a technical talk, you can fact-check and be fairly confident what you're saying is correct - you're imparting objective knowledge. But with a non-technical talk, you're sharing your personal experiences and opinions. This had me doubting the value I could bring to the audience.
 
 - **Double check your microphone is on.** You'll often be mic'd up well in advance of starting your talk, so if there isn't a professional AV crew running all the sound, ensure you've done everything you need to. (And even if you think people can hear you fine, it's best practice to use a microphone for anyone in the room that might be hard of hearing).
-  <!--
-- **Speakers are just regular people.** I've always looked up to people that speak at conferences as being experts, the top of their field, and somewhat unapproachable. But they're really just normal people, the kind we work with every day, that are happy to have a chat and a laugh. -->
+  
+- **Speakers are just regular people.** I've always looked up to people that speak at conferences as being experts, the top of their field, and somewhat unapproachable. But they're really just normal people, the kind we work with every day, that are happy to have a chat and a laugh.
 
 ## What next?
 
