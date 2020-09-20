@@ -1,7 +1,7 @@
 ---
 title: Dev
 layout: layouts/base.njk
-# subtitle: A compilation of little things I'm making for fun.
+subtitle: A collection of posts about front-end developement and tech.
 ---
 
 <div class="container__blog">

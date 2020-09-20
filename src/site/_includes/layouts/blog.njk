@@ -44,6 +44,14 @@
 <p class="date">
   Posted <time datetime="{{ date }}">{{ date | dateDisplay }}</time>
 </p>
+<p>  
+  {# <span class="post__tag"><a href="/{{ tags[1] }}" >{{ tags[1] }}</a></span>
+  <span class="post__tag"><a href="/{{ tags[2] }}" >{{ tags[2] }}</a></span>
+  <span class="post__tag"><a href="/{{ tags[3] }}" >{{ tags[3] }}</a></span> #}
+<p>{% for i in tags %} <span class="post__tag"><a href="/{{ i }}" >tag: {{ i }}</a></span> {% endfor %}</p>
+
+  </p>
+
 <main>
 
       {{ content | safe }}
