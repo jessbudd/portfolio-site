@@ -7,9 +7,10 @@ layout: layouts/base.njk
 <div class="container__blog">
   <h1>{{ title }}</h1>
   {%- if subtitle %}<p class="subtitle">{{ subtitle | safe }}</p>{% endif %}
+ 
 
 <ul class="listing">
-{%- for page in collections.life | reverse -%}
+{%- for post in collections.life | reverse -%}
   {% include "blog-repeat.njk" %}
 {%- endfor -%}
 </ul>

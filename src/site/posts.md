@@ -9,7 +9,7 @@ subtitle: Read some of my musings on web development, digital accessibility, tec
   <!-- {%- if subtitle %}<p class="subtitle">{{ subtitle | safe }}</p>{% endif %} -->
 
 <ul class="listing">
-{%- for page in collections.post | reverse -%}
+{%- for post in collections.post | reverse -%}
   {% include "blog-repeat.njk" %}
 {%- endfor -%}
 

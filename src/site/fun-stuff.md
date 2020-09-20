@@ -9,7 +9,7 @@ subtitle: A compilation of little things I'm making for fun.
   {%- if subtitle %}<p class="subtitle">{{ subtitle | safe }}</p>{% endif %}
 
 <ul class="listing">
-{%- for page in collections.funstuff | reverse -%}
+{%- for post in collections.funstuff | reverse -%}
   {% include "blog-repeat.njk" %}
 {%- endfor -%}
 </ul>

@@ -1,5 +1,5 @@
 ---
-title: Dev
+title: test
 layout: layouts/base.njk
 # subtitle: A compilation of little things I'm making for fun.
 ---

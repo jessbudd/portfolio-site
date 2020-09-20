@@ -9,7 +9,7 @@ layout: layouts/base.njk
   {%- if subtitle %}<p class="subtitle">{{ subtitle | safe }}</p>{% endif %}
 
 <ul class="listing">
-{%- for page in collections.accessibility | reverse -%}
+{%- for post in collections.accessibility | reverse -%}
   {% include "blog-repeat.njk" %}
 {%- endfor -%}
 </ul>
