@@ -1,7 +1,7 @@
 ---
-title: Fun stuff
+title: Life
 layout: layouts/base.njk
-subtitle: A compilation of little things I'm making for fun.
+# subtitle: A compilation of little things I'm making for fun.
 ---
 
 <div class="container__blog">
@@ -9,7 +9,7 @@ subtitle: A compilation of little things I'm making for fun.
   {%- if subtitle %}<p class="subtitle">{{ subtitle | safe }}</p>{% endif %}
 
 <ul class="listing">
-{%- for page in collections.funstuff | reverse -%}
+{%- for page in collections.life | reverse -%}
   {% include "blog-repeat.njk" %}
 {%- endfor -%}
 </ul>

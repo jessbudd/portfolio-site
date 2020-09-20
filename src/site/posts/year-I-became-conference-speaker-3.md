@@ -2,10 +2,10 @@
 title: The Year I Became a Conference Speaker (Conclusion)
 subtitle:
 date: 2020-02-26
-tags: ["post", "speaking"]
 meta: The last instalment in my story of going from too shy to speak up in meetings to a 3 time conference speaker
 excerpt: Recently I gave 3 talks in 3 weeks in 3 different states. Here's how my second and third talk went, as well as what I learned a lot about speaking and myself...
 img: https://jessbudd.com/images/featured/confSpeaker3.png
+tags: [post, life]
 ---
 
 <div class="twitter">

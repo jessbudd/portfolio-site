@@ -4,6 +4,7 @@ title: How I Set Up Git Aliases on Bash
 date: 2019-08-13
 meta: Setting up aliases for commonly used commands in the terminal can save yourself a lot of time during development. Here's how I added Git aliases on my mac through bash.
 excerpt: It was almost 2 year agos I first saw someone in a tutorial using an alias for their git commands. I thought at the time it was something I should set up, but not being incredibly comfortable in the command line, I didn't look into it much further...
+tags: [post, dev]
 ---
 
 It was almost 2 year agos I first saw someone in a tutorial using an alias for their git commands. I thought at the time it was something I should set up, but not being incredibly comfortable in the command line, I didn't look into it much further.
