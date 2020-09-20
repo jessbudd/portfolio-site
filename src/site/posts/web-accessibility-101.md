@@ -1,9 +1,9 @@
 ---
-title: Web Accessibility 101
-tags: ["post", "a11y"]
+title: Web accessibility 101
 date: 2017-03-27
 excerpt: So first of all, what is web accessibility? Essentially “web accessibility" boils down to making your website functional (and hopefully easy to use) for as many people as possible. Including people with additional challenges such as ...
 meta: Accessibility 101 for front end web developers.
+tags: [post, accessibility]
 ---
 
 So first of all, _what is web accessibility?_
@@ -77,6 +77,7 @@ It's common to see a div or span dressed up like a button and even more common t
 One reason this matters is because buttons and links are triggered with different keyboard actions.
 
 ## Media
+
 Avoid auto playing video or audio, pop-ups and carousels where possible and provide user controls for media. Ever opened multiple browser tabs and suddenly had music blaring from one of them? Imagine not being able to figure out where it was coming from to turn it off.
 
 ## More Info

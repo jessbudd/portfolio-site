@@ -1,15 +1,16 @@
 ---
-title: Fun stuff
+title: Accessibility
 layout: layouts/base.njk
-subtitle: A compilation of little things I'm making for fun.
+subtitle: A collection of posts about web and digital accessibility.
 ---
 
 <div class="container__blog">
   <h1>{{ title }}</h1>
   {%- if subtitle %}<p class="subtitle">{{ subtitle | safe }}</p>{% endif %}
 
+
 <ul class="listing">
-{%- for post in collections.funstuff | reverse -%}
+{%- for post in collections.accessibility | reverse -%}
   {% include "blog-repeat.njk" %}
 {%- endfor -%}
 </ul>

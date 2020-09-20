@@ -64,7 +64,29 @@ body {
   width: 90%;
   text-align: left;
 }
-
+.post__tag:first-of-type {
+  display: none;
+}
+.post__tag {
+    font-size: .775rem;
+    white-space: nowrap;
+    font-family: Menlo,Consolas,Monaco,monospace;
+    padding: 6px 12px;
+    /* background-color: #cec2ef; */
+    border-radius: 4px;
+    border: 1px solid #01ffd2;
+}
+.post__tag a:link,
+.post__tag a:visited {
+    color: #533897;
+    color: #01ffd2;
+  border-bottom: none;
+}
+.archive__links {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+}
 .twitter a[href^="https://twitter"] {
   font-weight: bold;
   color: $accent-color;
@@ -637,7 +659,7 @@ twitter-widget {
 /* archive pages */
 .listing li {
   list-style: none;
-  padding: 30px 0;
+  padding: 40px 0 50px;
 }
 .listing li:not(:last-of-type) {
   border-bottom: $accent-color 1px solid;

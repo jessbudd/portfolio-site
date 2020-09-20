@@ -1,0 +1,15 @@
+<li >
+  <time datetime="{{ post.date }}">{{ post.date | dateDisplay(" d LLLL  y") }}</time>
+  <h2 class="h3 archive__title"><a href="{{ post.url }}">{{ post.data.title }}</a></h2>
+  {%- if post.data.excerpt %}<p> {{ post.data.excerpt }}</p>{% endif %}
+
+ 
+<div class="archive__links">
+<a href="{{ post.url }}" aria-label="Read more about {{ post.data.title | lower }}" class="archive__read-more">Read more</a>
+<div class="archive__links-tags">{% if title === "Blog" %}{% for i in post.data.tags %} <span class="post__tag"><a href="/{{ i }}">{{ i }}</a></span> {% endfor %}{% endif %}
+</div>
+</div>
+</li>
+ {# <span class="post__tag"><a href="/{{ post.data.tags[1]  }}" >{{ post.data.tags[1] }}</a></span>
+ <span class="post__tag"><a href="/{{ post.data.tags[2]  }}" >{{ post.data.tags[2] }}</a></span>
+<span class="post__tag"><a href="/{{ post.data.tags[3]  }}" >{{ post.data.tags[3] }}</a></span> #}

@@ -1,0 +1,24 @@
+  
+  // add tags
+  <li >
+    <time datetime="{{ post.date }}">{{ post.date | dateDisplay(" d LLLL  y") }}</time>
+    <h2 class="h3 archive__title"><a href="{{ post.url }}">{{ post.data.title }}</a></h2>
+    {%- if post.data.excerpt %}<p> {{ post.data.excerpt }}</p>{% endif %}
+    <p>{{ post.data.tags }}</p>
+    <a href="{{ post.url }}" aria-label="Read more about {{ post.data.title | lower }}" class="archive__read-more">Read more</a>
+  </li>
+
+
+
+// remove post cat
+eleventyExcludeFromCollections: true removes from blog page completely
+
+
+// add space between
+
+
+
+// wrap in links to cat post
+
+
+// style tags

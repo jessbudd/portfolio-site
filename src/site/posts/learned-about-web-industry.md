@@ -1,8 +1,9 @@
 ---
-title: What I've Learned About the Web Industry
+title: What I've learned about the web industry
 date: 2017-02-27
 excerpt: It's been 9 months since I started the journey of self-taught web developer and I've learned a lot. Besides the multitude of technical things (like what the hell a do-while loop is), there's also been plenty of cultural things to figure out too...
 meta: It's been 9 months since I started the journey of self-taught web developer and this is what I've learned.
+tags: [post, life]
 ---
 
 It's been 9 months since I started the journey of self-taught web developer and I've learned a _lot_. Besides the multitude of technical things (like what the hell a do-while loop is), there's also been plenty of cultural things to figure out too.
