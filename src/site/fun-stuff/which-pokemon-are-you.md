@@ -3,7 +3,7 @@ title: Which pokemon are you?
 layout: layouts/blank.njk
 date: 2020-06-15
 meta: A simple quiz to see if you were a first generation pokemon, which pokemon would you be?
-tags: funstuff
+# tags: funstuff
 img: https://jessbudd.com/images/featured/quoteGenerator.png
 excerpt: A simple quiz to see if you were a first generation pokemon, which pokemon would you be? Made on a lazy Sunday afternoon for my 6 and 9 year olds.
 ---
