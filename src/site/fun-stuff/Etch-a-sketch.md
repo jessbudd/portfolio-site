@@ -5,25 +5,31 @@ date: 2020-12-10
 meta: Etch-a-sketch, JavaScript practice
 tags: funstuff
 # img: https://jessbudd.com/images/featured/quoteGenerator.png
-excerpt: Remeber etch-a-sketchs from when you were a little kid? Like that, but purple.
+excerpt: Remeber playing with etch-a-sketchs from when you were a little kid? Like that, but purple and rainbow!
 ---
 
-<div class="fun-stuff">
 <h1>{{title}}</h1>
 <div class="canvasWrap">
-    <canvas width="1600" height="1000" id="etch-a-sketch"></canvas>
-    <div class="buttons">
-      <button class="shake">Clear!</button>
+    <div>
+        <canvas width="1600" height="1000" id="etch-a-sketch"></canvas>
     </div>
-
-  </div>
+    <div id="buttons">
+        <button class="control btn" name="ArrowLeft">&larr;</button>
+        <button class="control btn" name="ArrowUp">&uarr;</button>
+        <button class="control btn" name="ArrowRight">&rarr;</button>
+        <button class="control btn" name="ArrowDown">&darr;</button>
+        <button class="shake btn">Shake</button>
+    </div>
 </div>
 
 <script>
 const canvas = document.querySelector('#etch-a-sketch');
 const ctx = canvas.getContext(`2d`);
 const shakeButton = document.querySelector('.shake');
-const MOVE_AMOUNT = 10;
+const controls = document.querySelectorAll('.control');
+
+// console.log(controls);
+const MOVE_AMOUNT = 30;
 
 const {width, height } = canvas
 
@@ -33,7 +39,7 @@ let y = Math.floor(Math.random() * height);
 
 ctx.lineJoin = 'round';
 ctx.lineCap = 'round';
-ctx.lineWidth = 10;
+ctx.lineWidth = 15;
 
 let hue = 0;
 ctx.strokeStyle = `hsl(${hue}, 100%, 50%)`;
@@ -69,37 +75,55 @@ function draw(key) {
     ctx.stroke();
 }
 
+function handleClick(e) {
+    draw(e.currentTarget.name);
 
+}
 function handleKey(e) {
     if (e.key.includes('Arrow')) {
-
     e.preventDefault();
     draw(e.key );
     }
 }
 
+function clearCanvas() {
+    canvas.classList.add('shake');
+    ctx.clearRect(0, 0, width, height);
+    canvas.addEventListener('animationend', function() {
+        canvas.classList.remove('shake');
+    }, {once : true});
+}
+
 window.addEventListener('keydown', handleKey);
+shakeButton.addEventListener('click', clearCanvas);
+controls.forEach(
+    function(control) {
+        control.addEventListener('click', handleClick);
+    }
+);
 
 </script>
 
 <style>
-
-.fun-stuff {
-  text-align: center;
-  max-width: 900px;
-  margin: 80px auto 5px;
-}
-.quote__wrapper {
-    min-height: 300px;
-    padding-top: 72px;
-}
 body {
-      min-height: 100vh;
-      display: grid;
-      align-items: center;
-      justify-items: center;
+    min-height: 100vh;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+}
+.container {
+  text-align: center;
+  margin: 2% auto 0;
+}
+.grid-container {
+    grid-template-columns: 100%;
+}
+@media (min-width: 900px) {
+    .grid-container {
+        grid-template-columns: 70% 10%;
     }
-.shake {
+}
+.btn {
     text-decoration: none;
     background-color: transparent;
     color: #00ffd2;
@@ -108,39 +132,34 @@ body {
     padding: 12px 24px;
     border-radius: 4px;
     cursor: pointer;
+    margin-top: 10px;
 }
 canvas {
     border: 30px solid #cec2ef;
     margin: 20px 0;
     border-radius: 10px;
-    /* Set the width and height to half the actual size so it doesn't look pixelated */
-    width: 800px;
-    height: 500px;
+    width: 100%;
     background: white;
+    max-width: 800px;
+    box-sizing: border-box;
 }
-
 canvas.shake {
     animation: shake 0.5s linear 1;
 }
-
 @keyframes shake {
-
     10%,
     90% {
     transform: translate3d(-1px, 0, 0);
     }
-
     20%,
     80% {
     transform: translate3d(2px, 0, 0);
     }
-
     30%,
     50%,
     70% {
     transform: translate3d(-4px, 0, 0);
     }
-
     40%,
     60% {
     transform: translate3d(4px, 0, 0);
