@@ -59,13 +59,8 @@ function draw(key) {
         default:
             break;  
     }
-    x = x - MOVE_AMOUNT; 
-    y = y - MOVE_AMOUNT;
-
     ctx.lineTo(x,y)
     ctx.stroke();
-
-    console.log(key);
 }
 
 
@@ -73,7 +68,7 @@ function handleKey(e) {
     if (e.key.includes('Arrow')) {
 
     e.preventDefault();
-    draw({ key: e.key });
+    draw(e.key );
     // console.log(e.key);
     }
 }
