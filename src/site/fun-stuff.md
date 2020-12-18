@@ -1,7 +1,7 @@
 ---
 title: Fun stuff
 layout: layouts/base.njk
-subtitle: A compilation of little things I'm making for fun.
+subtitle: Bits and bobs of self-contained little things made with HTML, CSS and JavaScript.
 ---
 
 <div class="container__blog">

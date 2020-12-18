@@ -5,7 +5,7 @@ date: 2020-12-10
 meta: Etch-a-sketch, JavaScript practice
 tags: funstuff
 # img: https://jessbudd.com/images/featured/quoteGenerator.png
-excerpt: Remeber playing with etch-a-sketchs from when you were a little kid? Like that, but purple and rainbow!
+excerpt: Remeber playing with etch-a-sketchs when you were a kid? Like that, but purple and rainbow.
 ---
 
 <h1>{{title}}</h1>
