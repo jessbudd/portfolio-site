@@ -8,12 +8,12 @@ img: https://jessbudd.com/images/featured/quoteGenerator.png
 excerpt: A friend was recently given a list of inspirational quotes to add to a student handbook. Out of the 50+ quotes (one for each school week), only two were from women. So I decided to showcase more than 60 quotes from women.
 ---
 
- <link href="https://fonts.googleapis.com/css?family=Julius+Sans+One|Nanum+Myeongjo&display=swap" rel="stylesheet"> 
+ <link href="https://fonts.googleapis.com/css?family=Julius+Sans+One|Nanum+Myeongjo&display=block" rel="stylesheet"> 
 <div class="quote-generator">
 <!-- <h1>{{title}}</h1> -->
 
 <div class="quote__wrapper">
-    <blockquote id="quote" class="quote">The most dangerous phrase in the language is, "We've always done it this way."</blockquote>
+    <blockquote id="quote" class="quote"></blockquote>
     <cite id="author" class="author">Grace Hopper</cite>
 </div>
 
@@ -60,6 +60,7 @@ blockquote {
     padding: 12px 30px;
     line-height: 1.5;
     font-family: 'Nanum Myeongjo', serif;
+
 }
 cite {
     font-family: 'Nanum Myeongjo', serif;
@@ -155,7 +156,6 @@ a.btn__twitter {
 <script>
 var quote = document.getElementById('quote');
 var author = document.getElementById('author');
-// var url = document.getElementById('url');
 
 // update share tool link href
 var shareToolText = 'In need of some inspiration? Try this inspirational women quote generator by @jessbudd4 bit.ly/klsjdhfk ';
@@ -172,7 +172,7 @@ tweetQuoteText.setAttribute('href', tweetQuote);
 
 
 function getNewQuote() {
-    if (quotes.length > 0 ) {
+    if (quotes.length >= 0 ) {
         var randomNumber = Math.floor(Math.random()*(quotes.length));
         quote.innerText = quotes[randomNumber].quote;
         author.innerText = quotes[randomNumber].author;
@@ -191,6 +191,7 @@ function getNewQuote() {
         author.innerText = '';
     }
 }
+
 
 // array of quotes
 var quotes = [
@@ -520,5 +521,8 @@ author: 'Emma Watson',
 url: ''
 }
 ]
+
+
+getNewQuote();
 
 </script>
