@@ -2,13 +2,10 @@
 title: Jess Budd, Accessibility Consultant & Front-end Dev
 # subtitle: (Metaphorically speaking)
 layout: layouts/base.njk
-meta: Jess Budd is UI developer, web accessibility consultant and digital producer based in Perth, Australia. 
+meta: Jess Budd is UI developer, web accessibility consultant and digital producer based in Perth, Australia.
 ---
 
-
 {% include "hero.njk" %}
-
-
 
 <section class="grid-container proof-points">
     <div class="col">
@@ -29,7 +26,7 @@ meta: Jess Budd is UI developer, web accessibility consultant and digital produc
       <div class="proof-points__img">
         <img class="proof-points__img-svg" src="/images/undraw_producer.svg" alt="">
       </div>
-      <h2 class="proof-points__title">Digital Producer</h2>
+      <h2 class="proof-points__title">Senior Digital Producer</h2>
       <p class="proof-points__subtitle">Applying agile principles, I  manage, strategise, develop and implement creative digital projects and online inititives within a corporate framework.</p>
     </div><!--col-->
 </section>
@@ -42,6 +39,5 @@ meta: Jess Budd is UI developer, web accessibility consultant and digital produc
 </div>
 
 <a href="/speaking#pastTalks">View previous talks</a>
-
 
 </section>

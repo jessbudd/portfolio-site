@@ -1,11 +1,11 @@
 ---
 title: Etch-a-sketch
 layout: layouts/blank.njk
-date: 2020-12-20
+date: 2020-12-10
 meta: Etch-a-sketch, JavaScript practice
 tags: funstuff
 # img: https://jessbudd.com/images/featured/quoteGenerator.png
-# excerpt: A simple quiz to see if you were a first generation pokemon, which pokemon would you be? Made on a lazy Sunday afternoon for my 6 and 9 year olds.
+excerpt: Remeber etch-a-sketchs from when you were a little kid? Like that, but purple.
 ---
 
 <div class="fun-stuff">
@@ -23,6 +23,7 @@ tags: funstuff
 const canvas = document.querySelector('#etch-a-sketch');
 const ctx = canvas.getContext(`2d`);
 const shakeButton = document.querySelector('.shake');
+const MOVE_AMOUNT = 60;
 
 const {width, height } = canvas
 
@@ -37,9 +38,33 @@ ctx.beginPath();
 ctx.moveTo(x,y);
 ctx.lineTo(x,y)
 ctx.stroke();
-// console.log(canvas,ctx, shakeButton);
 
 function draw(key) {
+    ctx.beginPath();
+    ctx.moveTo(x,y);
+
+    switch(key) {
+        case 'ArrowUp':
+            y = y - MOVE_AMOUNT;
+            break;
+        case 'ArrowRight':
+            x = x + MOVE_AMOUNT;
+            break;
+        case 'ArrowDown':
+            y = y + MOVE_AMOUNT;
+            break;
+        case 'ArrowLeft':
+            x = x - MOVE_AMOUNT;
+            break;
+        default:
+            break;  
+    }
+    x = x - MOVE_AMOUNT; 
+    y = y - MOVE_AMOUNT;
+
+    ctx.lineTo(x,y)
+    ctx.stroke();
+
     console.log(key);
 }
 
