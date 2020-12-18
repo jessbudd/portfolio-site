@@ -164,7 +164,7 @@ shareTool = "https://twitter.com/intent/tweet?text=" + shareTool.split('"').join
 document.getElementById('shareTool').setAttribute('href', shareTool);
 
 // set tweet quote link href
-var credit = 'via @jessbudd4 bit.ly/klsjdhfk' 
+var credit = ' via @jessbudd4 bit.ly/klsjdhfk' 
 var tweetQuoteText = document.getElementById('tweetQuote');
 var tweetQuote = quote.innerHTML.split(' ').join('%20') + '%22%20-%20' + author.innerHTML.split(' ').join('%20');
 tweetQuote = "https://twitter.com/intent/tweet?text=\"" + tweetQuote.split('"').join('') + credit;;
