@@ -23,9 +23,10 @@ excerpt: Remeber etch-a-sketchs from when you were a little kid? Like that, but 
 const canvas = document.querySelector('#etch-a-sketch');
 const ctx = canvas.getContext(`2d`);
 const shakeButton = document.querySelector('.shake');
-const MOVE_AMOUNT = 60;
+const MOVE_AMOUNT = 10;
 
 const {width, height } = canvas
+
 
 let x = Math.floor(Math.random() * width);
 let y = Math.floor(Math.random() * height);
@@ -34,12 +35,17 @@ ctx.lineJoin = 'round';
 ctx.lineCap = 'round';
 ctx.lineWidth = 10;
 
+let hue = 0;
+ctx.strokeStyle = `hsl(${hue}, 100%, 50%)`;
 ctx.beginPath();
 ctx.moveTo(x,y);
 ctx.lineTo(x,y)
 ctx.stroke();
 
 function draw(key) {
+    hue = hue + 1;
+    ctx.strokeStyle = `hsl(${hue}, 100%, 50%)`;
+
     ctx.beginPath();
     ctx.moveTo(x,y);
 
@@ -59,13 +65,8 @@ function draw(key) {
         default:
             break;  
     }
-    x = x - MOVE_AMOUNT; 
-    y = y - MOVE_AMOUNT;
-
     ctx.lineTo(x,y)
     ctx.stroke();
-
-    console.log(key);
 }
 
 
@@ -73,8 +74,7 @@ function handleKey(e) {
     if (e.key.includes('Arrow')) {
 
     e.preventDefault();
-    draw({ key: e.key });
-    // console.log(e.key);
+    draw(e.key );
     }
 }
 
@@ -83,7 +83,6 @@ window.addEventListener('keydown', handleKey);
 </script>
 
 <style>
-/* fun stuff styles */
 
 .fun-stuff {
   text-align: center;
