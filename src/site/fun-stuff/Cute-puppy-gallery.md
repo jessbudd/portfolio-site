@@ -1,8 +1,8 @@
 ---
-title: Cute puppy gallery
+title: Click outside
 layout: layouts/blank.njk
 date: 2020-12-19
-meta: Cute puppy gallery
+meta: future puppy gallery
 # tags: funstuff
 # img: https://jessbudd.com/images/featured/quoteGenerator.png
 excerpt: Need a quick pick-me-up? Cute puppers and floofers and doggos waiting for you in here.
@@ -53,7 +53,7 @@ function handleButtonClick(e) {
     const desc = card.dataset.description;
 
     modalInner.innerHTML = 
-    `<img src="${imgSrc.replace('200', '600')}" alt="${name}">
+    `<img src="${imgSrc.replace('200', '600')}" height="600" alt="${name}">
     <p>${desc}</p>`
     ;
     modalOuter.classList.add('open');
@@ -64,14 +64,24 @@ function closeModal() {
 }
 
 modalOuter.addEventListener('click', function(e) {
-    if( e.target === modalOuter) {
+    const isOutside = !e.target.closest('.modal-inner');
+    if(isOutside) {
+        closeModal();
+    }
+})
+
+window.addEventListener('keydown', function(e) {
+    const isEscapeKey = e.key === 'Escape';
+    if(isEscapeKey) {
         closeModal();
     }
 })
 
 cardButtons.forEach(button => button.addEventListener('click', handleButtonClick))
 
+// TODO
  // stop people scrolling while modal is open 
+ // make modal cover below top
 
 </script>
 
@@ -95,6 +105,12 @@ cardButtons.forEach(button => button.addEventListener('click', handleButtonClick
         opacity: 1;
         pointer-events: all;
     }
+
+      .modal-outer.open .modal-inner {
+        transform: translateX(0%);
+
+    }
+
     .modal-inner {
         background: #fff;
         padding: 20px;
@@ -104,6 +120,8 @@ cardButtons.forEach(button => button.addEventListener('click', handleButtonClick
         max-width: 600px;
         min-height: 200px;
         border-radius: 4px;
+        transform: translateX(-200%);
+        transition: transform 2s;
     }
     p {
         color: #666;
