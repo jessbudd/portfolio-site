@@ -35,12 +35,39 @@ tags: exercises
   </div>
 
 <script>
+const tabs = document.querySelector('.tabs');
+const tabButtons = tabs.querySelectorAll('[role="tab"]');
+const tabPanels = Array.from(tabs.querySelectorAll('[role="tabpanel"]'));
 
+function handleTabClick(event) {
+    // hide all tab panels
+    tabPanels.forEach(panel => {
+        panel.hidden = true;
+    })
+    // mark all tabs as unselected
+    tabButtons.forEach(tab => {
+        tab.setAttribute('aria-selected', false);
+    });
+    // mark the clicked tab as selected
+    event.currentTarget.setAttribute('aria-selected', true);
+    // find the associated tabpanel and show it
+    const tabId = event.currentTarget.id;
+
+    // Method 1 option
+    // const tabPanel = tabs.querySelector(`[aria-labelledby="${tabId}"]`);
+    // tabPanel.hidden = false;
+
+    // Method 2 option (somewhat preferred)
+    // find in the array of tabpanels (update tabPanel nodelist to array first)
+    const tabPanel = tabPanels.find(panel => panel.getAttribute('aria-labelledby') === tabId);
+    tabPanel.hidden = false;
+    }
+
+tabButtons.forEach(button => button.addEventListener('click', handleTabClick));
 
 </script>
 
 <style>
-
 body {
     min-height: 100vh;
     display: grid;
@@ -50,12 +77,10 @@ body {
 .container {
   text-align: center;
   margin: 2% auto 0;
-      display: grid;
-    align-items: center;
-    justify-items: center;
 }
 .tabs {
   display: grid;
+  margin-top: 40px;
 }
 
 [role="tablist"] {
@@ -65,23 +90,24 @@ body {
 }
 
 [role="tabpanel"] {
-  background: yellow;
+  background: #1ac5c3;
   padding: 2rem;
 }
 button {
-  background: grey;
+  background: #cec2ef;
   border: 0;
   color: black;
   border-radius: 5px 5px 0 0;
   --bs-color: rgba(0,0,0,0.1);
   box-shadow: inset 0 -2px 5px var(--bs-color);
   cursor:pointer;
+  padding: 1em;
 }
 
 button[aria-selected="true"] {
-  background: yellow;
+  background: #1ac5c3;
   box-shadow: none;
-  color: rgba(0,0,0,0.7);
+  color: #fff;
 }
 
 button:focus {
