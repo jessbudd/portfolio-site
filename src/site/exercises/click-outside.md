@@ -1,9 +1,9 @@
 ---
-title: Click outside
+title: Click outside (JS)
 layout: layouts/blank.njk
 date: 2020-12-19
 meta: future puppy gallery
-# tags: funstuff
+tags: exercises
 # img: https://jessbudd.com/images/featured/quoteGenerator.png
 excerpt: Need a quick pick-me-up? Cute puppers and floofers and doggos waiting for you in here.
 ---
