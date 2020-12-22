@@ -18,12 +18,14 @@ tags: exercises
         reprehenderit fuga voluptatem officiis corrupti ipsa eveniet architecto dolorem magni facere doloribus aut
         veritatis sequi quia repellendus aperiam assumenda exercitationem optio praesentium debitis. Excepturi unde
         minus dignissimos at totam tempora beatae cumque, voluptates adipisci repudiandae asperiores repellat delectus
-        tempore voluptatem veritatis atque quaerat optio! Quasi, possimus molestiae hic modi quia minus eius veniam
+        tempore voluptatem veritatis atque quaerat optio!</p>
+        <p> Quasi, possimus molestiae hic modi quia minus eius veniam
         aperiam assumenda fugiat fugit optio odio quas esse quam architecto officiis sunt quis cupiditate vel
         voluptate
         consequuntur nam porro harum. Fuga distinctio voluptate provident molestias perspiciatis fugit esse corrupti
         adipisci quas eos dolor non cum ipsam repudiandae dolorem, quasi necessitatibus iusto unde similique
-        repellendus praesentium tenetur? Obcaecati aliquam nostrum vero expedita fuga, quae et quaerat modi error
+        repellendus praesentium tenetur? </p>
+        <p>Obcaecati aliquam nostrum vero expedita fuga, quae et quaerat modi error
         adipisci eligendi fugit alias quia nihil laudantium quam tenetur ipsam explicabo nisi natus, rerum omnis,
         debitis provident! Dolorum sequi recusandae, necessitatibus eos nesciunt cupiditate accusantium illum unde
         minima. Labore sit quos voluptatem illum qui. Veritatis quis a mollitia asperiores repudiandae consequatur
@@ -38,11 +40,13 @@ tags: exercises
         dolorem
         quam, unde quo fugit tempore ipsa qui provident, iste ratione quis dignissimos temporibus nostrum voluptatum
         molestias? Blanditiis repellendus sapiente inventore aliquam qui error aliquid doloremque fugit consequuntur
-        laudantium. Sapiente doloribus ullam vel dicta doloremque iure, deleniti ipsum non. Rem repudiandae deleniti
+        laudantium. Sapiente doloribus ullam vel dicta doloremque iure, deleniti ipsum non.</p>
+        <p> Rem repudiandae deleniti
         ad
         at laborum eaque, modi voluptas aut! Quam nihil deleniti velit excepturi, quidem, veniam aut doloremque iure
         reprehenderit natus vel quia iusto? Magni veritatis provident libero hic quisquam, perferendis officia quasi
         molestiae sit sunt fugiat, perspiciatis architecto velit unde molestias ratione totam, atque doloremque!</p>
+        <br/>
     </div>
     <!--
       autocomplete="off" adresses an issue with firefox
@@ -58,15 +62,23 @@ This may or may not be desired in a real world scenario 🙃
 <script>
 
 const terms = document.querySelector('.terms-and-conditions');
-const watch = document.querySelecter('.watch');
-
+const watch = document.querySelector('.watch');
+const button = document.querySelector('.accept');
 
 function obCallback(payload) {
-    console.log(payload);
+    if(payload[0].intersectionRatio === 1) {
+      button.disabled = false;
+      // stop observing
+      ob.unobserve(terms.lastElementChild);
+    };
 }
 
+const ob = new IntersectionObserver(obCallback, {
+  root: terms,
+  threshold: 1,
+});
 
-const ob = new IntersectionObserver(obCallback);
+ob.observe(terms.lastElementChild);
 
 // old way
 // function scrollToAccept() {
@@ -109,23 +121,27 @@ body {
         color: purple;
         text-align: left;
     }
-    p {
-        color: #666;
-        font-size: .875rem;
-        text-align: left;
-    }
     button {
-      background: #ff0060;
+      background: #1ac5c3;
       color: white;
       font-size: 1rem;
       padding: 20px;
+      border: #1ac5c3;
       transition: all 0.2s;
     }
     button[disabled] {
       opacity: 0.1;
+      transform: translateX(-200%) scale(0.5);
+
     }
     .terms-and-conditions {
       overflow: scroll;
+    }
+    .terms-and-conditions p {   
+        color: #666;
+        font-size: .875rem;
+        text-align: left;
+        margin-bottom: 8px;
     }
     footer {
         width: 100%;
