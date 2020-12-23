@@ -26,14 +26,34 @@ excerpt: Help Mr Turtle move around with the controls or arrow keys
 <script>
 const controls = document.querySelectorAll('.control');
 const turtle = document.querySelector('.turtle');
-let x = 0;
-let y = 0;
+const wrapper = document.querySelector('.wrapper');
+
 const speed = 10;
 const MOVE_AMOUNT = 3;
+
+const imgHeight = 30;
+const height = window.innerHeight  - imgHeight;
+const width = window.innerWidth  - imgHeight;
+const randomHeight = Math.round(Math.random() * height);
+const randomWidth = Math.round(Math.random() * width);
+let x = 0;
+let y = 0;
 let flipped = false;
 let rotate = 0;
-
    
+function addFly() {
+    const fly = document.createElement('img');
+    fly.src = "/images/funstuff/fly.png";
+    fly.alt = "cartoon fly";
+    fly.width =`${imgHeight}`;
+    fly.style.position = 'absolute';
+                
+    fly.style.top = `${randomHeight}px`;
+    fly.style.left = `${randomWidth}px`;
+
+    wrapper.appendChild(fly);
+}
+
 function moveTurtle(command) {
     const isOut = isOutOfViewport(turtle);
 
@@ -47,7 +67,6 @@ function moveTurtle(command) {
     } else if (command === "ArrowDown" && !isOut.bottom) {
         y = y + MOVE_AMOUNT;
         rotate = 90;
-        console.log(isOut);
     } else if (command === "ArrowLeft" && !isOut.left) {
          x = x - MOVE_AMOUNT;
         rotate = 0;
@@ -74,8 +93,8 @@ const isOutOfViewport = function(element) {
     let out = {};
     out.top = (bounding.top  - 20) < 0;
     out.left = (bounding.left - 20) < 0;
-    out.bottom = (bounding.bottom + 20)> (window.innerHeight || document.documentElement.clientHeight);
-    out.right = (bounding.right + 20) > (window.innerWidth || document.documentElement.clientWidth);
+    out.bottom = (bounding.bottom + 20)> height;
+    out.right = (bounding.right + 20) > width;
     return out;
 };
 
@@ -95,6 +114,7 @@ controls.forEach(
         control.addEventListener('click', handleClick);
     }
 );
+addFly();
 
 </script>
 
