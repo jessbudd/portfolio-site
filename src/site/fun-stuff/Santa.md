@@ -323,6 +323,11 @@ body {
     --rotate: 0;
     transform: translateX(var(--x)) translateY(var(--y)) rotate(var(--rotate));
     align-self: flex-start;
+  pointer-events: none;
+
+}
+#sleigh {
+  pointer-events: none;
 }
 .btn {
     text-decoration: none;
@@ -352,7 +357,7 @@ body {
     width: 80px;
 }
 .btn {
-    font-size: .675rem;
+    font-size: 1em;
     padding: 6px 12px;
    }
 }
