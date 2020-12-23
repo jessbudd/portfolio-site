@@ -246,8 +246,6 @@ function moveTurtle(command) {
     const sleighLocationX = parseInt(sleigh.getBoundingClientRect().x);
     const sleighLocationY = parseInt(sleigh.getBoundingClientRect().y);
     const isMobile = width < 450;
-    // const closenessMobile = 50;
-    // const closenessDesktop = 50;
 
     const isTurtleOnX = santaLocationX > (sleighLocationX - (isMobile ? 50 : 75)) && santaLocationX < (sleighLocationX +
 
@@ -255,10 +253,10 @@ function moveTurtle(command) {
 
     const isTurtleOnY = santaLocationY > (sleighLocationY - (isMobile ? 50 : 50)) && santaLocationY < (sleighLocationY + (isMobile ? 50 : 50));
 
-    console.log(`santalocationX ${santaLocationX}
-    santalocationY ${santaLocationY}
-    ${isTurtleOnX} ${isTurtleOnY}
-    sleigh X ${sleighLocationX} slieigh Y$ {sleighLocationY}`);
+    // console.log(`santalocationX ${santaLocationX}
+    // santalocationY ${santaLocationY}
+    // ${isTurtleOnX} ${isTurtleOnY}
+    // sleigh X ${sleighLocationX} slieigh Y$ {sleighLocationY}`);
 
     if(isTurtleOnX && isTurtleOnY) {
         foundSleigh = true;
@@ -368,6 +366,7 @@ body {
   position: absolute;
   top: 0;
   left: 0;
+  pointer-events: none;
 }
 
 .g-snows > li {
