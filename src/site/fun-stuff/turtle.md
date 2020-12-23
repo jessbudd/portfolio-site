@@ -3,9 +3,9 @@ title: Turtle animation
 layout: layouts/blank.njk
 date: 2020-12-22
 meta: Animation, JavaScript practice
-tags: funstuff
+# tags: funstuff
 # img: https://jessbudd.com/images/featured/quoteGenerator.png
-excerpt: Help Mr Turtle move around with the controls or arrow keys
+excerpt: Help Mr Turtle catch the fly with the controls or arrow keys
 ---
 
 <!-- <h1>{{title}}</h1> -->
@@ -32,27 +32,25 @@ const speed = 10;
 const MOVE_AMOUNT = 3;
 
 const imgHeight = 30;
-let height = wrapper.offsetHeight - imgHeight;
-let width = wrapper.offsetWidth  - imgHeight;
-let randomHeight = Math.round(Math.random() * height);
-let randomWidth = Math.round(Math.random() * width);
+let height = window.innerHeight - 60;
+let width = window.innerWidth - 60;
+let randomHeight = randomPosition((height / 4), height);
+let randomWidth = randomPosition((width / 4), width);
 let x = 0;
 let y = 0;
 let flipped = false;
 let rotate = 0;
-   
 
-const isOutOfViewport = function(element) {
-    // Get element's bounding
-    const bounding = element.getBoundingClientRect();
-    // Check if it's out of the viewport on each side
-    let out = {};
-    out.top = (bounding.top  - 20) < 0;
-    out.left = (bounding.left - 20) < 0;
-    out.bottom = (bounding.bottom + 20) > window.innerHeight;
-    out.right = (bounding.right + 20) > window.innerWidth;
-    return out;
-};
+function randomPosition(min, max) {
+  min = Math.ceil(min);
+  max = Math.floor(max);
+  return Math.floor(Math.random() * (max - min) + min); 
+  }
+
+window.addEventListener('resize', function() {
+    height = window.innerHeight;
+    width =  window.innerWidth;
+})
 
 function addFlyOnLoad() {
     const fly = document.createElement('img');
@@ -67,10 +65,11 @@ function addFlyOnLoad() {
     wrapper.appendChild(fly);
 }
 
+
 function resetGame() {
     const fly = document.querySelector('#fly');
-    const newRandomHeight = Math.round(Math.random() * height);
-    const newRandomWidth = Math.round(Math.random() * width);
+    const newRandomHeight = randomPosition((height / 4), height);
+    const newRandomWidth = randomPosition((width / 4), width);
     randomHeight = newRandomHeight;
     randomWidth = newRandomWidth;
     fly.style.top = `${newRandomHeight}px`;
@@ -82,10 +81,25 @@ function resetGame() {
         --y: 0px;
         --x: 0px;
     `);
+    x = 0;
+    y = 0;
 console.log(turtle);
 }
 
 function moveTurtle(command) {
+
+    const isOutOfViewport = function(element) {
+        // Get element's bounding
+        const bounding = element.getBoundingClientRect();
+        // Check if it's out of the viewport on each side
+        let out = {};
+        out.top = (bounding.top  - 20) < 0;
+        out.left = (bounding.left - 20) < 0;
+        out.bottom = (bounding.bottom + 20) > window.innerHeight;
+        out.right = (bounding.right + 20) > window.innerWidth;
+        return out;
+    };
+
     const isOut = isOutOfViewport(turtle);
     let foundFly = false;
 
@@ -106,6 +120,7 @@ function moveTurtle(command) {
     } else {
         return;
     }
+
     turtle.setAttribute(`style`, `
     --rotateX: ${flipped ? '180deg' : '0'};
     --rotate: ${rotate}deg;
@@ -116,7 +131,6 @@ function moveTurtle(command) {
     const arrow = document.querySelector(`#${command}`);
     arrow.focus()
 
-    // if turtle location is within half of turtle size width
     const turtleLocationX = parseInt(turtle.getBoundingClientRect().x);
     const turtleLocationY = parseInt(turtle.getBoundingClientRect().y);
 
@@ -151,10 +165,8 @@ controls.forEach(
         control.addEventListener('click', handleClick);
     }
 );
-window.addEventListener('resize', function() {
-    height = wrapper.offSetHeight;
-    width = wrapper.offsetWidth;
-})
+
+
 addFlyOnLoad();
 
 </script>
@@ -172,12 +184,12 @@ body {
     text-align: center;
     position: relative;
     display: grid;
-    justify-items: center;
-    align-items: flex-end;
 }
 .wrapper p {
     color: #cec2ef;
     font-size: .775em;
+    align-self: flex-end;
+    justify-self: center;
 }
 .buttons {
     position: absolute;
@@ -192,6 +204,7 @@ body {
     --rotate: 0;
     transform: translateX(var(--x)) translateY(var(--y)) rotateY(var(--rotateX)) rotate(var(--rotate));
     transition: .2s;
+    align-self: flex-start;
 }
 .btn {
     text-decoration: none;
