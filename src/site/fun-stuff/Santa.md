@@ -2,7 +2,7 @@
 title: Santa's Little Helper
 layout: layouts/blank.njk
 date: 2020-12-22
-meta: Animation, JavaScript practice
+meta: It's Christmas Eve and Santa needs help getting to his sleigh! Can you get him where he needs to be?
 tags: funstuff
 img: https://jessbudd.com/images/featured/santasLittleHelper.png
 excerpt: It's Christmas Eve and Santa needs help getting to his sleigh! Can you get him where he needs to be?
