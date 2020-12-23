@@ -115,14 +115,6 @@ body {
   text-align: center;
   margin: 2% auto 0;
 }
-.grid-container {
-    grid-template-columns: 100%;
-}
-@media (min-width: 900px) {
-    .grid-container {
-        grid-template-columns: 70% 10%;
-    }
-}
 .btn {
     text-decoration: none;
     background-color: transparent;
