@@ -35,38 +35,49 @@ let rotate = 0;
 
    
 function moveTurtle(command) {
-    switch(command) {
-        case 'ArrowUp':
-            y = y - MOVE_AMOUNT;
-            rotate = -90;
-            break;
-        case 'ArrowRight':
-            x = x + MOVE_AMOUNT;
-            rotate = 0;
-            flipped = false;
-            break;
-        case 'ArrowDown':
-            y = y + MOVE_AMOUNT;
-            rotate = 90;
-            break;
-        case 'ArrowLeft':
-            x = x - MOVE_AMOUNT;
-            rotate = 0;
-            flipped = true;
-            break;
-        default:
-            break;  
+    const isOut = isOutOfViewport(turtle);
+
+    if(command === "ArrowUp" && !isOut.top) {
+         y = y - MOVE_AMOUNT;
+        rotate = -90; 
+    } else if (command === "ArrowRight" && !isOut.right) {
+        x = x + MOVE_AMOUNT;
+        rotate = 0;
+        flipped = false;
+    } else if (command === "ArrowDown" && !isOut.bottom) {
+        y = y + MOVE_AMOUNT;
+        rotate = 90;
+        console.log(isOut);
+    } else if (command === "ArrowLeft" && !isOut.left) {
+         x = x - MOVE_AMOUNT;
+        rotate = 0;
+        flipped = true;
+    } else {
+        return;
     }
+
     turtle.setAttribute(`style`, `
     --rotateX: ${flipped ? '180deg' : '0'};
     --rotate: ${rotate}deg;
     --y: ${y * speed}px;
     --x: ${x * speed}px;
     `);
-    const up = document.querySelector(`#${command}`);
-    up.focus()
-    console.log(up);
+    // make arrow button light up when corresponding arrow key is used
+    const arrow = document.querySelector(`#${command}`);
+    arrow.focus()
 }
+
+const isOutOfViewport = function(element) {
+    // Get element's bounding
+    const bounding = element.getBoundingClientRect();
+    // Check if it's out of the viewport on each side
+    let out = {};
+    out.top = (bounding.top  - 20) < 0;
+    out.left = (bounding.left - 20) < 0;
+    out.bottom = (bounding.bottom + 20)> (window.innerHeight || document.documentElement.clientHeight);
+    out.right = (bounding.right + 20) > (window.innerWidth || document.documentElement.clientWidth);
+    return out;
+};
 
 function handleClick(e) {
     moveTurtle(e.currentTarget.id);
@@ -84,6 +95,7 @@ controls.forEach(
         control.addEventListener('click', handleClick);
     }
 );
+
 </script>
 
 <style>
