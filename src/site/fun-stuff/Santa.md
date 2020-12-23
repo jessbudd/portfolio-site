@@ -5,7 +5,7 @@ date: 2020-12-22
 meta: Animation, JavaScript practice
 tags: funstuff
 # img: https://jessbudd.com/images/featured/quoteGenerator.png
-excerpt: It's Christmas Eve and Santa needs help getting to his sleigh. Can you help him?
+excerpt: It's Christmas Eve and Santa needs help getting to his sleigh! Can you get him where he needs to be?
 ---
 
 <!-- <h1>{{title}}</h1> -->
