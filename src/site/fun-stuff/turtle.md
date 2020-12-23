@@ -20,7 +20,7 @@ excerpt: Help Mr Turtle move around with the controls or arrow keys
     </div>
     <img src="/images/funstuff/turtle.png" alt="cartoon turtle" class="turtle" width="150">
 
-<p>Walk Mr Turtle around using arrow keys or buttons.</p>
+<p>Help Mr Turtle catch the fly using arrow keys or buttons.</p>
 </div>
 
 <script>
@@ -32,8 +32,8 @@ const speed = 10;
 const MOVE_AMOUNT = 3;
 
 const imgHeight = 30;
-const height = window.innerHeight  - imgHeight;
-const width = window.innerWidth  - imgHeight;
+let height = window.innerHeight  - imgHeight;
+let width = window.innerWidth  - imgHeight;
 const randomHeight = Math.round(Math.random() * height);
 const randomWidth = Math.round(Math.random() * width);
 let x = 0;
@@ -41,7 +41,21 @@ let y = 0;
 let flipped = false;
 let rotate = 0;
    
-function addFly() {
+   console.log(randomHeight, randomWidth);
+
+const isOutOfViewport = function(element) {
+    // Get element's bounding
+    const bounding = element.getBoundingClientRect();
+    // Check if it's out of the viewport on each side
+    let out = {};
+    out.top = (bounding.top  - 20) < 0;
+    out.left = (bounding.left - 20) < 0;
+    out.bottom = (bounding.bottom + 20)> height;
+    out.right = (bounding.right + 20) > width;
+    return out;
+};
+
+function addFlyOnLoad() {
     const fly = document.createElement('img');
     fly.src = "/images/funstuff/fly.png";
     fly.alt = "cartoon fly";
@@ -56,6 +70,7 @@ function addFly() {
 
 function moveTurtle(command) {
     const isOut = isOutOfViewport(turtle);
+    let foundFly = false;
 
     if(command === "ArrowUp" && !isOut.top) {
          y = y - MOVE_AMOUNT;
@@ -74,7 +89,14 @@ function moveTurtle(command) {
     } else {
         return;
     }
+    const turtleLocationX = parseInt(turtle.getBoundingClientRect().x);
+    const turtleLocationY = parseInt(turtle.getBoundingClientRect().y);
 
+    console.log(turtleLocationX, turtleLocationY)
+
+    if (foundFly) {
+        alert("You caught Fly!");
+    }
     turtle.setAttribute(`style`, `
     --rotateX: ${flipped ? '180deg' : '0'};
     --rotate: ${rotate}deg;
@@ -86,17 +108,7 @@ function moveTurtle(command) {
     arrow.focus()
 }
 
-const isOutOfViewport = function(element) {
-    // Get element's bounding
-    const bounding = element.getBoundingClientRect();
-    // Check if it's out of the viewport on each side
-    let out = {};
-    out.top = (bounding.top  - 20) < 0;
-    out.left = (bounding.left - 20) < 0;
-    out.bottom = (bounding.bottom + 20)> height;
-    out.right = (bounding.right + 20) > width;
-    return out;
-};
+
 
 function handleClick(e) {
     moveTurtle(e.currentTarget.id);
@@ -114,7 +126,11 @@ controls.forEach(
         control.addEventListener('click', handleClick);
     }
 );
-addFly();
+window.addEventListener('resize', function() {
+    height = window.innerHeight  - imgHeight;
+    width = window.innerWidth  - imgHeight;
+})
+addFlyOnLoad();
 
 </script>
 
