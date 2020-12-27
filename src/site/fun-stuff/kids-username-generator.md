@@ -3,7 +3,7 @@ title: Kids Username Generator
 layout: layouts/blank.njk
 date: 2020-01-01
 meta:
-tags: funstuff
+# tags: funstuff
 # img: https://jessbudd.com/images/featured/quoteGenerator.png
 excerpt: It's important for kids online safety to ensure usernames avoid any personal identifying giveaways. I made this little tool to help my kids pick out fun, easy to remember usernames.
 ---
