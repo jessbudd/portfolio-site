@@ -2,14 +2,6 @@ const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
 const pluginRss = require("@11ty/eleventy-plugin-rss");
 
 module.exports = function (config) {
-  // add support for draft posts
-  const publishedPosts = (post) => post.date <= now && !post.data.draft; // [1]
-  config.addCollection("posts", (collection) => {
-    // [2]
-    return collection
-      .getFilteredByGlob("./src/posts/*.md") // [3]
-      .filter(publishedPosts); // [4]
-  });
   config.addPlugin(pluginRss);
 
   // A useful way to reference the context we are runing eleventy in
