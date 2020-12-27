@@ -78,6 +78,8 @@ meta: practice makes progress
     console.log(Object.entries(meats)); // returns array of arrays (each object being its own array)
     console.log(Object.keys(meats)); // returns array of all keys in the object
     console.log(Object.values(meats)); // returns array of all values in the object
+    console.log('');
+    
     
     /*
     Instance Methods

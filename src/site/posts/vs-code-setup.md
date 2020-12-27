@@ -1,7 +1,7 @@
 ---
 title: My VS Code Setup
 draft: true
-date: 2020-01-10
+date: 2019-01-10
 excerpt: Handy record of my VS code extensions, snippets, customisations for when I set up new workstations.
 meta: Handy record of my VS code extensions, snippets, customisations for when I set up new workstations.
 # tags: [post, dev, life]
