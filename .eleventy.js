@@ -1,7 +1,7 @@
 const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
 const pluginRss = require("@11ty/eleventy-plugin-rss");
 
-module.exports = function(config) {
+module.exports = function (config) {
   config.addPlugin(pluginRss);
 
   // A useful way to reference the context we are runing eleventy in
@@ -10,7 +10,7 @@ module.exports = function(config) {
   let markdownIt = require("markdown-it");
   let markdownItEmoji = require("markdown-it-emoji");
   let options = {
-    html: true
+    html: true,
   };
   let markdownLib = markdownIt(options).use(markdownItEmoji);
 
@@ -31,7 +31,7 @@ module.exports = function(config) {
   config.addTransform("htmlmin", require("./src/utils/minify-html.js"));
 
   // compress and combine js files
-  config.addFilter("jsmin", function(code) {
+  config.addFilter("jsmin", function (code) {
     const UglifyJS = require("uglify-js");
     let minified = UglifyJS.minify(code);
     if (minified.error) {
@@ -50,11 +50,11 @@ module.exports = function(config) {
     dir: {
       input: "src/site",
       output: "dist",
-      data: `_data/${env}`
+      data: `_data/${env}`,
     },
     templateFormats: ["njk", "md", "11ty.js"],
     htmlTemplateEngine: "njk",
     markdownTemplateEngine: "njk",
-    passthroughFileCopy: true
+    passthroughFileCopy: true,
   };
 };
