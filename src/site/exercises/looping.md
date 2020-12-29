@@ -182,6 +182,53 @@ meta: practice makes progress
     console.log('destructured cleanPeople.filter()', cleanPeopleFiltered);
     //
     // find - immutable
+    // const student = students.find( stud => stud.id === '565a');
+    // higher order function is a function within a function
+    function findById(id) {
+        return function isStudent(student) {
+            return student.id === id;
+        }
+    }
+    // more generic extensible fn
+    function findByProp(prop, propWeAreLookingFor) {
+        return function(array) {
+            return array[prop] === propWeAreLookingFor;
+        }
+    }
+    const student = students.find(findById('565a'));
+    const student2 = students.find(findByProp('first_name', 'Lorry'));
+    console.log('find()', student2);
+    console.log('find(findById(param)) using Higher Order Function' , student);
+    console.clear();
+    //
+    // 
+    // reduce!
+    function tallyNumbers(tally, currentTotal) {
+        console.log(`The current tally is ${tally}`);
+        console.log(`The current total is ${currentTotal}`);
+        console.log('----');
+        return tally + currentTotal;
+    }
+    const allOrders = orderTotals.reduce(tallyNumbers, 0);
+//
+//
+function inventoryReducer(totals, item) {
+    console.log(`looping over ${item.type}`);
+    // increment the type by 1
+    totals[item.type] = totals[item.type] + 1 || 1;
+    // totals.shirt ? totals[item.type] + 1 : totals[item.type] = 1 
+    // return the totals so the next loop can use it
+    console.log(totals);
+    return totals;
+}
+// get the total inventory
+const inventoryCounts = inventory.reduce(inventoryReducer, {})
+console.log('Array.reduce(namedFunction, {empty object})', inventoryCounts);
+//
+// get the total inventory price
+const totalInventoryPrice = inventory.reduce((accumulator, item) => accumulator + item.price, 0);
+console.log(totalInventoryPrice);
+
 </script>
 
 <style>
