@@ -189,6 +189,7 @@ meta: practice makes progress
     const legitRatings = feedback.filter( ({rating}) => rating !== 1 );
     console.table('filter ratings less than 1', legitRatings);
 
+
     // check if there is at least 5 of one type of meat with some()
     const isAtLeastFiveOfOneMeat = Object.values(meats).some(meatValue => meatValue >= 5);
     console.log('some() min meat', isAtLeastFiveOfOneMeat); // return true
@@ -213,10 +214,29 @@ meta: practice makes progress
     const sortedPrices = Object.fromEntries(pricesArray);
     console.table('sort() object values by number', sortedPrices );
     
-    
+
     /*
-    Looping Methods (next)
+    Looping Methods 
     */
+   // for each
+   function logTopping(topping, index, originalArray) {
+       const nextTopping = originalArray[index + 1];
+       const prevTopping = originalArray[index - 1];
+    
+    //    log the topping
+    console.log(topping);
+    //    log the prev topping if there is one
+     prevTopping ? console.log(prevTopping) : null
+    // log the next topping if there is one
+     nextTopping ? console.log(nextTopping) : 'goodbye'
+    // if its the last item say goodbye
+    console.log('---------');
+    
+   }
+   toppings.forEach(logTopping);
+    
+    console.clear()
+
 
 
 </script>
