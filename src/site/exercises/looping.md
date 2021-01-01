@@ -230,7 +230,7 @@ const totalInventoryPrice = inventory.reduce((accumulator, item) => accumulator 
 console.log(totalInventoryPrice);
 //
 //
-const str = `Skip to main content
+const text = `Skip to main content
 Skip to search
 Technologies
 References & Guides
@@ -685,13 +685,46 @@ Mozilla
 Terms
 Privacy
 Cookies`
-console.log(str);
 //
-//count how many times each letter and number occurs
-//convert text into array of letters
-const strArray = [...str];
-console.log(strArray);
-
+// task: count how many times each letter and number occurs
+// 1. convert text into array of letters
+// 2. filter out anything thats not a letter or number
+// 3. remove capitalisation discrepancies
+// 4. count  number of instances
+// 5. Find most popular letter
+//
+function isValidChar(char) {
+    return char.match(/[a-z0-9]/i); 
+} 
+function lowerCase(str) {
+    return str.toLowerCase();
+}
+// arrow function version
+// const lowercase = char => char.toLowercase();
+function instanceCounter(count, char) {
+    count[char] 
+    ? count[char] = count[char] + 1 
+    : count[char] = 1 ;
+    return count;
+}
+function compareNumbers(a, b) {
+  return a[1] - b[1];
+}
+//
+const result = text
+    .split('') // same as [...str]
+    .filter(isValidChar)
+    .map(lowerCase)
+    .reduce(instanceCounter, {})
+console.log(result);
+//
+const sortedResult = Object.entries(result)
+.sort(compareNumbers);
+// return the most used character and value
+const lastResult = sortedResult[sortedResult.length - 1];
+//
+console.log(lastResult);
+//
 </script>
 
 <style>
