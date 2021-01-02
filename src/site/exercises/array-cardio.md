@@ -215,29 +215,6 @@ meta: practice makes progress
     console.table('sort() object values by number', sortedPrices );
     
 
-    /*
-    Looping Methods 
-    */
-   // for each
-   function logTopping(topping, index, originalArray) {
-       const nextTopping = originalArray[index + 1];
-       const prevTopping = originalArray[index - 1];
-    
-    //    log the topping
-    console.log(topping);
-    //    log the prev topping if there is one
-     prevTopping ? console.log(prevTopping) : null
-    // log the next topping if there is one
-     nextTopping ? console.log(nextTopping) : 'goodbye'
-    // if its the last item say goodbye
-    console.log('---------');
-    
-   }
-   toppings.forEach(logTopping);
-    
-    console.clear()
-
-
 
 </script>
 <style>

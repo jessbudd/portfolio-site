@@ -728,6 +728,16 @@ console.clear();
 const numbers = [2, 34, 3, 23, 42, 3, 1, 65, 364, 5, 645, 6];
 const name = 'Jess Budd 👨‍👨‍👦‍👦 🇦🇺';
 //
+const wes = [
+    {
+    name: 'wes',
+    id: 2,
+},
+    name: 'judy',
+    id: 3,
+    }
+    ];
+//
 // For
 for (let i = 0; i <= numbers.length; i += 2 ) {
     console.log('for loop', numbers[i]);    
@@ -743,6 +753,11 @@ for (const number of numbers) {
     console.log('for of loop', number);
 }
 // For in
+// used to loop over the keys of an object
+// usually prefer to use object.Entries method
+// for (const prop in wes) {
+//     console.log(prop)
+// }
 //
 // While Loop
 //
