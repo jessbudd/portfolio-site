@@ -18,6 +18,12 @@ This page requires the experimental Face Detection API to work. To enable Chrome
 `chrome://flags/#enable-experimental-web-platform-features`
 And click enable.
 
+<div class="wrap">
+    <video class="webcam"></video>
+    <canvas class="video"></canvas>
+    <canvas class="face"></canvas>
+  </div>
+
 <script>
 
 
@@ -29,6 +35,7 @@ body {
     display: grid;
     align-items: center;
     justify-items: center;
+      margin: 0;
 }
 .container {
   text-align: center;
@@ -36,5 +43,22 @@ body {
       display: grid;
     align-items: center;
     justify-items: center;
+}
+* {
+    box-sizing: border-box;
+}
+.wrap {
+    position: relative;
+    min-height: 100vh;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+.wrap>* {
+    grid-column: 1;
+    grid-row: 1;
+}
+.face {
+    position: absolute;
 }
 </style>
