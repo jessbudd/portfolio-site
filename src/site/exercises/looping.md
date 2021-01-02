@@ -722,9 +722,31 @@ const sortedResult = Object.entries(result)
 .sort(compareNumbers);
 // return the most used character and value
 const lastResult = sortedResult[sortedResult.length - 1];
-//
 console.log(lastResult);
+console.clear();
 //
+const numbers = [2, 34, 3, 23, 42, 3, 1, 65, 364, 5, 645, 6];
+const name = 'Jess Budd 👨‍👨‍👦‍👦 🇦🇺';
+//
+// For
+for (let i = 0; i <= numbers.length; i += 2 ) {
+    console.log('for loop', numbers[i]);    
+}
+// For of
+// use for strings, similar to spread or split
+// can (generally) parse emojis in strings
+// handy for sequencing promises and use with await
+for (const letter of name) {
+    console.log('for of loop', letter);
+}
+for (const number of numbers) {
+    console.log('for of loop', number);
+}
+// For in
+//
+// While Loop
+//
+
 </script>
 
 <style>
