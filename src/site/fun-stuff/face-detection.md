@@ -3,8 +3,8 @@ title: Face Detection & Pixelation
 # subtitle:
 layout: layouts/blank.njk
 date: 2021-01-02
-meta:
-excerpt:
+meta: Pixelising faces with the experimental Face Detector browser API
+excerpt: Playing around with the experimental Face Detector Browser API. Finds/follows your face and pixelises it!
 tags: funstuff
 # img: https://jessbudd.com/images/featured/---.png
 draft: true
