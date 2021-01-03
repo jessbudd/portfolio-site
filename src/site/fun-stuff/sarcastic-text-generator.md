@@ -18,49 +18,71 @@ draft: true
       Sarcastic
     </label>
     <label for="funky">
-      <input type="radio" value="funky" id="funky" name="filter">
+      <input type="radio" value="funky" id="funky" name="filter" >
       Funky
     </label>
     <label for="unable">
       <input type="radio" value="unable" id="unable" name="filter">
       Unable to Structure a Sentence
     </label>
-    <textarea name="text">so I was thinking about going to the store.</textarea>
+    <textarea name="text" placeholder="Type your text here"></textarea>
     <p class="result"></p>
   </div>
 
 <script>
-const inputs = document.querySelectorAll('.typer input[type=radio]');
-const text = document.querySelector('[name="text"');
+const textarea = document.querySelector('[name="text"');
 const result = document.querySelector('.result');
+const inputs = Array.from(document.querySelectorAll('.typer input[name=filter]'));
 
-// Set initial result to match text area
-result.textContent = text.value;
+// create object that holds our transform functions
+const filters = {
+    sarcastic: function(letter, index) {
+        if(index % 2) {
+            return letter.toUpperCase()
+        }
+        return letter.toLowerCase();        
+    },
+    funky: function() {
+        console.log("funky");
+        
+    },
+    unable: function() {
+        console.log("unable");
+        
+    },
+}
 
+function transformText(text) {
+    const filter = inputs.find( input => input.checked).value;
+    console.log(filter);
+    
+    // take the text, and loop over each letter
+    const mod = Array.from(text).map(filters[filter]);
+    result.textContent = mod.join('');
+}
 
-function sarcastic() {
-    console.log('sarcastic');
-}
-function funky() {
-    console.log('funky');
-}
-function unable() {
-    console.log('unable');
-}
-// inputs.forEach( input => addEventListener('input', handleInput));
 
 
 function handleInput() {
     // set updated value of text
-    result.textContent = text.value;
+    // result.textContent = text.value;
+    const updatedText = textarea.value
+    // get which radio button is selected
+    // console.log(style);
+    // match that name to function
+    
+    // put text through function to style
+
+    // output text on page
+    // result.textContent = value(updatedText);
+
 }
-// check which radio button is selected
-// match that name to function
-// put text through function to style
-// output text on page
 
 // listen for keyup
-text.addEventListener('keyup', handleInput);
+textarea.addEventListener('input', event => transformText(event.target.value));
+
+// TODO: Add copy to clipboard button
+
 </script>
 
 <style>
