@@ -5,7 +5,7 @@ layout: layouts/blank.njk
 date: 2021-01-02
 meta:
 excerpt:
-# tags: funstuff
+tags: funstuff
 # img: https://jessbudd.com/images/featured/---.png
 draft: true
 ---
@@ -15,11 +15,14 @@ draft: true
 {%- if subtitle %}<p class='subtitle'>{{ subtitle | safe }}</p>{% endif %}
 
 <div class="fail">
-    <p>This page uses Chrome's experimental Face Detector API.</p>
-    <p> The Face Detector API is currently available behind a feature flag in the Chrome browser on MacOS, Windows 10 and Android.</p> 
-    <p>To enable Face Detector, use Chrome to visit <a href="chrome://flags/#enable-experimental-web-platform-features">chrome://flags/#enable-experimental-web-platform-features</a> and set the "experimental-web-platform-features" flag to enabled.
+    <p>Hi there 👋</p>
+    <p>I've been playing with Chrome's experimental Face Detector API, which is what this face detector pixelizor thingo uses.</p>
+    <p> Unfortunately, it's only available behind a feature flag in Chrome on MacOS, Windows 10 and Android at the moment.</p> 
+    <p>If you want to see what I've been playing around with, load up Chrome and visit <a href="chrome://flags/#enable-experimental-web-platform-features">chrome://flags/#enable-experimental-web-platform-features</a>.</p>
+    <p> Then set the "experimental-web-platform-features" flag to enabled.
     </p>
-    </div>
+    <p>(You'll also need to allow camera when permissions if prompted.)</p>
+</div>
 
 <div class="controls">
     <label for="SIZE">
@@ -31,8 +34,14 @@ draft: true
         <input name="SCALE" type="range" min="0.3" max="3.3" value="1.4" step="1">
     </label>
 </div>
+<div class="fail2">
+    <p>This page requires permission to use your camera.</p>
+    <p>Don't worry - it won't record, store or transmit any video - this is just for fun!</p>
+    <p>You can enable camera permissions (for this domain only) by clicking on the video icon in the right hand side of the address bar.</p> 
+    <p>After accepting permssions, refresh the page and Bob's your uncle!</p> 
+</div>
 <div class="wrap">
-    <video class="webcam" width="1080" height="620"></video>
+    <video class="webcam" width="1080"></video>
     <canvas class="video"></canvas>
     <canvas class="face"></canvas>
   </div>
@@ -43,6 +52,7 @@ draft: true
 // it's possible that it won't work for you at the moment.
 
 const failMessage = document.querySelector('.fail');
+const wrap = document.querySelector('.wrap');
 const video = document.querySelector('.webcam');
 const canvas = document.querySelector('.video');
 const ctx = canvas.getContext('2d');
@@ -60,13 +70,18 @@ const options = {
 if (!window.FaceDetector) {
     const controls = document.querySelector('.controls');
     failMessage.style.display = "block";
+    wrap.style.display = "none";
     controls.style.display = "none";
     video.style.display = "none";
     console.log("FaceDetector API not available");
 }
 
+function errorMessage() {
+    const failMessage2 = document.querySelector('.fail2');
+    failMessage2.style.display = "block";
+}
+
 const faceDetector = new window.FaceDetector();
-    
 
 function handleInput(event) {
     // destructured because variable name is same as key
@@ -83,10 +98,9 @@ async function populateVideo() {
             height: 620,
         }
     });
-    // console.log(stream);
+    // success
     video.srcObject = stream;
     await video.play();
-
     // size the canvases to be same size as video
     canvas.width = video.videoWidth;
     canvas.height = video.videoHeight;
@@ -155,6 +169,7 @@ function censor({ boundingBox: face}) {
 }
 
 populateVideo().then(detect).catch(e => {
+    errorMessage();
     console.error("Boo, Face Detection failed: " + e);
 });
 
@@ -178,11 +193,21 @@ body {
     align-items: center;
     justify-items: center;
 }
-.fail {
+.fail,
+.fail2 {
     margin-top: 2% auto;
     display: none;
     text-align: left;
     max-width: 40em;
+}
+.fail2 {
+    border: #00ffd2 1px solid;
+    padding: 10px 20px;
+    margin: 20px;
+}
+.fail2 p {
+    color: #00ffd2;
+
 }
 * {
     box-sizing: border-box;
