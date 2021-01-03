@@ -189,6 +189,7 @@ meta: practice makes progress
     const legitRatings = feedback.filter( ({rating}) => rating !== 1 );
     console.table('filter ratings less than 1', legitRatings);
 
+
     // check if there is at least 5 of one type of meat with some()
     const isAtLeastFiveOfOneMeat = Object.values(meats).some(meatValue => meatValue >= 5);
     console.log('some() min meat', isAtLeastFiveOfOneMeat); // return true
@@ -213,10 +214,6 @@ meta: practice makes progress
     const sortedPrices = Object.fromEntries(pricesArray);
     console.table('sort() object values by number', sortedPrices );
     
-    
-    /*
-    Looping Methods (next)
-    */
 
 
 </script>
