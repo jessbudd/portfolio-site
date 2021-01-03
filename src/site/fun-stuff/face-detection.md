@@ -21,7 +21,7 @@ draft: true
     <p>If you want to see what I've been playing around with, load up Chrome and visit <a href="chrome://flags/#enable-experimental-web-platform-features">chrome://flags/#enable-experimental-web-platform-features</a>.</p>
     <p> Then set the "experimental-web-platform-features" flag to enabled.
     </p>
-    <p>(You'll also need to allow camera when permissions if prompted.)</p>
+    <p>(You'll also need to allow camera permissions when prompted.)</p>
 </div>
 
 <div class="controls">
