@@ -1,5 +1,5 @@
 ---
-title: Face Detection
+title: Face Detection & Pixelation
 # subtitle:
 layout: layouts/blank.njk
 date: 2021-01-02
@@ -14,16 +14,16 @@ draft: true
 
 {%- if subtitle %}<p class='subtitle'>{{ subtitle | safe }}</p>{% endif %}
 
-<!-- This page requires the experimental Face Detection API to work. To enable Chrome face detection go to `chrome://flags/#enable-experimental-web-platform-features`
-And click enable.-->
+This page uses Chrome's experimental Face Detection API and unfortunately only works in Chrome browser on MacOS/Windows at the moment. To enable Chrome Face Detection visit [`chrome://flags/#enable-experimental-web-platform-features`](chrome://flags/#enable-experimental-web-platform-features) and set to enabled.
+
 <div class="controls">
     <label for="SIZE">
-    Size:
-        <input name="SIZE" type="range" min="1" max="100" value="10" step="1">
+    Pixelation:
+        <input name="SIZE" type="range" min="5" max="100" value="10" step="10">
     </label>
     <label for="SCALE">
     Scale:
-        <input name="SCALE" type="range" min="0.3" max="3" value="1.4" step="0.1">
+        <input name="SCALE" type="range" min="0.3" max="3" value="1.4" step="1">
     </label>
 </div>
 <div class="wrap">
@@ -45,16 +45,15 @@ const faceCtx = faceCanvas.getContext('2d');
 
 const faceDetector = new window.FaceDetector();
 const optionControls = document.querySelectorAll('.controls input[type="range"');
-console.log(optionControls);
-
 
 const options = {
     SIZE: 10,
     SCALE: 1.4,
 }
 function handleInput(event) {
-   console.log(event.target);
-    
+    // destructured because variable name is same as key
+   const { value, name } = event.target;   
+   options[name] = value; 
 }
 optionControls.forEach( input => input.addEventListener('input', handleInput))
 
@@ -174,5 +173,13 @@ body {
 }
 .face {
     position: absolute;
+}
+p,
+p code {
+    font-size: .875rem;
+}
+video,
+canvas {
+    max-width: 100%;
 }
 </style>
