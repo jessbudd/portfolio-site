@@ -14,20 +14,25 @@ draft: true
 
 {%- if subtitle %}<p class='subtitle'>{{ subtitle | safe }}</p>{% endif %}
 
-This page uses Chrome's experimental Face Detection API and unfortunately only works in Chrome browser on MacOS/Windows at the moment. To enable Chrome Face Detection visit [`chrome://flags/#enable-experimental-web-platform-features`](chrome://flags/#enable-experimental-web-platform-features) and set to enabled.
+<div class="fail">
+    <p>This page uses Chrome's experimental Face Detector API.</p>
+    <p> The Face Detector API is currently available behind a feature flag in the Chrome browser on MacOS, Windows 10 and Android.</p> 
+    <p>To enable Face Detector, use Chrome to visit <a href="chrome://flags/#enable-experimental-web-platform-features">chrome://flags/#enable-experimental-web-platform-features</a> and set the "experimental-web-platform-features" flag to enabled.
+    </p>
+    </div>
 
 <div class="controls">
     <label for="SIZE">
     Pixelation:
-        <input name="SIZE" type="range" min="5" max="100" value="10" step="10">
+        <input name="SIZE" type="range" min="5" max="105" value="10" step="10">
     </label>
     <label for="SCALE">
     Scale:
-        <input name="SCALE" type="range" min="0.3" max="3" value="1.4" step="1">
+        <input name="SCALE" type="range" min="0.3" max="3.3" value="1.4" step="1">
     </label>
 </div>
 <div class="wrap">
-    <video class="webcam"></video>
+    <video class="webcam" width="1080" height="620"></video>
     <canvas class="video"></canvas>
     <canvas class="face"></canvas>
   </div>
@@ -37,19 +42,32 @@ This page uses Chrome's experimental Face Detection API and unfortunately only w
 // If you are getting a `Face detection service unavailable` error or similar,
 // it's possible that it won't work for you at the moment.
 
+const failMessage = document.querySelector('.fail');
 const video = document.querySelector('.webcam');
 const canvas = document.querySelector('.video');
 const ctx = canvas.getContext('2d');
 const faceCanvas = document.querySelector('.face');
 const faceCtx = faceCanvas.getContext('2d');
-
-const faceDetector = new window.FaceDetector();
 const optionControls = document.querySelectorAll('.controls input[type="range"');
 
 const options = {
-    SIZE: 10,
+    SIZE: 15,
     SCALE: 1.4,
 }
+
+// check if faceDetector is supported
+// if not supported, show fail message
+if (!window.FaceDetector) {
+    const controls = document.querySelector('.controls');
+    failMessage.style.display = "block";
+    controls.style.display = "none";
+    video.style.display = "none";
+    console.log("FaceDetector API not available");
+}
+
+const faceDetector = new window.FaceDetector();
+    
+
 function handleInput(event) {
     // destructured because variable name is same as key
    const { value, name } = event.target;   
@@ -61,7 +79,7 @@ optionControls.forEach( input => input.addEventListener('input', handleInput))
 async function populateVideo() {
     const stream = await navigator.mediaDevices.getUserMedia({
         video: {
-            width: 980,
+            width: 1080,
             height: 620,
         }
     });
@@ -136,7 +154,9 @@ function censor({ boundingBox: face}) {
     // console.log(face);
 }
 
-populateVideo().then(detect);
+populateVideo().then(detect).catch(e => {
+    console.error("Boo, Face Detection failed: " + e);
+});
 
 
 
@@ -158,6 +178,12 @@ body {
     align-items: center;
     justify-items: center;
 }
+.fail {
+    margin-top: 2% auto;
+    display: none;
+    text-align: left;
+    max-width: 40em;
+}
 * {
     box-sizing: border-box;
 }
@@ -171,12 +197,11 @@ body {
     grid-column: 1;
     grid-row: 1;
 }
+.controls {
+    margin: 40px 0 20px;
+}
 .face {
     position: absolute;
-}
-p,
-p code {
-    font-size: .875rem;
 }
 video,
 canvas {
