@@ -1,7 +1,7 @@
 ---
 title: Fun stuff
 layout: layouts/base.njk
-subtitle: Bits and bobs of self-contained things made with HTML/CSS/JS.
+subtitle: Bits and bobs of self-contained little things made with HTML/CSS/JS.
 ---
 
 <div class="container__blog">
@@ -15,3 +15,8 @@ subtitle: Bits and bobs of self-contained things made with HTML/CSS/JS.
 </ul>
 
 </div>
+<style>
+  time {
+    display: none;
+  }
+</style>
