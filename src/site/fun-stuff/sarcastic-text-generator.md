@@ -27,11 +27,23 @@ draft: true
     </label>
     <textarea name="text" placeholder="Type your text here"></textarea>
     <p class="result"></p>
+    <!-- <button id="copy">Copy Text</button> -->
   </div>
 
 <script>
+
+// function copy() {
+//     console.log(result);
+    
+//   result.select();
+//   document.execCommand("copy");
+// }
+
+// document.querySelector("#copy").addEventListener("click", copy);
+
+
 const textarea = document.querySelector('[name="text"');
-const result = document.querySelector('.result');
+var result = document.querySelector('.result');
 const inputs = Array.from(document.querySelectorAll('.typer input[name=filter]'));
 
 /* eslint-disable */
@@ -48,9 +60,16 @@ const filters = {
         }
         return letter.toLowerCase();        
     },
-    funky: function() {
+    funky: function(letter) {
+        // check if funky letter exists
+        let funkyLetter = funkyLetters[letter];
+        if (funkyLetter) return funkyLetter;
+        // if not, check if lowercase exists
+        funkyLetter = funkyLetters[letter.toLowerCase()];
+        if (funkyLetter) return funkyLetter;
+        // if not, return regular letter
+        return letter;
         console.log("funky");
-        
     },
     unable: function() {
         console.log("unable");
@@ -68,23 +87,6 @@ function transformText(text) {
 }
 
 
-
-function handleInput() {
-    // set updated value of text
-    // result.textContent = text.value;
-    const updatedText = textarea.value
-    // get which radio button is selected
-    // console.log(style);
-    // match that name to function
-    
-    // put text through function to style
-
-    // output text on page
-    // result.textContent = value(updatedText);
-
-}
-
-// listen for keyup
 textarea.addEventListener('input', event => transformText(event.target.value));
 
 // TODO: Add copy to clipboard button
