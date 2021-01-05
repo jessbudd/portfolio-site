@@ -71,7 +71,14 @@ const filters = {
         return letter;
         console.log("funky");
     },
-    unable: function() {
+    unable: function(letter) {
+        // every random third word
+        const random =  Math.floor(Math.random() * 3);
+        // add "...."
+        if (letter === ' ' && random === 2) {
+            return '...';
+        }
+        return letter;
         console.log("unable");
         
     },
@@ -88,6 +95,9 @@ function transformText(text) {
 
 
 textarea.addEventListener('input', event => transformText(event.target.value));
+
+inputs.forEach(input => 
+    input.addEventListener('input', () => transformText(textarea.value)));
 
 // TODO: Add copy to clipboard button
 
