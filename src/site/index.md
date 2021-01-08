@@ -13,7 +13,7 @@ meta: Jess Budd is a front end developer, web accessibility champion, senior dig
         <img class="proof-points__img-svg" src="/images/undraw_developer.svg" alt="">
       </div>
       <h2 class="proof-points__title">Front-end Developer</h2>
-      <p class="proof-points__subtitle">My focus lies in the front-end, where semantic, accessible HTML, well structured CSS and presentational JavaScript come together to craft human-centric user experiences.  </p>
+      <p class="proof-points__subtitle">My focus lies in the front-end, where semantic, accessible HTML, well structured CSS and JavaScript come together to craft human-centric user experiences.  </p>
     </div><!--col-->
     <div class="col">
       <div class="proof-points__img">
