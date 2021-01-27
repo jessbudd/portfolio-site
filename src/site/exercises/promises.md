@@ -36,6 +36,34 @@ pepperoniPromise.then(function(pizza) {
     console.log(pizza);    // runs when promise is fullfilled
 })
 
+const pizzaPromise1 = makePizza(['hot peppers', 'onion']);
+const pizzaPromise2 = makePizza(['hot peppers', 'onion', 'fetta', 'spinach']);
+const pizzaPromise3 = makePizza(['hot peppers', 'onion', 'fetta', 'spinach', 'more stuff', 'anchovies', 'more again', 'shrimp', 'even more']);
+
+const dinnerPromise = Promise.all([pizzaPromise1, pizzaPromise2, pizzaPromise3]);
+
+dinnerPromise.then(pizzas => {
+    console.log(pizzas);   
+})
+
+// destructured 
+dinnerPromise.then(function(pizzas) {
+    const [hottie, hamAndCheese, garbagePail] = pizzas;
+    console.log(hottie, hamAndCheese, garbagePail);
+})
+
+// destructured 2
+dinnerPromise.then(function([hottie, hamAndCheese, garbagePail]) {
+    console.log(hottie, hamAndCheese, garbagePail);
+})
+
+const firstPizzaPromise = Promise.race([pizzaPromise1, pizzaPromise2, pizzaPromise3]);
+
+firstPizzaPromise.then(pizza => {
+    console.log('You must be hungry, here is the first one ready');
+    console.log(pizza);   
+})
+
 
 // prototypes
 // const pepperoniPizza = new Pizza();
