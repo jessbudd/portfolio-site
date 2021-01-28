@@ -4,4 +4,4 @@
 
 Based on a skeleton [Eleventy](https://github.com/philhawksworth/eleventyone) site by [Phil Hawksworth](https://twitter.com/philhawksworth). 
 
-Deployed with and hosted on [Netlify](https://www.netlify.com/).
+Written with markdown and nunjunks, deployed and hosted on [Netlify](https://www.netlify.com/).
