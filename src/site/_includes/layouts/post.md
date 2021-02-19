@@ -5,14 +5,9 @@ pageClass: posts
 templateEngineOverride: njk, md
 ---
 
+{{ content | safe }}
 
-
-
-
-  {{ content | safe }}
-
-
-<div class="sharethis-inline-share-buttons" data-title="{{title}} @jessbudd4"></div>
+<div class="sharethis-inline-share-buttons" data-title="{{title}} by @jessbudd4"></div>
 
   <div class="bio">
     <img src="/images/jess-budd-bio-fun.jpg" class="bio__avatar" alt="Jess Budd informal headshot" />
