@@ -37,27 +37,24 @@
 
     <div class="container">
       {% include "header.njk" %}
-      <div class="container__blog">
-  <h1>{{ title }}</h1>
-  {%- if subtitle %}<p class="subtitle">{{ subtitle | safe }}</p>{% endif %}
+      <article class="container__blog">
+        <h1>{{ title }}</h1>
+        {%- if subtitle %}<p class="subtitle">{{ subtitle | safe }}</p>{% endif %}
   
-<p class="date">
-  Posted <time datetime="{{ date }}">{{ date | dateDisplay }}</time>
-</p>
-<p>  
-  {# <span class="post__tag"><a href="/{{ tags[1] }}" >{{ tags[1] }}</a></span>
-  <span class="post__tag"><a href="/{{ tags[2] }}" >{{ tags[2] }}</a></span>
-  <span class="post__tag"><a href="/{{ tags[3] }}" >{{ tags[3] }}</a></span> #}
-<p>{% for i in tags %} <span class="post__tag"><a href="/{{ i }}" >tag: {{ i }}</a></span> {% endfor %}</p>
+        <p class="date">
+          Posted <time datetime="{{ date }}">{{ date | dateDisplay }}</time>
+        </p>
+        <p>{% for i in tags %} <span class="post__tag"><a href="/{{ i }}" >tag: {{ i }}</a></span> {% endfor %}</p>
 
-  </p>
+        <main>
 
-<main>
+        {{ content | safe }}
 
-      {{ content | safe }}
-      
-      {% include "footer.njk" %}
-    </div>
+        </main>
+        
+        {% include "footer.njk" %}
+
+      </article>
 
     {% set js %}
       {% include "js/core.js" %}
