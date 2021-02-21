@@ -37,7 +37,8 @@
 
     <div class="container">
       {% include "header.njk" %}
-      <article class="container__blog">
+
+      <article id="main" class="container__blog">
         <h1>{{ title }}</h1>
         {%- if subtitle %}<p class="subtitle">{{ subtitle | safe }}</p>{% endif %}
   
@@ -46,12 +47,8 @@
         </p>
         <p>{% for i in tags %} <span class="post__tag"><a href="/{{ i }}" >tag: {{ i }}</a></span> {% endfor %}</p>
 
-        <main>
-
         {{ content | safe }}
 
-        </main>
-        
         {% include "footer.njk" %}
 
       </article>
