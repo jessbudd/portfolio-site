@@ -7,9 +7,8 @@
 [dev]
   command = "npm run start"
 
-
 [[redirects]]
- from = "/about
+ from = "/about"
   to = "/"
   status = 301
 
