@@ -7,7 +7,7 @@ meta: Jess Budd is a front end developer, web accessibility champion, senior dig
 
 {% include "hero.njk" %}
 
-<section class="grid-container proof-points">
+<section class="grid-container">
     <div class="col">
       <div class="proof-points__img">
         <img class="proof-points__img-svg" src="/images/undraw_developer.svg" alt="">
@@ -29,15 +29,4 @@ meta: Jess Budd is a front end developer, web accessibility champion, senior dig
       <h2 class="proof-points__title">Senior Digital Producer</h2>
       <p class="proof-points__subtitle">Applying agile principles, I  manage, strategise, develop and implement creative digital projects and online inititives within a corporate framework.</p>
     </div><!--col-->
-</section>
-
-<section class="talks">
-<div style="margin-bottom:42x;">
-
-{% include "upcoming-talks.njk" %}
-
-</div>
-
-<a href="/speaking#pastTalks">View previous talks</a>
-
 </section>

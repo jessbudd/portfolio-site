@@ -1,6 +1,6 @@
-@import "_utilities.css";
-@import "_variables.css";
-@import "_syntax.css";
+@import '_utilities.css';
+@import '_variables.css';
+@import '_syntax.css';
 
 * {
   margin: 0;
@@ -87,7 +87,8 @@ body {
   justify-content: space-between;
   margin-top: 40px;
 }
-.twitter a[href^="https://twitter"] {
+.twitter a[href^="https://twitter"]
+{
   font-weight: bold;
   color: $accent-color;
   text-decoration: none;
@@ -304,7 +305,7 @@ code {
   color: $heading-color;
 }
 
-code[class*="language-"] {
+code[class*='language-'] {
   font-size: 0.975rem;
 }
 
@@ -358,7 +359,7 @@ pre {
     margin-bottom: 6px;
   } */
 }
-pre[class*="language-"] {
+pre[class*='language-'] {
   padding: 0 1em;
 }
 .date,
@@ -446,10 +447,6 @@ main {
   .col {
     padding-top: 100px;
   }
-}
-.proof-points {
-  padding-bottom: 50px;
-  border-bottom: 1px solid $accent-color;
 }
 .proof-points__title {
   margin-top: 24px;
@@ -678,7 +675,7 @@ twitter-widget {
 /* fallback styles for twitter embeds */
 blockquote.twitter-tweet {
   display: inline-block;
-  font-family: "Helvetica Neue", Roboto, "Segoe UI", Calibri, sans-serif;
+  font-family: 'Helvetica Neue', Roboto, 'Segoe UI', Calibri, sans-serif;
   font-size: 12px;
   font-weight: bold;
   line-height: 16px;
@@ -700,7 +697,8 @@ blockquote.twitter-tweet p {
   color: $black !important;
 }
 
-blockquote.twitter-tweet a[href^="https://twitter"] {
+blockquote.twitter-tweet a[href^="https://twitter"]
+{
   color: $black;
   font-weight: bold;
   text-decoration: none;
