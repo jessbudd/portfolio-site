@@ -9,4 +9,11 @@
 
 
 [[redirects]]
- 
+ from = "/about
+  to = "/"
+  status = 301
+
+[[redirects]]
+  from = "/speaking"
+  to = "/"
+  status = 301
