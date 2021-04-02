@@ -2,7 +2,7 @@
 title: Getting into front-end development
 date: 2021-02-06
 excerpt: A collection of resources for learning and getting into front-end web development based on my personal experiences. Includes online courses, podcasts, meetups and tips.
-meta: Resources for getting into front-end development
+meta: Resources for getting into front-end development.
 tags: [post, dev]
 img: https://jessbudd.com/images/featured/getting-into-front-end-development.png
 ---
