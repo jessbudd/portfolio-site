@@ -1,8 +1,8 @@
 ---
-title: Jess Budd, Front-End Dev & Accessibility Nerd
+title: Jess Budd, Front-end Dev & Accessibility Nerd
 # subtitle: (Metaphorically speaking)
 layout: layouts/base.njk
-meta: Jess Budd is a front end developer, web accessibility champion, senior digital producer and tech speaker based in Perth, Australia.
+meta: Jess Budd is a front-end developer, web accessibility champion and tech speaker based in Perth, Australia.
 ---
 
 {% include "hero.njk" %}
