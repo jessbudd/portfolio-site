@@ -5,7 +5,7 @@ date: 2019-11-04
 meta: My experience going from too shy to speak up in meetings to a conference speaker - Part Two
 img: https://jessbudd.com/images/featured/confSpeaker2.png
 excerpt: I recently wrote about how I came to be giving 3 conference talks, in 3 weeks, in 3 different states. This is the story of my first talk. The Monday before I set off...
-tags: [post, life]
+tags: [post, life, speaking]
 ---
 
 <div class="twitter">

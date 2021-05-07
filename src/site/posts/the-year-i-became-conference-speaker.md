@@ -5,7 +5,7 @@ date: 2019-10-05
 meta: My experience going from too shy to speak up in meetings to soon-to-be conference speaker.
 img: https://jessbudd.com/images/featured/confSpeaker.png
 excerpt: Three and a half months ago, I decided to give some public speaking a go. Today, I have 3 conference talks lined up. How did this happen? You could say it actually all started...
-tags: [post, life]
+tags: [post, life, speaking]
 ---
 
 <div class="twitter">

@@ -1,24 +1,45 @@
 ---
-title: Talks
+title: Speaking
 layout: layouts/base.njk
-subtitle: See below for talks I've presented or will be presenting soon.
-meta: Jess Budd is UI developer, web accessibility consultant and digital producer available to speak at your next tech event.
+subtitle: I enjoy sharing my knowledge about web accessibility and front-end development at a range of conferences and events.
+meta: A list of Jess Budd's upcoming and past tech talks.
 ---
-
-<div class="container__blog">   
+<div class="container__blog talks">
   <h1>{{title}}</h1>
-  <p>{{subtitle}}</p>
+
+  {%- if subtitle %}<p class="subtitle">{{ subtitle | safe }}</p>{% endif %}
+
+  <hr>
+
+{% include "upcoming-talks.njk" %}
+
+<hr>
+
+<h2 id="pastTalks"> Previous Talks</h2>
 
 
-## Upcoming
+### [DDDAdelaide](https://www.dddadelaide.com/) &nbsp; <a href="https://bit.ly/DDDA19" class="talk__link">  View Talk</a></p>
 
-### Make React Apps Accessible: It's easier than you think
-<p class="talks__event-title">LaraconAU</p>
+<p class="talk__title">Making React Apps Accessible: It's easier than you think</p>
 
-<time class="talks__event-details">31 October, Sydney Australia</time>
+23 November 2019, Adelaide Australia 
 
-<a href="">Slides</a> | <a href="">Video</a>
 
-## Past
+### [Google DevFest](https://www.gdgmelbourne.com/devfest) &nbsp; <a href="https://noti.st/jessbudd/sB6Kmd" class="talk__link">  View Talk</a></p>
 
+<p class="talk__title">Live Life in Beta: What Software Development Can Teach Us About Life </p>
+
+9 November 2019, Melbourne Australia 
+
+### [LaraconAU](https://laracon.com.au/) &nbsp; <a href="https://noti.st/jessbudd/pQ4gBc/" class="talk__link">  View Talk</a></p>
+
+<p class="talk__title">Making Single Page Apps Accessible</p>
+
+31 October 2019, Sydney Australia 
+
+<figure>
+  <img src="/images/speakingLaracon2.jpg" alt="Jess Budd speaking at LarconAU">
+
+<figcaption>Presenting at LaraconAU 2019. Photo credit: Giles Park</figcaption>
+</figure>
 </div>
