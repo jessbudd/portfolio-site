@@ -8,7 +8,7 @@ img: https://jessbudd.com/images/featured/getting-into-front-end-development.png
 ---
 
 <!-- <p class="subtitle">Figuring out where to start when you want to get into web development can be overwhelming! Sometimes hearing what's worked for other people can make the process easier.</p> -->
-<p class="subtitle">"Where should I start if I'm thinking about getting into front-end development?". It's a question I've been asked a few times by women considering a career change into tech. When I realised I had a go-to list of resources, I thought it would make sense to share with a wider audience too.  </p>
+<p class="subtitle">"Where should I start if I'm thinking about getting into front-end development?". It's a question I've been asked a few times by people considering a career change into tech. When I realised I had a go-to list of resources, I thought it would make sense to share with a wider audience too.  </p>
 
 Of course I'm no expert, and the below recommendations are only based on my personal experience so your mileage may vary!
 
@@ -23,10 +23,15 @@ Of course I'm no expert, and the below recommendations are only based on my pers
 - [FreeCodeCamp](https://www.freecodecamp.org/learn) <br/>
   FreeCodeCamp's text-based curriculum is well thought out and takes you from start to finish of basic front-end development skills with [Responsive Web Design](https://www.freecodecamp.org/learn/responsive-web-design/) and [JavaScript Algorithihms and Data Structure](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/) certifications.
 
+- [Javascript 30](https://JavaScript30.com/friend/FIREFLY) </br>
+  This course doesn't teach you JavaScript, but is a fun compilation of exercises to work through once you have your basics down pat and are thinking "what should I build now?". 
+
 ## Paid online courses
 
-- [Beginner Javascript](https://beginnerjavascript.com/) <br/>
+- [Beginner Javascript](https://BeginnerJavaScript.com/friend/FIREFLY)* <br/>
   Although this course starts with the absolute basics, the pace is quite fast (it would have been too fast for me if I'd jumped in from zero JavaScript or programming knowledge). I'd say its perfect for someone that's covered some basic programming or Javascript concepts but is still a beginner. Wes Bos's teaching style is fun, conversational and focuses on building things over theory.
+
+  <p class="note">*Pssst - I was recommending Wes Bos's courses so often, I decided to sign up as an affilate. If you click the link and end up buying a course I can buy my doggo extra treats! <span>	🐶 </span> </p>
 
 - [Team Treehouse](https://teamtreehouse.com/) <br/>
   Treehouse is a monthly subscription which includes gamified learning tracks, videos, interactive quizzes and a forum. It is a quality platform that covers a large range of topics, has good instructors and gives a sensible order to learn things. I would recommend using Treehouse for learning HTML/CSS and switch to one of the other resources for learning JavaScript.
