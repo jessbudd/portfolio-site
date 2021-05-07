@@ -283,6 +283,18 @@ a:focus {
   }
 }
 
+.note {
+  color: $heading-color;
+  font-size: .875rem;
+  margin-left: 2rem;
+  border-left: 3px solid $heading-color;
+  padding-left: 1rem;
+  
+  span {
+    font-size: 1rem;
+  }
+}
+
 .secondary {
   color: $heading-color;
 }
