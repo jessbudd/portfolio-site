@@ -15,6 +15,41 @@ draft: true
 {%- if subtitle %}<p class='subtitle'>{{ subtitle | safe }}</p>{% endif %}
 
 <script>
+// function wait(ms = 0) {
+//     return new Promise((resolve) => {
+//         setTimeout(resolve, ms);
+//     })
+// }
+
+// async function go() {
+//     console.log("staring");
+//     await wait(2000);
+//     console.log("ending");
+// }
+
+// go();
+
+// // works on all function types eg
+
+// // function declaration
+// async function fd() {}
+
+// // call back function
+// window.addEventListener('click', async function() { })
+
+// // arrow function
+// const arrowFn = async () => { }
+
+// // methods
+// const person = {
+//     // method
+//     sayHi: async function() { },
+//     //method shorthand
+//     async sayHello() { },
+//     // function property
+//     sayHey: async () => { }
+// }
+
 
 
 function makePizza(toppings = []) {
@@ -33,63 +68,38 @@ function makePizza(toppings = []) {
     });
 }
 
-function wait(ms = 0) {
-    return new Promise((resolve) => {
-        setTimeout(resolve, ms);
-    })
-}
-
-async function go() {
-    console.log("staring");
-    await wait(2000);
-    console.log("ending");
-}
-
 // potentially inefficient because it has to wait for first pizza to cook, 
 // before starting on the second pizza
-async function makeDinner() {
-    const pizza1 = await makePizza(['pepperoni']);
-    const pizza2 = await makePizza(['mushrooms']);
-    console.log(pizza1);
-    console.log(pizza2);
-}
-
-// more efficient because pizzas can be made at the same time
-async function makeDinnerFaster() {
-    const pizzaPromise1 = makePizza(['pepperoni']);
-    const pizzaPromise2 = makePizza(['mushrooms']);
-    const [pep, mush] = await Promise.all([pizzaPromise1, pizzaPromise2]);
-    console.log(pep, mush);
-}
-
-
-makeDinner();
-
-makeDinnerFaster();
-
-// go();
-
-// // works on all function types eg
-
-// // function declaration
-// async function fd() {}
-
-// // call back function
-// window.addEventListener('click', async function() { })
-
-// // arrow function
-// const arrowFn = async () => { }
-
-
-// // methods
-// const person = {
-//     // method
-//     sayHi: async function() { },
-//     //method shorthand
-//     async sayHello() { },
-//     // function property
-//     sayHey: async () => { }
+// async function makeDinner() {
+//     const pizza1 = await makePizza(['pepperoni']);
+//     const pizza2 = await makePizza(['mushrooms']);
+//     console.log(pizza1);
+//     console.log(pizza2);
 // }
+
+// // more efficient because pizzas can be made at the same time
+// async function makeDinnerFaster() {
+//     const pizzaPromise1 = makePizza(['pepperoni']);
+//     const pizzaPromise2 = makePizza(['mushrooms']);
+//     const [pep, mush] = await Promise.all([pizzaPromise1, pizzaPromise2]);
+//     console.log(pep, mush);
+// }
+
+// makeDinner();
+// makeDinnerFaster();
+
+
+async function go() {
+    try {
+        const pizza = await makePizza(["pineapple"]);
+        console.log(pizza);
+    } catch(err) {
+        console.warn('oh noooooo! Pizza pineapple fail!', err);
+    }
+}
+
+go();
+
 
 </script>
 
